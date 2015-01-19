@@ -63,7 +63,7 @@ namespace Contest
                     }
                     if (County1 != County2 && County1.ToLower() == "tm")//tm-yo
                     {
-                        return 2;
+                        return 4;// 2;
                     }
                     if (County1 != County2 && County2.ToLower() != "tm")//yo-yo
                     {
@@ -403,7 +403,7 @@ namespace Contest
         
          public void ParseQSO(bool ignoreDateTimeValidation)
          {
-             ParseQSO(ignoreDateTimeValidation, new DateTime(2013, 12, 15, 00, 00, 00));
+             ParseQSO(ignoreDateTimeValidation, new DateTime(2014, 12, 14, 00, 00, 00));
          }
          public void ParseQSO(bool ignoreDateTimeValidation, DateTime dtignoreDateTimeValidation)
         {

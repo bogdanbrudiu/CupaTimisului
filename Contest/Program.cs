@@ -61,7 +61,7 @@ namespace Contest
             {
                 var help = new HelpText(Program._headingInfo);
                 help.AdditionalNewLineAfterOption = true;
-                help.Copyright = new CopyrightInfo("Bogdan-Ioan BRUDIU", 2011, 2013);
+                help.Copyright = new CopyrightInfo("Bogdan-Ioan BRUDIU", 2011, 2014);
                 try
                 {
                     this.HandleParsingErrorsInHelp(help);
@@ -87,11 +87,11 @@ namespace Contest
             #endregion
         }
         
-        public static DateTime etapa1Start = new DateTime(2013, 12, 15, 14, 00, 00);
-        public static DateTime etapa1End = new DateTime(2013, 12, 15, 15, 00, 00);
+        public static DateTime etapa1Start = new DateTime(2014, 12, 14, 14, 00, 00);
+        public static DateTime etapa1End = new DateTime(2014, 12, 14, 15, 00, 00);
 
-        public static DateTime etapa2Start = new DateTime(2013, 12, 15, 15, 00, 00);
-        public static DateTime etapa2End = new DateTime(2013, 12, 15, 16, 00, 00);
+        public static DateTime etapa2Start = new DateTime(2014, 12, 14, 15, 00, 00);
+        public static DateTime etapa2End = new DateTime(2014, 12, 14, 16, 00, 00);
 
         static void Main(string[] args)
         {

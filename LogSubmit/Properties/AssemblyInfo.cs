@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Xceed")]
 [assembly: AssemblyProduct("LogSubmit")]
-[assembly: AssemblyCopyright("Copyright © Xceed 2013")]
+[assembly: AssemblyCopyright("Copyright © Bogdan Brudiu 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

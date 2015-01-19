@@ -139,21 +139,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DA2581
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs36
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Contest\\Contest.csproj
-		SccProjectName1 = Contest
-		SccLocalPath1 = Contest
-		SccProjectUniqueName2 = Test\\Test.csproj
-		SccProjectName2 = Test
-		SccLocalPath2 = Test
-		SccProjectUniqueName3 = LogSubmit\\LogSubmit.csproj
-		SccProjectName3 = LogSubmit
-		SccLocalPath3 = LogSubmit
-	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Contest.vsmdi
 	EndGlobalSection

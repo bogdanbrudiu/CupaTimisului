@@ -14,7 +14,7 @@ namespace LogSubmit.Mailers
 			//ViewBag.Data = someObject;
 			return Populate(x =>
 			{
-				x.Subject = "Log - Cupa Timisului 2013";
+				x.Subject = "Log - Cupa Timisului 2014";
 				x.ViewName = "ThankYou";
 				x.To.Add(to);
 			});
