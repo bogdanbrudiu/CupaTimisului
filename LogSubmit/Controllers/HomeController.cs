@@ -8,37 +8,92 @@ using Contest;
 using System.IO;
 using System.Collections;
 using LogSubmit.Mailers;
-
+using System.Web.Hosting;
 
 namespace LogSubmit.Controllers
 {
     public class HomeController : Controller
     {
-       
+        private Program.Options options;
+
+        public HomeController(){
+            options = new Contest.Program.Options();
+            options.IgnoreDateTimeValidation = false;
+            options.IgnoreModeFrequencyValidation = true;
+            options.IgnoreStartOfLogTag = true;
+            options.InputFolder = HostingEnvironment.MapPath("~/Uploads/");
+            options.CupaTimisului = true;
+            options.IgnoreCallsigns = "YQ90IAR,YO2K,YO2DFR,YO4KAR,YO50BA,YO5DD,YO7MTD,YO2DDD,YO7FD,YO8KON,HD";
+
+            options.Etapa1Start = new DateTime(2015, 12, 20, 14, 00, 00);
+            options.Etapa1End = new DateTime(2015, 12, 20, 15, 00, 00);
+
+            options.Etapa2Start = new DateTime(2015, 12, 20, 15, 00, 00);
+            options.Etapa2End = new DateTime(2015, 12, 20, 16, 00, 00);
+        }
+        public ActionResult Results()
+        {
+            if (options.CupaTimisului)
+            {
+                ViewBag.Title = "Cupa Timisului";
+            }
+            if (options.ZiuaTelecomunicatiilor)
+            {
+                ViewBag.Title = "Ziua Telecomunicatiilor";
+            }
+            FileInfo result = new FileInfo(Server.MapPath("~/Uploads/Result/total.cshtml"));
+            if (!result.Exists || result.CreationTime.AddMinutes(5) < DateTime.Now) {
+                //recreate result file
+              
+                Contest.Program.ProcessFolder(options);
+            }
+            return View();
+        }
 
         public ActionResult Index()
         {
+            if (options.CupaTimisului)
+            {
+                ViewBag.Title = "Cupa Timisului";
+            }
+            if (options.ZiuaTelecomunicatiilor)
+            {
+                ViewBag.Title = "Ziua Telecomunicatiilor";
+            }
             return View(new Entry());
         }
         public ActionResult Retry(string calsign, string email, string phone)
         {
+            if (options.CupaTimisului)
+            {
+                ViewBag.Title = "Cupa Timisului";
+            }
+            if (options.ZiuaTelecomunicatiilor)
+            {
+                ViewBag.Title = "Ziua Telecomunicatiilor";
+            }
             return View("Index",new Entry() { Calsign = calsign, Email = email, Phone = phone });
         }
         [HttpPost]
         [ValidateInput(false)]
         public ActionResult Index(Entry model, HttpPostedFileBase log, string Submit)
         {
+            if (options.CupaTimisului) {
+                ViewBag.Title = "Cupa Timisului";
+            }
+            if (options.ZiuaTelecomunicatiilor)
+            {
+                ViewBag.Title = "Ziua Telecomunicatiilor";
+            }
             if (Submit == "Incarca alt log")
             {
                 return RedirectToAction("Retry", new { calsign = model.Calsign, email = model.Email, phone = model.Phone });
             }
             if (ModelState.IsValid)
             {
-               
-                
-                bool ignoreStartOfLogTag = true;
-                bool ignoreDateTimeValidation = false;// true;
-                bool IgnoreModeFrequencyValidation = true;
+
+
+
                 List<Cabrillo> logList = new List<Cabrillo>();
 
                 Stream logStream;
@@ -47,18 +102,23 @@ namespace LogSubmit.Controllers
                 {
                     logStream = log.InputStream;
                     fileName = log.FileName;
-                    
-                }else
+
+                } else
                 {
                     logStream = new MemoryStream(System.Text.Encoding.Default.GetBytes(model.Log));
                     fileName = model.FileName;
                 }
-                logList.Add(Contest.Program.Parse(logStream, fileName, ignoreStartOfLogTag));
-                Contest.Program.ParseQSO(logList, ignoreDateTimeValidation);
+                logList.Add(Contest.Program.Parse(logStream, fileName, options.IgnoreStartOfLogTag));
+                if (options.CupaTimisului) { 
+                    Contest.Program.ParseQSO(logList, options.IgnoreDateTimeValidation,Program.ScorCupaTimisului);
+                }
+                if (options.ZiuaTelecomunicatiilor) { 
+                    Contest.Program.ParseQSO(logList, options.IgnoreDateTimeValidation, Program.ScorZT);
+                }
                 List<Tuple<DateTime, DateTime>> startendPairs = new List<Tuple<DateTime, DateTime>>();
-                startendPairs.Add(Tuple.Create(Contest.Program.etapa1Start, Contest.Program.etapa1End));
-                startendPairs.Add(Tuple.Create(Contest.Program.etapa2Start, Contest.Program.etapa2End));
-                List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, ignoreDateTimeValidation);
+                startendPairs.Add(Tuple.Create(options.Etapa1Start, options.Etapa1End));
+                startendPairs.Add(Tuple.Create(options.Etapa2Start, options.Etapa2End));
+                List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, options.IgnoreDateTimeValidation);
                 foreach (List<QSO> etapa in etape)
                 {
                     Cabrillo.CheckOneQSO(etapa);
@@ -66,7 +126,7 @@ namespace LogSubmit.Controllers
 
                 foreach (var q in logList[0].QSOs)
                 {
-                    Cabrillo.ParseFrequency(q, IgnoreModeFrequencyValidation);
+                    Cabrillo.ParseFrequency(q, options.IgnoreModeFrequencyValidation);
                 }
                 Cabrillo.ModeChangeCheck(logList[0]);
 
@@ -120,7 +180,17 @@ namespace LogSubmit.Controllers
                     IMailer mailer = new Mailer();
                     try
                     {
-                        mailer.ThankYou(model.Email).SendAsync();
+                        string subject = "";
+                        if (options.CupaTimisului)
+                        {
+                            subject = "Log - Cupa Timisului";
+                        }
+                        if (options.ZiuaTelecomunicatiilor)
+                        {
+                            subject = "Log - Ziua Telecomunicatiilor";
+                        }
+
+                        mailer.ThankYou(model.Email, subject).SendAsync();
                     }
                     catch (Exception ex) { }
                     return View("ThankYou");
@@ -128,10 +198,7 @@ namespace LogSubmit.Controllers
             }
             return View(model);
         }
-        //public ActionResult ThankYou()
-        //{
-        //    return View();
-        //}
+      
 
 
     }

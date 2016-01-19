@@ -14,9 +14,10 @@ namespace Contest
     public class QSO 
     {
         
-        public QSO() 
+        public QSO(CalculateScore myScore) 
         {
             InvalidResons = new ArrayList();
+            this.myScore = myScore;
         }
         
         public bool Valid 
@@ -42,6 +43,8 @@ namespace Contest
         public QSO PairQSO { get; set; }
         public Cabrillo Log { get; set; }
         public string ROWQSO { get; set; }
+        public delegate int CalculateScore(QSO qso);
+        private CalculateScore myScore;
         public int Score 
         {
             get
@@ -49,34 +52,14 @@ namespace Contest
                 if (Valid && PairQSO!=null)
                 {
 
-                    if (CallSign2.ToLower()=="yp10kqt")//joker
-                    {
-                        return 10;
-                    }
-                    if (County1 == County2 && County1.ToLower() == "tm")//tm-tm
-                    {
-                        return 1;
-                    }
-                    if (County1 != County2 &&  County2.ToLower() == "tm")//yo-tm
-                    {
-                        return 4;
-                    }
-                    if (County1 != County2 && County1.ToLower() == "tm")//tm-yo
-                    {
-                        return 4;// 2;
-                    }
-                    if (County1 != County2 && County2.ToLower() != "tm")//yo-yo
-                    {
-                        return 2;
-                    }
-                    if (County1 == County2 && County1.ToLower() != "tm")//acelasi judet
-                    {
-                        return 1;
-                    }
+                    return myScore(this);
                 }
                 return 0;
             }
         }
+        
+      
+
         public int Etapa { get; set; }
     }
 
@@ -401,16 +384,16 @@ namespace Contest
             return c;
         }
         
-         public void ParseQSO(bool ignoreDateTimeValidation)
+         public void ParseQSO(bool ignoreDateTimeValidation, QSO.CalculateScore myScore)
          {
-             ParseQSO(ignoreDateTimeValidation, new DateTime(2014, 12, 14, 00, 00, 00));
+             ParseQSO(ignoreDateTimeValidation,myScore, new DateTime(2015, 12, 20, 00, 00, 00));
          }
-         public void ParseQSO(bool ignoreDateTimeValidation, DateTime dtignoreDateTimeValidation)
+         public void ParseQSO(bool ignoreDateTimeValidation, QSO.CalculateScore myScore, DateTime dtignoreDateTimeValidation)
         {
             foreach (string rowqso in this.ROWQSOs)
             {
 
-                QSO qso = new QSO();
+                QSO qso = new QSO(myScore);
                 qso.Log = this;
                 qso.ROWQSO = rowqso;
                 Regex emailregex = new Regex(@"\s*(?<Frequency>[^\s]*)\s*(?<Mode>[^\s]*)\s*(?<Date>\d*[-,.]\d*[-,.]\d*)\s*(?<HH>\d\d).?(?<MM>\d\d)\s*(?<CallSign1>[^\s]*)\s*(?<RST1>[\d]*)\s*(?<Exchange1>[\d]*)\s?(?<County1>[^\s]*)\s*(?<CallSign2>[^\s]*)\s*(?<RST2>[\d]*)\s*(?<Exchange2>[\d]*)\s?(?<County2>[^\s]*)");
@@ -493,7 +476,7 @@ namespace Contest
                     log.Error("Invalid County2: " + this.FileName + " ->" + matches.Groups["County2"].Value + "<-");
                     qso.IsInvalid("Invalid County2: ->" + matches.Groups["County2"].Value + "<-");
                 }
-
+                
 
                 qso.DateTime = dt;
                 this.QSOs.Add(qso);
@@ -575,7 +558,7 @@ namespace Contest
                                 if (qso.Etapa==qso_.Etapa 
                                     && qso.PairQSO == null 
                                     && qso_.PairQSO == null 
-                                    && qso.CallSign1 == qso_.CallSign2 
+                                    && qso.CallSign1.ToUpper() == qso_.CallSign2.ToUpper()
                                     && qso.Mode == qso_.Mode
                                     && Math.Abs((qso.DateTime - qso_.DateTime).TotalMinutes) < 5
                                     )

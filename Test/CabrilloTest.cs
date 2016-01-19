@@ -139,7 +139,7 @@ END-OF-LOG:
             byte[] byteArray = Encoding.ASCII.GetBytes(test);
             MemoryStream memStream = new MemoryStream(byteArray);
             Cabrillo cabrillo = Cabrillo.Parse("FileName.test", memStream, false);
-            cabrillo.ParseQSO(false);
+            cabrillo.ParseQSO(false, Program.ScorCupaTimisului);
             Assert.AreEqual(7, cabrillo.QSOs.Count);
             QSO qso1 = cabrillo.QSOs[0];
             Assert.AreEqual("YO2MKE", qso1.CallSign1);
@@ -170,7 +170,7 @@ END-OF-LOG:
             byte[] byteArray = Encoding.ASCII.GetBytes(test);
             MemoryStream memStream = new MemoryStream(byteArray);
             Cabrillo cabrillo = Cabrillo.Parse("FileName.test", memStream, false);
-            cabrillo.ParseQSO(false);
+            cabrillo.ParseQSO(false, Program.ScorCupaTimisului);
             Assert.AreEqual(2, cabrillo.QSOs.Count);
             QSO qso0 = cabrillo.QSOs[0];
             Assert.AreEqual("YO2MKE", qso0.CallSign1);
@@ -226,17 +226,17 @@ END-OF-LOG:
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
             Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
-            cabrillo1.ParseQSO(false);
+            cabrillo1.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray2 = Encoding.ASCII.GetBytes(test2);
             MemoryStream memStream2 = new MemoryStream(byteArray2);
             Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false);
-            cabrillo2.ParseQSO(false);
+            cabrillo2.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray3 = Encoding.ASCII.GetBytes(test3);
             MemoryStream memStream3 = new MemoryStream(byteArray3);
             Cabrillo cabrillo3 = Cabrillo.Parse("File3.test", memStream3, false);
-            cabrillo3.ParseQSO(false);
+            cabrillo3.ParseQSO(false, Program.ScorCupaTimisului);
 
             List<Cabrillo> logList = new List<Cabrillo>();
             logList.Add(cabrillo1);
@@ -289,17 +289,17 @@ END-OF-LOG:
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
             Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
-            cabrillo1.ParseQSO(false);
+            cabrillo1.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray2 = Encoding.ASCII.GetBytes(test2);
             MemoryStream memStream2 = new MemoryStream(byteArray2);
             Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false);
-            cabrillo2.ParseQSO(false);
+            cabrillo2.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray3 = Encoding.ASCII.GetBytes(test3);
             MemoryStream memStream3 = new MemoryStream(byteArray3);
             Cabrillo cabrillo3 = Cabrillo.Parse("File3.test", memStream3, false);
-            cabrillo3.ParseQSO(false);
+            cabrillo3.ParseQSO(false, Program.ScorCupaTimisului);
 
             List<Cabrillo> logList = new List<Cabrillo>();
             logList.Add(cabrillo1);
@@ -334,7 +334,7 @@ END-OF-LOG:
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
             Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
-            cabrillo1.ParseQSO(false);
+            cabrillo1.ParseQSO(false, Program.ScorCupaTimisului);
 
 
             List<Cabrillo> logList = new List<Cabrillo>();
@@ -377,7 +377,7 @@ END-OF-LOG:
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
             Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
-            cabrillo1.ParseQSO(false);
+            cabrillo1.ParseQSO(false, Program.ScorCupaTimisului);
 
 
             List<Cabrillo> logList = new List<Cabrillo>();
@@ -578,42 +578,42 @@ END-OF-LOG:
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
             Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
-            cabrillo1.ParseQSO(false);
+            cabrillo1.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray2 = Encoding.ASCII.GetBytes(test2);
             MemoryStream memStream2 = new MemoryStream(byteArray2);
             Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false);
-            cabrillo2.ParseQSO(false);
+            cabrillo2.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray3 = Encoding.ASCII.GetBytes(test3);
             MemoryStream memStream3 = new MemoryStream(byteArray3);
             Cabrillo cabrillo3 = Cabrillo.Parse("File3.test", memStream3, false);
-            cabrillo3.ParseQSO(false);
+            cabrillo3.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray4 = Encoding.ASCII.GetBytes(test4);
             MemoryStream memStream4 = new MemoryStream(byteArray4);
             Cabrillo cabrillo4 = Cabrillo.Parse("File4.test", memStream4, false);
-            cabrillo4.ParseQSO(false);
+            cabrillo4.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray5 = Encoding.ASCII.GetBytes(test5);
             MemoryStream memStream5 = new MemoryStream(byteArray5);
             Cabrillo cabrillo5 = Cabrillo.Parse("File5.test", memStream5, false);
-            cabrillo5.ParseQSO(false);
+            cabrillo5.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray6 = Encoding.ASCII.GetBytes(test6);
             MemoryStream memStream6 = new MemoryStream(byteArray6);
             Cabrillo cabrillo6 = Cabrillo.Parse("File6.test", memStream6, false);
-            cabrillo6.ParseQSO(false);
+            cabrillo6.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray7 = Encoding.ASCII.GetBytes(test7);
             MemoryStream memStream7 = new MemoryStream(byteArray7);
             Cabrillo cabrillo7 = Cabrillo.Parse("File7.test", memStream7, false);
-            cabrillo7.ParseQSO(false);
+            cabrillo7.ParseQSO(false, Program.ScorCupaTimisului);
 
             byte[] byteArray8 = Encoding.ASCII.GetBytes(test8);
             MemoryStream memStream8 = new MemoryStream(byteArray8);
             Cabrillo cabrillo8 = Cabrillo.Parse("File8.test", memStream8, false);
-            cabrillo8.ParseQSO(false);
+            cabrillo8.ParseQSO(false, Program.ScorCupaTimisului);
 
             List<Cabrillo> logList = new List<Cabrillo>();
             logList.Add(cabrillo1);
@@ -730,12 +730,12 @@ END-OF-LOG:
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
             Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
-            cabrillo1.ParseQSO(true, new DateTime(2011, 12, 18, 00, 00, 00));
+            cabrillo1.ParseQSO(true, Program.ScorCupaTimisului, new DateTime(2011, 12, 18, 00, 00, 00));
 
             byte[] byteArray2 = Encoding.ASCII.GetBytes(test2);
             MemoryStream memStream2 = new MemoryStream(byteArray2);
             Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false);
-            cabrillo2.ParseQSO(true, new DateTime(2011, 12, 18, 00, 00, 00));
+            cabrillo2.ParseQSO(true, Program.ScorCupaTimisului, new DateTime(2011, 12, 18, 00, 00, 00));
 
 
             List<Cabrillo> logList = new List<Cabrillo>();

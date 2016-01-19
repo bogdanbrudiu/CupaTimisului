@@ -9,12 +9,12 @@ namespace LogSubmit.Mailers
 			MasterName="_Layout";
 		}
 		
-		public virtual MvcMailMessage ThankYou(string to)
+		public virtual MvcMailMessage ThankYou(string to, string subject)
 		{
 			//ViewBag.Data = someObject;
 			return Populate(x =>
 			{
-				x.Subject = "Log - Cupa Timisului 2014";
+				x.Subject = subject;
 				x.ViewName = "ThankYou";
 				x.To.Add(to);
 			});

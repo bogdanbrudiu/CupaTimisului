@@ -4,6 +4,6 @@ namespace LogSubmit.Mailers
 { 
     public interface IMailer
     {
-			MvcMailMessage ThankYou(string to);
+			MvcMailMessage ThankYou(string to, string subject);
 	}
 }

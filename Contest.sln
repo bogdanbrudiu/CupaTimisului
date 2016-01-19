@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCC72856-07D1-4E2D-9FCD-EE74E7138A24}"
 	ProjectSection(SolutionItems) = preProject
 		CommandLine.dll = CommandLine.dll
@@ -9,10 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		log4net.dll = log4net.dll
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{395AF1EC-B7AC-4A3F-9B8E-3114AD0FC0E7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contest", "Contest\Contest.csproj", "{27840401-9A7F-4318-9980-9E5131017D1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestLogFiles", "TestLogFiles", "{1C0FE013-9696-4DB4-8705-ED2044FDDF76}"
 	ProjectSection(SolutionItems) = preProject
@@ -129,8 +127,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cupa Timisului 2011", "Cupa
 		..\Cupa Timisului 2011\YO9XC  C TM 2011.log = ..\Cupa Timisului 2011\YO9XC  C TM 2011.log
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogSubmit", "LogSubmit\LogSubmit.csproj", "{EDE7A6F2-FFAC-4863-AB45-E272E825CD9A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DA2581A6-60AC-48DF-97F4-AA1F343952E8}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -138,10 +134,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DA2581
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{395AF1EC-B7AC-4A3F-9B8E-3114AD0FC0E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contest", "Contest\Contest.csproj", "{27840401-9A7F-4318-9980-9E5131017D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogSubmit", "LogSubmit\LogSubmit.csproj", "{EDE7A6F2-FFAC-4863-AB45-E272E825CD9A}"
+EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = Contest.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -188,5 +187,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1C0FE013-9696-4DB4-8705-ED2044FDDF76} = {DCC72856-07D1-4E2D-9FCD-EE74E7138A24}
 		{E37A0513-97F0-4658-8F80-5C7AB137A726} = {DCC72856-07D1-4E2D-9FCD-EE74E7138A24}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Contest.vsmdi
 	EndGlobalSection
 EndGlobal
