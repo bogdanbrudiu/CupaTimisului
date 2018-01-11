@@ -23,13 +23,13 @@ namespace LogSubmit.Controllers
             options.IgnoreStartOfLogTag = true;
             options.InputFolder = HostingEnvironment.MapPath("~/Uploads/");
             options.CupaTimisului = true;
-            options.IgnoreCallsigns = "YQ90IAR,YO2K,YO2DFR,YO4KAR,YO50BA,YO5DD,YO7MTD,YO2DDD,YO7FD,YO8KON,HD";
+            options.IgnoreCallsigns = "";
 
-            options.Etapa1Start = new DateTime(2015, 12, 20, 14, 00, 00);
-            options.Etapa1End = new DateTime(2015, 12, 20, 15, 00, 00);
+            options.Etapa1Start = new DateTime(2017, 12, 17, 14, 00, 00);
+            options.Etapa1End = new DateTime(2017, 12, 17, 15, 00, 00);
 
-            options.Etapa2Start = new DateTime(2015, 12, 20, 15, 00, 00);
-            options.Etapa2End = new DateTime(2015, 12, 20, 16, 00, 00);
+            options.Etapa2Start = new DateTime(2017, 12, 17, 15, 00, 00);
+            options.Etapa2End = new DateTime(2017, 12, 17, 16, 00, 00);
         }
         public ActionResult Results()
         {

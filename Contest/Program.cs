@@ -84,7 +84,7 @@ namespace Contest
             {
                 var help = new HelpText(Program._headingInfo);
                 help.AdditionalNewLineAfterOption = true;
-                help.Copyright = new CopyrightInfo("Bogdan-Ioan BRUDIU", 2011, 2015);
+                help.Copyright = new CopyrightInfo("Bogdan-Ioan BRUDIU", 2011, 2018);
                 try
                 {
                     HelpText.DefaultParsingErrorsHandler(this, help);
@@ -108,7 +108,7 @@ namespace Contest
 
         public static int ScorCupaTimisului(QSO qso)
         {
-            if (qso.CallSign2.ToLower() == "yo2kqt")//joker
+            if (qso.CallSign2.ToLower() == "YP1989TM")//joker
             {
                 return 10;
             }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCC72856-07D1-4E2D-9FCD-EE74E7138A24}"
 	ProjectSection(SolutionItems) = preProject
@@ -10,121 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Local.testsettings = Local.testsettings
 		log4net.dll = log4net.dll
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestLogFiles", "TestLogFiles", "{1C0FE013-9696-4DB4-8705-ED2044FDDF76}"
-	ProjectSection(SolutionItems) = preProject
-		..\TestLogFiles\ER1CAF.log = ..\TestLogFiles\ER1CAF.log
-		..\TestLogFiles\LOG-YO2MKM.txt = ..\TestLogFiles\LOG-YO2MKM.txt
-		..\TestLogFiles\logyo2mho.cbr = ..\TestLogFiles\logyo2mho.cbr
-		..\TestLogFiles\yo1.cbr = ..\TestLogFiles\yo1.cbr
-		..\TestLogFiles\yo2.cbr = ..\TestLogFiles\yo2.cbr
-		..\TestLogFiles\YO2CDX.CBR = ..\TestLogFiles\YO2CDX.CBR
-		..\TestLogFiles\YO2CMI_CupaTimisului_2010.log = ..\TestLogFiles\YO2CMI_CupaTimisului_2010.log
-		..\TestLogFiles\YO2CXJ CpTimis10.Cbr = ..\TestLogFiles\YO2CXJ CpTimis10.Cbr
-		..\TestLogFiles\YO2GL BAD.CBR = ..\TestLogFiles\YO2GL BAD.CBR
-		..\TestLogFiles\YO2GL CUPA TM.2010.CBR = ..\TestLogFiles\YO2GL CUPA TM.2010.CBR
-		..\TestLogFiles\YO2KAC.cbr = ..\TestLogFiles\YO2KAC.cbr
-		..\TestLogFiles\YO2KAR CpTimis10.Cbr = ..\TestLogFiles\YO2KAR CpTimis10.Cbr
-		..\TestLogFiles\YO2KJJ.CBR = ..\TestLogFiles\YO2KJJ.CBR
-		..\TestLogFiles\YO2KQT.cbr = ..\TestLogFiles\YO2KQT.cbr
-		..\TestLogFiles\YO2LLZ.LOG = ..\TestLogFiles\YO2LLZ.LOG
-		..\TestLogFiles\YO2LQL.log = ..\TestLogFiles\YO2LQL.log
-		..\TestLogFiles\YO2LRH CpTimis10.Cbr = ..\TestLogFiles\YO2LRH CpTimis10.Cbr
-		..\TestLogFiles\YO2LXW CpTimis10.Cbr = ..\TestLogFiles\YO2LXW CpTimis10.Cbr
-		..\TestLogFiles\YO2MFC.log = ..\TestLogFiles\YO2MFC.log
-		..\TestLogFiles\YO2MJI .cbr = ..\TestLogFiles\YO2MJI .cbr
-		..\TestLogFiles\YO2MJZ.CBR = ..\TestLogFiles\YO2MJZ.CBR
-		..\TestLogFiles\YO2MKL sasa.cbr = ..\TestLogFiles\YO2MKL sasa.cbr
-		..\TestLogFiles\YO2MTG.cbr = ..\TestLogFiles\YO2MTG.cbr
-		..\TestLogFiles\yo3.cbr = ..\TestLogFiles\yo3.cbr
-		..\TestLogFiles\YO3JW.CBR = ..\TestLogFiles\YO3JW.CBR
-		..\TestLogFiles\YO3KPA cupa timis.txt = ..\TestLogFiles\YO3KPA cupa timis.txt
-		..\TestLogFiles\yo4.cbr = ..\TestLogFiles\yo4.cbr
-		..\TestLogFiles\yo4aac.cbr = ..\TestLogFiles\yo4aac.cbr
-		..\TestLogFiles\yo4aul.cbr = ..\TestLogFiles\yo4aul.cbr
-		..\TestLogFiles\YO4BTB.cbr = ..\TestLogFiles\YO4BTB.cbr
-		..\TestLogFiles\YO4BYW.log = ..\TestLogFiles\YO4BYW.log
-		..\TestLogFiles\YO4GM cupa timis 2010.cbr = ..\TestLogFiles\YO4GM cupa timis 2010.cbr
-		..\TestLogFiles\YO4RFR_CupaTimisului2010.log = ..\TestLogFiles\YO4RFR_CupaTimisului2010.log
-		..\TestLogFiles\yo4si.log = ..\TestLogFiles\yo4si.log
-		..\TestLogFiles\yo5.cbr = ..\TestLogFiles\yo5.cbr
-		..\TestLogFiles\YO5BEU CpTimis10.Cbr = ..\TestLogFiles\YO5BEU CpTimis10.Cbr
-		..\TestLogFiles\YO5DAS.CBR = ..\TestLogFiles\YO5DAS.CBR
-		..\TestLogFiles\YO5GHA.CBR = ..\TestLogFiles\YO5GHA.CBR
-		..\TestLogFiles\YO5OED CpTimis10.Cbr = ..\TestLogFiles\YO5OED CpTimis10.Cbr
-		..\TestLogFiles\YO5OJC CpTimis10.Cbr = ..\TestLogFiles\YO5OJC CpTimis10.Cbr
-		..\TestLogFiles\yo6.cbr = ..\TestLogFiles\yo6.cbr
-		..\TestLogFiles\YO6OXP CpTimis10.Cbr = ..\TestLogFiles\YO6OXP CpTimis10.Cbr
-		..\TestLogFiles\YO6PEG CpTimis10.Cbr = ..\TestLogFiles\YO6PEG CpTimis10.Cbr
-		..\TestLogFiles\YO6PIR CpTimis10.Cbr = ..\TestLogFiles\YO6PIR CpTimis10.Cbr
-		..\TestLogFiles\yo7.cbr = ..\TestLogFiles\yo7.cbr
-		..\TestLogFiles\YO7BEM.cbr = ..\TestLogFiles\YO7BEM.cbr
-		..\TestLogFiles\YO7BGB.cbr = ..\TestLogFiles\YO7BGB.cbr
-		..\TestLogFiles\YO7DBR CpTimis10.Cbr = ..\TestLogFiles\YO7DBR CpTimis10.Cbr
-		..\TestLogFiles\YO7FB.LOG = ..\TestLogFiles\YO7FB.LOG
-		..\TestLogFiles\YO7HUZ CUPA TIMISULUI 2010.txt = ..\TestLogFiles\YO7HUZ CUPA TIMISULUI 2010.txt
-		..\TestLogFiles\YO7MG.log = ..\TestLogFiles\YO7MG.log
-		..\TestLogFiles\YO7MGG CpTimis10.Cbr = ..\TestLogFiles\YO7MGG CpTimis10.Cbr
-		..\TestLogFiles\yo8.cbr = ..\TestLogFiles\yo8.cbr
-		..\TestLogFiles\YO8DOH CUPA TIMISULUI.cbr = ..\TestLogFiles\YO8DOH CUPA TIMISULUI.cbr
-		..\TestLogFiles\YO8SGN.CBR = ..\TestLogFiles\YO8SGN.CBR
-		..\TestLogFiles\YO8THG.log = ..\TestLogFiles\YO8THG.log
-		..\TestLogFiles\YO9FEH.CBR = ..\TestLogFiles\YO9FEH.CBR
-		..\TestLogFiles\YO9FNP.Cbr = ..\TestLogFiles\YO9FNP.Cbr
-		..\TestLogFiles\YO9HOW cupa timisului.cbr = ..\TestLogFiles\YO9HOW cupa timisului.cbr
-		..\TestLogFiles\YO9HP.Cbr = ..\TestLogFiles\YO9HP.Cbr
-		..\TestLogFiles\YO9KPD.Cbr = ..\TestLogFiles\YO9KPD.Cbr
-		..\TestLogFiles\YR6M LOG.txt = ..\TestLogFiles\YR6M LOG.txt
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cupa Timisului 2011", "Cupa Timisului 2011", "{E37A0513-97F0-4658-8F80-5C7AB137A726}"
-	ProjectSection(SolutionItems) = preProject
-		..\Cupa Timisului 2011\YO2CMI_CupaTimisului_2011_modificat.LOG = ..\Cupa Timisului 2011\YO2CMI_CupaTimisului_2011_modificat.LOG
-		..\Cupa Timisului 2011\yo2gl.CBR = ..\Cupa Timisului 2011\yo2gl.CBR
-		..\Cupa Timisului 2011\YO2KAR CpTimis11.Cbr = ..\Cupa Timisului 2011\YO2KAR CpTimis11.Cbr
-		..\Cupa Timisului 2011\yo2kjj.cbr = ..\Cupa Timisului 2011\yo2kjj.cbr
-		..\Cupa Timisului 2011\YO2KQT.cbr = ..\Cupa Timisului 2011\YO2KQT.cbr
-		..\Cupa Timisului 2011\yo2lgk.cbr = ..\Cupa Timisului 2011\yo2lgk.cbr
-		..\Cupa Timisului 2011\yo2liw.cbr = ..\Cupa Timisului 2011\yo2liw.cbr
-		..\Cupa Timisului 2011\yo2ljb.cbr = ..\Cupa Timisului 2011\yo2ljb.cbr
-		..\Cupa Timisului 2011\YO2LLZ-18.12.2011.cbr = ..\Cupa Timisului 2011\YO2LLZ-18.12.2011.cbr
-		..\Cupa Timisului 2011\YO2LMW CpTimis11.Cbr = ..\Cupa Timisului 2011\YO2LMW CpTimis11.Cbr
-		..\Cupa Timisului 2011\YO2LXW.cbr = ..\Cupa Timisului 2011\YO2LXW.cbr
-		..\Cupa Timisului 2011\YO2MBU_CABRILLO.cbr = ..\Cupa Timisului 2011\YO2MBU_CABRILLO.cbr
-		..\Cupa Timisului 2011\yo2mfc.cbr = ..\Cupa Timisului 2011\yo2mfc.cbr
-		..\Cupa Timisului 2011\YO2MHO.cbr = ..\Cupa Timisului 2011\YO2MHO.cbr
-		..\Cupa Timisului 2011\yo2mji.cbr = ..\Cupa Timisului 2011\yo2mji.cbr
-		..\Cupa Timisului 2011\YO2MJZ.CBR = ..\Cupa Timisului 2011\YO2MJZ.CBR
-		..\Cupa Timisului 2011\yo2mkt.cbr = ..\Cupa Timisului 2011\yo2mkt.cbr
-		..\Cupa Timisului 2011\yo2mlc-cupa timisului.cbr = ..\Cupa Timisului 2011\yo2mlc-cupa timisului.cbr
-		..\Cupa Timisului 2011\YO2MLG.CBR = ..\Cupa Timisului 2011\YO2MLG.CBR
-		..\Cupa Timisului 2011\YO2MLS CpTimis10.Cbr = ..\Cupa Timisului 2011\YO2MLS CpTimis10.Cbr
-		..\Cupa Timisului 2011\YO2MNC.CBR = ..\Cupa Timisului 2011\YO2MNC.CBR
-		..\Cupa Timisului 2011\YO2MTD.cbr = ..\Cupa Timisului 2011\YO2MTD.cbr
-		..\Cupa Timisului 2011\YO3HBK-CTM.cbr = ..\Cupa Timisului 2011\YO3HBK-CTM.cbr
-		..\Cupa Timisului 2011\YO3JW CpTimis11.Cbr = ..\Cupa Timisului 2011\YO3JW CpTimis11.Cbr
-		..\Cupa Timisului 2011\YO4BYW.log = ..\Cupa Timisului 2011\YO4BYW.log
-		..\Cupa Timisului 2011\YO4GVC.cbr = ..\Cupa Timisului 2011\YO4GVC.cbr
-		..\Cupa Timisului 2011\YO4SI.cbr = ..\Cupa Timisului 2011\YO4SI.cbr
-		..\Cupa Timisului 2011\YO5ALI CpTimis11.Cbr = ..\Cupa Timisului 2011\YO5ALI CpTimis11.Cbr
-		..\Cupa Timisului 2011\YO5BRE CpTimis11.Cbr = ..\Cupa Timisului 2011\YO5BRE CpTimis11.Cbr
-		..\Cupa Timisului 2011\YO5KMM.cbr = ..\Cupa Timisului 2011\YO5KMM.cbr
-		..\Cupa Timisului 2011\YO5OBA CpTimis11.Cbr = ..\Cupa Timisului 2011\YO5OBA CpTimis11.Cbr
-		..\Cupa Timisului 2011\YO5TP CpTimis11_modificat.Cbr = ..\Cupa Timisului 2011\YO5TP CpTimis11_modificat.Cbr
-		..\Cupa Timisului 2011\YO6CVA CpTimis11.Cbr = ..\Cupa Timisului 2011\YO6CVA CpTimis11.Cbr
-		..\Cupa Timisului 2011\YO7AWZ .Cbr = ..\Cupa Timisului 2011\YO7AWZ .Cbr
-		..\Cupa Timisului 2011\yo7bem.cbr = ..\Cupa Timisului 2011\yo7bem.cbr
-		..\Cupa Timisului 2011\YO7BGB.CBR = ..\Cupa Timisului 2011\YO7BGB.CBR
-		..\Cupa Timisului 2011\yo7cjb.log = ..\Cupa Timisului 2011\yo7cjb.log
-		..\Cupa Timisului 2011\yo7dbr.cbr = ..\Cupa Timisului 2011\yo7dbr.cbr
-		..\Cupa Timisului 2011\yo800knx.cbr = ..\Cupa Timisului 2011\yo800knx.cbr
-		..\Cupa Timisului 2011\yo8sgn.cbr = ..\Cupa Timisului 2011\yo8sgn.cbr
-		..\Cupa Timisului 2011\YO8WW.cbr = ..\Cupa Timisului 2011\YO8WW.cbr
-		..\Cupa Timisului 2011\YO9FL.cbr = ..\Cupa Timisului 2011\YO9FL.cbr
-		..\Cupa Timisului 2011\YO9IAB.cbr = ..\Cupa Timisului 2011\YO9IAB.cbr
-		..\Cupa Timisului 2011\YO9KPM.cbr = ..\Cupa Timisului 2011\YO9KPM.cbr
-		..\Cupa Timisului 2011\YO9XC  C TM 2011.log = ..\Cupa Timisului 2011\YO9XC  C TM 2011.log
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DA2581A6-60AC-48DF-97F4-AA1F343952E8}"
@@ -184,9 +69,8 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{1C0FE013-9696-4DB4-8705-ED2044FDDF76} = {DCC72856-07D1-4E2D-9FCD-EE74E7138A24}
-		{E37A0513-97F0-4658-8F80-5C7AB137A726} = {DCC72856-07D1-4E2D-9FCD-EE74E7138A24}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07233BF8-6B53-47B6-837E-33A825267DFD}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Contest.vsmdi
