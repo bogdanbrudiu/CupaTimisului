@@ -1,0 +1,110 @@
+CONTEST: Cupa Timisului
+CALLSIGN:YO7MSJ
+CATEGORY-ASSISTED:
+CATEGORY-BAND:
+CATEGORY-MODE:
+CATEGORY-OPERATOR:
+CATEGORY-POWER:
+CATEGORY-STATION:
+CATEGORY-TIME:
+CATEGORY-TRANSMITTER:
+CATEGORY-OVERLAY:
+CLAIMED-SCORE: 17
+CLUB: DX Explorers YO3KEX
+CREATED-BY: N1MM Logger+ 1.0.7223.0
+OPERATORS: YO7MSJ
+EMAIL:
+LOCATION:
+NAME: Ovidiu Zlatian
+ADDRESS: 
+ADDRESS: CSM Craiova, CP 107, Craiova-1, Dolj
+ADDRESS: Romania
+ADDRESS: Cupa Timisului
+ADDRESS-CITY:
+ADDRESS-STATE-PROVINCE:
+ADDRESS-POSTALCODE:
+ADDRESS-COUNTRY:
+OFFTIME:
+DEBUG:
+SOAPBOX: Cupa Timisului
+QSO:  3500 PH 2018-12-16 1401 YO7MSJ        59  001 DJ YO2BOF         59  002 AR                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:01:00 PM<- ->YO7MSJ<- ->59<- ->001<- ->DJ<- ->YO2BOF<- ->59<- ->002<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 2:01:00 PM<- ->YO2BOF<- ->59<- ->002<- ->AR<- ->YO7MSJ<- ->59<- ->001<- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1404 YO7MSJ        59  002 DJ YO2AA          59  008 HD                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:04:00 PM<- ->YO7MSJ<- ->59<- ->002<- ->DJ<- ->YO2AA<- ->59<- ->008<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 2:04:00 PM<- ->YO2AA<- ->59<- ->008<- ->HD<- ->YO7MSJ<- ->59<- ->002<- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1408 YO7MSJ        59  003 DJ YO4CAI         59  007 BR                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:08:00 PM<- ->YO7MSJ<- ->59<- ->003<- ->DJ<- ->YO4CAI<- ->59<- ->007<- ->BR<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO4CAI<- ->59<- -><- ->BR<- ->YO7MSJ<- ->59<- -><- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1409 YO7MSJ        59  004 DJ YO7AKY         59  010 AG                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:09:00 PM<- ->YO7MSJ<- ->59<- ->004<- ->DJ<- ->YO7AKY<- ->59<- ->010<- ->AG<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 2:09:00 PM<- ->YO7AKY<- ->59<- ->010<- ->PH<- ->YO7MSJ<- ->59<- ->004<- ->DJ<-
+SOAPBOX:County is not correct: ->AG - PH<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2018-12-16 1411 YO7MSJ        59  005 DJ YO7BEM         59  014 AG                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:11:00 PM<- ->YO7MSJ<- ->59<- ->005<- ->DJ<- ->YO7BEM<- ->59<- ->014<- ->AG<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO7BEM<- ->59<- -><- ->AG<- ->YO7MSJ<- ->59<- -><- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1412 YO7MSJ        59  006 DJ YO2DFA         59  008 CS                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:12:00 PM<- ->YO7MSJ<- ->59<- ->006<- ->DJ<- ->YO2DFA<- ->59<- ->008<- ->CS<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO2DFA<- ->59<- -><- ->CS<- ->YO7MSJ<- ->59<- -><- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1415 YO7MSJ        59  007 DJ YO2CJX         59  018 CS                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:15:00 PM<- ->YO7MSJ<- ->59<- ->007<- ->DJ<- ->YO2CJX<- ->59<- ->018<- ->CS<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 2:14:00 PM<- ->YO2CJX<- ->59<- ->018<- ->CS<- ->YO7MSJ<- ->59<- ->007<- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1416 YO7MSJ        59  008 DJ YO2MFC         59  017 TM                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:16:00 PM<- ->YO7MSJ<- ->59<- ->008<- ->DJ<- ->YO2MFC<- ->59<- ->017<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 2:16:00 PM<- ->YO2MFC<- ->59<- ->017<- ->TM<- ->YO7MSJ<- ->59<- ->008<- ->DJ<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2018-12-16 1419 YO7MSJ        59  009 DJ YO3JW          59  021 TM                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:19:00 PM<- ->YO7MSJ<- ->59<- ->009<- ->DJ<- ->YO3JW<- ->59<- ->021<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 2:19:00 PM<- ->YO3JW<- ->59<- ->021<- ->BU<- ->YO7MSJ<- ->59<- ->009<- ->DJ<-
+SOAPBOX:County is not correct: ->TM - BU<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2018-12-16 1424 YO7MSJ        59  010 DJ YO4BXX         59  013 CT                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:24:00 PM<- ->YO7MSJ<- ->59<- ->010<- ->DJ<- ->YO4BXX<- ->59<- ->013<- ->CT<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO4BXX<- ->59<- -><- ->CT<- ->YO7MSJ<- ->59<- -><- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1425 YO7MSJ        59  011 DJ YO6BGT         59  032 HR                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:25:00 PM<- ->YO7MSJ<- ->59<- ->011<- ->DJ<- ->YO6BGT<- ->59<- ->032<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 2:25:00 PM<- ->YO6BGT<- ->59<- ->032<- ->HR<- ->YO7MSJ<- ->59<- ->011<- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1426 YO7MSJ        59  012 DJ YP1989TM       59  028 TM                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:26:00 PM<- ->YO7MSJ<- ->59<- ->012<- ->DJ<- ->YP1989TM<- ->59<- ->028<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 2:26:00 PM<- ->YP1989TM<- ->59<- ->028<- ->TM<- ->YO7MSJ<- ->59<- ->012<- ->DJ<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2018-12-16 1427 YO7MSJ        59  013 DJ YO7LYM         59  012 DJ                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:27:00 PM<- ->YO7MSJ<- ->59<- ->013<- ->DJ<- ->YO7LYM<- ->59<- ->012<- ->DJ<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO7LYM<- ->59<- -><- ->DJ<- ->YO7MSJ<- ->59<- -><- ->DJ<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2018-12-16 1430 YO7MSJ        59  014 DJ YO7LDT         59  027 DJ                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:30:00 PM<- ->YO7MSJ<- ->59<- ->014<- ->DJ<- ->YO7LDT<- ->59<- ->027<- ->DJ<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO7LDT<- ->59<- -><- ->DJ<- ->YO7MSJ<- ->59<- -><- ->DJ<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2018-12-16 1431 YO7MSJ        59  015 DJ YO2KAR         59  022 HD                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 2:31:00 PM<- ->YO7MSJ<- ->59<- ->015<- ->DJ<- ->YO2KAR<- ->59<- ->022<- ->HD<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO2KAR<- ->59<- -><- ->HD<- ->YO7MSJ<- ->59<- -><- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1558 YO7MSJ        59  016 DJ YO7AKY         59  061 AG                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 3:58:00 PM<- ->YO7MSJ<- ->59<- ->016<- ->DJ<- ->YO7AKY<- ->59<- ->061<- ->AG<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 3:57:00 PM<- ->YO7AKY<- ->59<- ->060<- ->PH<- ->YO7MSJ<- ->59<- ->016<- ->DJ<-
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 061 - 060<-
+SOAPBOX:County is not correct: ->AG - PH<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2018-12-16 1559 YO7MSJ        59  017 DJ YO9CLG         59  056 BV                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 3:59:00 PM<- ->YO7MSJ<- ->59<- ->017<- ->DJ<- ->YO9CLG<- ->59<- ->056<- ->BV<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO9CLG<- ->59<- -><- ->BV<- ->YO7MSJ<- ->59<- -><- ->DJ<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2018-12-16 1559 YO7MSJ        59  018 DJ YO3APJ         59  072 BU                                       
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/16/2018 3:59:00 PM<- ->YO7MSJ<- ->59<- ->018<- ->DJ<- ->YO3APJ<- ->59<- ->072<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/16/2018 3:59:00 PM<- ->YO3APJ<- ->59<- ->072<- ->BU<- ->YO7MSJ<- ->59<- ->016<- ->DJ<-
+SOAPBOX: Score 2
+SOAPBOX: Multiplicator Etapa1 9
+SOAPBOX: Multiplicator Etapa2 2
+SOAPBOX: Scor Etapa1 252
+SOAPBOX: Scor Etapa2 8
+SOAPBOX: Scor 260

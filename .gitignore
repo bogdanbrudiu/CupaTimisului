@@ -13,3 +13,7 @@ _ReSharper.*
 Ankh.NoLoad
 /LogSubmit/Uploads
 /packages
+/Submitter/appsettings.Development.json
+/Submitter/appsettings.Production.json
+/Old.NET/Submitter/Web.Release.config
+/Old.NET/Submitter/Web.Debug.config

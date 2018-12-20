@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <UserSecretsId>2f6d43db-31ec-4811-b261-cfd3595f5af4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\Uploads\2014\**" />
+    <Compile Remove="wwwroot\Uploads\2015\**" />
+    <Compile Remove="wwwroot\Uploads\2016\**" />
+    <Compile Remove="wwwroot\Uploads\2017\**" />
+    <Compile Remove="wwwroot\Uploads\2018\**" />
+    <Content Remove="wwwroot\Uploads\2014\**" />
+    <Content Remove="wwwroot\Uploads\2015\**" />
+    <Content Remove="wwwroot\Uploads\2016\**" />
+    <Content Remove="wwwroot\Uploads\2017\**" />
+    <Content Remove="wwwroot\Uploads\2018\**" />
+    <EmbeddedResource Remove="wwwroot\Uploads\2014\**" />
+    <EmbeddedResource Remove="wwwroot\Uploads\2015\**" />
+    <EmbeddedResource Remove="wwwroot\Uploads\2016\**" />
+    <EmbeddedResource Remove="wwwroot\Uploads\2017\**" />
+    <EmbeddedResource Remove="wwwroot\Uploads\2018\**" />
+    <None Remove="wwwroot\Uploads\2014\**" />
+    <None Remove="wwwroot\Uploads\2015\**" />
+    <None Remove="wwwroot\Uploads\2016\**" />
+    <None Remove="wwwroot\Uploads\2017\**" />
+    <None Remove="wwwroot\Uploads\2018\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="elmahcore" Version="1.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\Uploads\.rclone\.rclone-ignore">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CoreMailer\CoreMailer\CoreMailer.csproj" />
+    <ProjectReference Include="..\CLI\CLI.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="rclone-cron.sh">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+</Project>

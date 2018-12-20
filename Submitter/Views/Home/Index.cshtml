@@ -1,0 +1,134 @@
+﻿@model Submitter.Models.Entry
+
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+
+@ViewBag.Title
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+    <div class="form-group">
+        @Html.LabelFor(model => model.Calsign)
+        @Html.EditorFor(model => model.Calsign)
+        @Html.ValidationMessageFor(model => model.Calsign)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email)
+        @Html.EditorFor(model => model.Email)
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Phone)
+        @Html.EditorFor(model => model.Phone)
+        @Html.ValidationMessageFor(model => model.Phone)
+    </div>
+
+    <input type="hidden" name="FileName" value="@Html.Encode(Model.FileName)" />
+    @if (Model != null && Model.Log != null && Model.FileName != null)
+    {
+        <input type="hidden" name="Log" value="@Html.Encode(Model.Log)" />
+        <input type="hidden" name="FileName" value="@Html.Encode(Model.FileName)" />
+
+    }
+    else
+    {
+        <div class="form-group">
+            @Html.LabelFor(model => model.Log)
+            <input type="file" class="form-control-file" name="Log">
+            @Html.ValidationMessageFor(model => model.Log)
+        </div>
+        <input name="Submit" type="submit" value="Verifica" />
+    }
+
+
+
+
+
+    if (ViewBag.Errors != null)
+    {
+        <p>
+            @foreach (string error in ViewBag.Errors)
+            {
+                @error
+                <br />
+            }
+            <table cellspacing="15">
+                <tr>
+                    <th>Status</th>
+                    <th>Frecventa</th>
+                    <th>Mod</th>
+                    <th>Data</th>
+                    <th>Indicativ</th>
+                    <th>RST</th>
+                    <th>Exchange</th>
+                    <th>Judet</th>
+                    <th>Indicativ</th>
+                    <th>RST</th>
+                    <th>Exchange</th>
+                    <th>Judet</th>
+                </tr>
+                @foreach (var qso in ViewBag.QSOS)
+                {
+                    <tr>
+                        <td>
+                            <span style="color:Red">
+                                @{
+                                    if (!qso.Valid)
+                                    {
+                                        <text>Invalida</text>
+                                    }
+
+                                }
+                            </span>
+                        </td>
+                        <td>
+                            @qso.Frequency
+                        </td>
+                        <td>
+                            @qso.Mode
+                        </td>
+                        <td>
+                            @qso.DateTime
+                        </td>
+                        <td>
+                            @qso.CallSign1
+                        </td>
+
+                        <td>
+                            @qso.RST1
+                        </td>
+                        <td>
+                            @qso.Exchange1
+                        </td>
+                        <td>
+                            @qso.County1
+                        </td>
+
+
+                        <td>
+                            @qso.CallSign2
+                        </td>
+
+                        <td>
+                            @qso.RST2
+                        </td>
+                        <td>
+                            @qso.Exchange2
+                        </td>
+                        <td>
+                            @qso.County2
+                        </td>
+                    </tr>
+                }
+            </table>
+            <input name="Submit" type="submit" value="Trimite" />
+            <input name="Submit" type="submit" value="Incarca alt log" />
+        </p>
+    }
+}
