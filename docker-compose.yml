@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  submitter:
+    image: ${DOCKER_REGISTRY-}submitter
+    build:
+      context: .
+      dockerfile: Submitter/Dockerfile

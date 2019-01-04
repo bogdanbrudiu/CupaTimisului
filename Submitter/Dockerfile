@@ -11,10 +11,15 @@ RUN unzip rclone-current-linux-amd64.zip \
 	&& mv /tmp/rclone-*-linux-amd64/rclone /usr/bin \
     && rm -r /tmp/rclone*
 
-WORKDIR .
+
 RUN chown root:root /usr/bin/rclone
 RUN chmod -v +x /usr/bin/rclone
 
+RUN mkdir -p /root/.config/rclone 
+RUN chmod 755 /root/.config/rclone
+COPY ../rclone.conf /root/.config/rclone/
+
+WORKDIR .
 COPY Submitter/rclone-cron.sh /rclone-cron.sh
 
 RUN chown root:root /rclone-cron.sh
@@ -24,17 +29,19 @@ RUN crontab -l | { cat; echo "* * * * * rclone-cron.sh && curl -fsS --retry 3 ht
 
 
 
-
 FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /src
-COPY ["Submitter/Submitter.csproj", "Submitter/"]
-RUN dotnet restore "Submitter/Submitter.csproj"
+COPY Submitter/Submitter.csproj Submitter/
+COPY ../CoreMailer/CoreMailer/CoreMailer.csproj ../CoreMailer/CoreMailer/
+COPY CLI/CLI.csproj CLI/
+COPY Contest/Contest.csproj Contest/
+RUN dotnet restore Submitter/Submitter.csproj
 COPY . .
-WORKDIR "/src/Submitter"
-RUN dotnet build "Submitter.csproj" -c Release -o /app
+WORKDIR /src/Submitter
+RUN dotnet build Submitter.csproj -c Release -o /app
 
 FROM build AS publish
-RUN dotnet publish "Submitter.csproj" -c Release -o /app
+RUN dotnet publish Submitter.csproj -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
