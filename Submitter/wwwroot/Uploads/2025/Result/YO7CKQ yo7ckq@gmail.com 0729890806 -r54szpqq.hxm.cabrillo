@@ -1,0 +1,254 @@
+CONTEST: Cupa_Timisului
+CALLSIGN:YO7CKQ
+CATEGORY-ASSISTED: NON-ASSISTED
+CATEGORY-BAND: 80M
+CATEGORY-MODE: SSB
+CATEGORY-OPERATOR: SINGLE-OP
+CATEGORY-POWER: LOW
+CATEGORY-STATION: FIXED
+CATEGORY-TIME:
+CATEGORY-TRANSMITTER: ONE
+CATEGORY-OVERLAY:
+CLAIMED-SCORE: 3808
+CLUB:  
+CREATED-BY: N1MM Logger+ 1.0.11037.0
+OPERATORS: YO7CKQ
+EMAIL: yo7ckq@gmail.com
+LOCATION: DX
+NAME: Sorin-David NIMARA
+ADDRESS: Str. Pelinului nr. 14
+ADDRESS: Cupa_Timisului
+ADDRESS-CITY: Targu Jiu
+ADDRESS-STATE-PROVINCE: 
+ADDRESS-POSTALCODE: 210141
+ADDRESS-COUNTRY: Romania
+OFFTIME:
+DEBUG:
+SOAPBOX: Hello!
+QSO:    3710 PH 2025-12-14 1405 YO7CKQ        59  001 GJ YP1989TM      59  003 TM 
+SOAPBOX: Parsed QSO ->3710<- ->PH<- ->12/14/2025 2:05:00 PM<- ->YO7CKQ<- ->59<- ->001<- ->GJ<- ->YP1989TM<- ->59<- ->003<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:05:00 PM<- ->YP1989TM<- ->59<- ->003<- ->TM<- ->YO7CKQ<- ->59<- ->001<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3696 PH 2025-12-14 1406 YO7CKQ        59  002 GJ YO7LDT        59  006 DJ 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:06:00 PM<- ->YO7CKQ<- ->59<- ->002<- ->GJ<- ->YO7LDT<- ->59<- ->006<- ->DJ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:06:00 PM<- ->YO7LDT<- ->59<- ->006<- ->DJ<- ->YO7CKQ<- ->59<- ->002<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3696 PH 2025-12-14 1407 YO7CKQ        59  003 GJ YO2YA         59  006 TM 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:07:00 PM<- ->YO7CKQ<- ->59<- ->003<- ->GJ<- ->YO2YA<- ->59<- ->006<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:07:00 PM<- ->YO2YA<- ->59<- ->006<- ->TM<- ->YO7CKQ<- ->59<- ->003<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3696 PH 2025-12-14 1408 YO7CKQ        59  004 GJ YO8CKR        59  006 SV 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:08:00 PM<- ->YO7CKQ<- ->59<- ->004<- ->GJ<- ->YO8CKR<- ->59<- ->006<- ->SV<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:    3696 PH 2025-12-14 1408 YO7CKQ        59  005 GJ YO7BEM        59  008 AG 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:08:00 PM<- ->YO7CKQ<- ->59<- ->005<- ->GJ<- ->YO7BEM<- ->59<- ->008<- ->AG<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:    3696 PH 2025-12-14 1409 YO7CKQ        59  006 GJ YO2BLX        59  006 AR 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:09:00 PM<- ->YO7CKQ<- ->59<- ->006<- ->GJ<- ->YO2BLX<- ->59<- ->006<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:08:00 PM<- ->YO2BLX<- ->59<- ->006<- ->AR<- ->YO7CKQ<- ->59<- ->006<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3696 PH 2025-12-14 1409 YO7CKQ        59  007 GJ YP2R          59  010 HD 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:09:00 PM<- ->YO7CKQ<- ->59<- ->007<- ->GJ<- ->YP2R<- ->59<- ->010<- ->HD<-
+SOAPBOX:   Pair QSO 3696<- ->PH<- ->12/14/2025 2:09:00 PM<- ->YP2R<- ->59<- ->010<- ->HD<- ->YO7CKQ<- ->59<- ->007<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3696 PH 2025-12-14 1410 YO7CKQ        59  008 GJ YO2MIT        59  009 TM 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:10:00 PM<- ->YO7CKQ<- ->59<- ->008<- ->GJ<- ->YO2MIT<- ->59<- ->009<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:10:00 PM<- ->YO2MIT<- ->59<- ->009<- ->TM<- ->YO7CKQ<- ->59<- ->008<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3696 PH 2025-12-14 1411 YO7CKQ        59  009 GJ YO2BCO        59  008 TM 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:11:00 PM<- ->YO7CKQ<- ->59<- ->009<- ->GJ<- ->YO2BCO<- ->59<- ->008<- ->TM<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/14/2025 2:11:00 PM<- ->YO2BCO<- ->59<- ->008<- ->TM<- ->YO7CKQ<- ->59<- ->009<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3696 PH 2025-12-14 1412 YO7CKQ        59  010 GJ YO8BFB        59  008 BC 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:12:00 PM<- ->YO7CKQ<- ->59<- ->010<- ->GJ<- ->YO8BFB<- ->59<- ->008<- ->BC<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:12:00 PM<- ->YO8BFB<- ->59<- ->008<- ->BC<- ->YO7CKQ<- ->59<- ->010<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3696 PH 2025-12-14 1412 YO7CKQ        59  011 GJ YO4AUL        59  005 CT 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:12:00 PM<- ->YO7CKQ<- ->59<- ->011<- ->GJ<- ->YO4AUL<- ->59<- ->005<- ->CT<-
+SOAPBOX:   Pair QSO 3696<- ->PH<- ->12/14/2025 2:12:00 PM<- ->YO4AUL<- ->59<- ->005<- ->CT<- ->YO7CKQ<- ->59<- ->011<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3696 PH 2025-12-14 1413 YO7CKQ        59  012 GJ YQ2A          59  018 HD 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 2:13:00 PM<- ->YO7CKQ<- ->59<- ->012<- ->GJ<- ->YQ2A<- ->59<- ->018<- ->HD<-
+SOAPBOX:   Pair QSO 3696<- ->PH<- ->12/14/2025 2:13:00 PM<- ->YQ2A<- ->59<- ->018<- ->HD<- ->YO7CKQ<- ->59<- ->012<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3725 PH 2025-12-14 1416 YO7CKQ        59  013 GJ YO4DW         59  008 BU 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 2:16:00 PM<- ->YO7CKQ<- ->59<- ->013<- ->GJ<- ->YO4DW<- ->59<- ->008<- ->BU<-
+SOAPBOX:   Pair QSO 3726<- ->PH<- ->12/14/2025 2:16:00 PM<- ->YO4DW<- ->59<- ->008<- -><- ->YO7CKQ<- ->59<- ->013<- ->GJ<-
+SOAPBOX:County is not correct: ->BU - <-
+SOAPBOX: Score 0
+QSO:    3720 PH 2025-12-14 1418 YO7CKQ        59  014 GJ YO2CK         59  011 HD 
+SOAPBOX: Parsed QSO ->3720<- ->PH<- ->12/14/2025 2:18:00 PM<- ->YO7CKQ<- ->59<- ->014<- ->GJ<- ->YO2CK<- ->59<- ->011<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:17:00 PM<- ->YO2CK<- ->59<- ->011<- ->HD<- ->YO7CKQ<- ->59<- ->014<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3715 PH 2025-12-14 1419 YO7CKQ        59  015 GJ YO2MTG        59  025 TM 
+SOAPBOX: Parsed QSO ->3715<- ->PH<- ->12/14/2025 2:19:00 PM<- ->YO7CKQ<- ->59<- ->015<- ->GJ<- ->YO2MTG<- ->59<- ->025<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:19:00 PM<- ->YO2MTG<- ->59<- ->025<- ->TM<- ->YO7CKQ<- ->59<- ->015<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3699 PH 2025-12-14 1422 YO7CKQ        59  016 GJ YO2KQT        59  021 TM 
+SOAPBOX: Parsed QSO ->3699<- ->PH<- ->12/14/2025 2:22:00 PM<- ->YO7CKQ<- ->59<- ->016<- ->GJ<- ->YO2KQT<- ->59<- ->021<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:22:00 PM<- ->YO2KQT<- ->59<- ->021<- ->TM<- ->YO7CKQ<- ->59<- ->016<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3712 PH 2025-12-14 1424 YO7CKQ        59  017 GJ YO2CXJ        59  015 HD 
+SOAPBOX: Parsed QSO ->3712<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YO7CKQ<- ->59<- ->017<- ->GJ<- ->YO2CXJ<- ->59<- ->015<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YO2CXJ<- ->59<- ->015<- ->HD<- ->YO7CKQ<- ->59<- ->017<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3721 PH 2025-12-14 1424 YO7CKQ        59  018 GJ YO3GCL        59  021 BU 
+SOAPBOX: Parsed QSO ->3721<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YO7CKQ<- ->59<- ->018<- ->GJ<- ->YO3GCL<- ->59<- ->021<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YO3GCL<- ->59<- ->021<- ->BU<- ->YO7CKQ<- ->59<- ->018<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3728 PH 2025-12-14 1426 YO7CKQ        59  019 GJ YO2LLZ        59  017 TM 
+SOAPBOX: Parsed QSO ->3728<- ->PH<- ->12/14/2025 2:26:00 PM<- ->YO7CKQ<- ->59<- ->019<- ->GJ<- ->YO2LLZ<- ->59<- ->017<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:26:00 PM<- ->YO2LLZ<- ->59<- ->017<- ->TM<- ->YO7CKQ<- ->59<- ->019<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3728 PH 2025-12-14 1428 YO7CKQ        59  020 GJ YO2MOO        59  009 HD 
+SOAPBOX: Parsed QSO ->3728<- ->PH<- ->12/14/2025 2:28:00 PM<- ->YO7CKQ<- ->59<- ->020<- ->GJ<- ->YO2MOO<- ->59<- ->009<- ->HD<-
+SOAPBOX:   Pair QSO 3706<- ->PH<- ->12/14/2025 2:28:00 PM<- ->YO2MOO<- ->59<- ->009<- ->HD<- ->YO7CKQ<- ->59<- ->020<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3724 PH 2025-12-14 1435 YO7CKQ        59  021 GJ YO2LJB        59  015 TM 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 2:35:00 PM<- ->YO7CKQ<- ->59<- ->021<- ->GJ<- ->YO2LJB<- ->59<- ->015<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:35:00 PM<- ->YO2LJB<- ->59<- ->015<- ->TM<- ->YO7CKQ<- ->59<- ->021<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3724 PH 2025-12-14 1435 YO7CKQ        59  022 GJ YO2CLL        59  016 TM 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 2:35:00 PM<- ->YO7CKQ<- ->59<- ->022<- ->GJ<- ->YO2CLL<- ->59<- ->016<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:35:00 PM<- ->YO2CLL<- ->59<- ->016<- ->TM<- ->YO7CKQ<- ->59<- ->022<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3724 PH 2025-12-14 1436 YO7CKQ        59  023 GJ YO2MKL        59  018 TM 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 2:36:00 PM<- ->YO7CKQ<- ->59<- ->023<- ->GJ<- ->YO2MKL<- ->59<- ->018<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:36:00 PM<- ->YO2MKL<- ->59<- ->018<- ->TM<- ->YO7CKQ<- ->59<- ->023<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3724 PH 2025-12-14 1437 YO7CKQ        59  024 GJ YO5ODL        59  009 BH 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 2:37:00 PM<- ->YO7CKQ<- ->59<- ->024<- ->GJ<- ->YO5ODL<- ->59<- ->009<- ->BH<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO5ODL<- ->59<- -><- ->BH<- ->YO7CKQ<- ->59<- -><- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3724 PH 2025-12-14 1439 YO7CKQ        59  025 GJ YO2LFN        59  018 TM 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 2:39:00 PM<- ->YO7CKQ<- ->59<- ->025<- ->GJ<- ->YO2LFN<- ->59<- ->018<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:39:00 PM<- ->YO2LFN<- ->59<- ->018<- ->TM<- ->YO7CKQ<- ->59<- ->025<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3724 PH 2025-12-14 1439 YO7CKQ        59  026 GJ YO6KNE        59  026 HR 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 2:39:00 PM<- ->YO7CKQ<- ->59<- ->026<- ->GJ<- ->YO6KNE<- ->59<- ->026<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:39:00 PM<- ->YO6KNE<- ->59<- ->026<- ->HR<- ->YO7CKQ<- ->59<- ->026<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3725 PH 2025-12-14 1445 YO7CKQ        59  027 GJ YO9BHI        59  013 BZ 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 2:45:00 PM<- ->YO7CKQ<- ->59<- ->027<- ->GJ<- ->YO9BHI<- ->59<- ->013<- ->BZ<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO9BHI<- ->59<- -><- ->BZ<- ->YO7CKQ<- ->59<- -><- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3701 PH 2025-12-14 1500 YO7CKQ        59  028 GJ YO2MTG        59  029 TM 
+SOAPBOX: Parsed QSO ->3701<- ->PH<- ->12/14/2025 3:00:00 PM<- ->YO7CKQ<- ->59<- ->028<- ->GJ<- ->YO2MTG<- ->59<- ->029<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:00:00 PM<- ->YO2MTG<- ->59<- ->029<- ->TM<- ->YO7CKQ<- ->59<- ->028<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3696 PH 2025-12-14 1501 YO7CKQ        59  029 GJ YO2BCO        59  025 TM 
+SOAPBOX: Parsed QSO ->3696<- ->PH<- ->12/14/2025 3:01:00 PM<- ->YO7CKQ<- ->59<- ->029<- ->GJ<- ->YO2BCO<- ->59<- ->025<- ->TM<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/14/2025 3:01:00 PM<- ->YO2BCO<- ->59<- ->025<- ->TM<- ->YO7CKQ<- ->59<- ->029<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3692 PH 2025-12-14 1501 YO7CKQ        59  030 GJ YO2LZZ        59  025 TM 
+SOAPBOX: Parsed QSO ->3692<- ->PH<- ->12/14/2025 3:01:00 PM<- ->YO7CKQ<- ->59<- ->030<- ->GJ<- ->YO2LZZ<- ->59<- ->025<- ->TM<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:    3704 PH 2025-12-14 1503 YO7CKQ        59  031 GJ YO2KQT        59  032 TM 
+SOAPBOX: Parsed QSO ->3704<- ->PH<- ->12/14/2025 3:03:00 PM<- ->YO7CKQ<- ->59<- ->031<- ->GJ<- ->YO2KQT<- ->59<- ->032<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:03:00 PM<- ->YO2KQT<- ->59<- ->032<- ->TM<- ->YO7CKQ<- ->59<- ->031<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3707 PH 2025-12-14 1504 YO7CKQ        59  032 GJ YO6KNE        59  037 HR 
+SOAPBOX: Parsed QSO ->3707<- ->PH<- ->12/14/2025 3:04:00 PM<- ->YO7CKQ<- ->59<- ->032<- ->GJ<- ->YO6KNE<- ->59<- ->037<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:04:00 PM<- ->YO6KNE<- ->59<- ->037<- ->HR<- ->YO7CKQ<- ->59<- ->032<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3710 PH 2025-12-14 1506 YO7CKQ        59  033 GJ YP1989TM      59  033 TM 
+SOAPBOX: Parsed QSO ->3710<- ->PH<- ->12/14/2025 3:06:00 PM<- ->YO7CKQ<- ->59<- ->033<- ->GJ<- ->YP1989TM<- ->59<- ->033<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:06:00 PM<- ->YP1989TM<- ->59<- ->033<- ->TM<- ->YO7CKQ<- ->59<- ->033<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3719 PH 2025-12-14 1507 YO7CKQ        59  034 GJ YO2YA         59  034 TM 
+SOAPBOX: Parsed QSO ->3719<- ->PH<- ->12/14/2025 3:07:00 PM<- ->YO7CKQ<- ->59<- ->034<- ->GJ<- ->YO2YA<- ->59<- ->034<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:07:00 PM<- ->YO2YA<- ->59<- ->034<- ->TM<- ->YO7CKQ<- ->59<- ->034<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3721 PH 2025-12-14 1508 YO7CKQ        59  035 GJ YO3GCL        59  040 BU 
+SOAPBOX: Parsed QSO ->3721<- ->PH<- ->12/14/2025 3:08:00 PM<- ->YO7CKQ<- ->59<- ->035<- ->GJ<- ->YO3GCL<- ->59<- ->040<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:07:00 PM<- ->YO3GCL<- ->59<- ->040<- ->BU<- ->YO7CKQ<- ->59<- ->035<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3716 PH 2025-12-14 1511 YO7CKQ        59  036 GJ YO2BLX        59  045 AR 
+SOAPBOX: Parsed QSO ->3716<- ->PH<- ->12/14/2025 3:11:00 PM<- ->YO7CKQ<- ->59<- ->036<- ->GJ<- ->YO2BLX<- ->59<- ->045<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:11:00 PM<- ->YO2BLX<- ->59<- ->045<- ->AR<- ->YO7CKQ<- ->59<- ->036<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3724 PH 2025-12-14 1512 YO7CKQ        59  037 GJ YO4DW         59  038 BU 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:12:00 PM<- ->YO7CKQ<- ->59<- ->037<- ->GJ<- ->YO4DW<- ->59<- ->038<- ->BU<-
+SOAPBOX:   Pair QSO 3724<- ->PH<- ->12/14/2025 3:12:00 PM<- ->YO4DW<- ->59<- ->038<- -><- ->YO7CKQ<- ->59<- ->037<- ->GJ<-
+SOAPBOX:County is not correct: ->BU - <-
+SOAPBOX: Score 0
+QSO:    3735 PH 2025-12-14 1513 YO7CKQ        59  038 GJ YP2R          59  048 HD 
+SOAPBOX: Parsed QSO ->3735<- ->PH<- ->12/14/2025 3:13:00 PM<- ->YO7CKQ<- ->59<- ->038<- ->GJ<- ->YP2R<- ->59<- ->048<- ->HD<-
+SOAPBOX:   Pair QSO 3735<- ->PH<- ->12/14/2025 3:13:00 PM<- ->YP2R<- ->59<- ->048<- ->HD<- ->YO7CKQ<- ->59<- ->038<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3730 PH 2025-12-14 1514 YO7CKQ        59  039 GJ YO7LDT        59  035 DJ 
+SOAPBOX: Parsed QSO ->3730<- ->PH<- ->12/14/2025 3:14:00 PM<- ->YO7CKQ<- ->59<- ->039<- ->GJ<- ->YO7LDT<- ->59<- ->035<- ->DJ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:14:00 PM<- ->YO7LDT<- ->59<- ->035<- ->DJ<- ->YO7CKQ<- ->59<- ->039<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3705 PH 2025-12-14 1516 YO7CKQ        59  040 GJ YO2CK         59  047 HD 
+SOAPBOX: Parsed QSO ->3705<- ->PH<- ->12/14/2025 3:16:00 PM<- ->YO7CKQ<- ->59<- ->040<- ->GJ<- ->YO2CK<- ->59<- ->047<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:16:00 PM<- ->YO2CK<- ->59<- ->047<- ->HD<- ->YO7CKQ<- ->59<- ->040<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3715 PH 2025-12-14 1519 YO7CKQ        59  041 GJ YO9XC         59  014 BZ 
+SOAPBOX: Parsed QSO ->3715<- ->PH<- ->12/14/2025 3:19:00 PM<- ->YO7CKQ<- ->59<- ->041<- ->GJ<- ->YO9XC<- ->59<- ->014<- ->BZ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:20:00 PM<- ->YO9XC<- ->59<- ->014<- ->BZ<- ->YO7CKQ<- ->59<- ->041<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3722 PH 2025-12-14 1522 YO7CKQ        59  042 GJ YQ2A          59  052 HD 
+SOAPBOX: Parsed QSO ->3722<- ->PH<- ->12/14/2025 3:22:00 PM<- ->YO7CKQ<- ->59<- ->042<- ->GJ<- ->YQ2A<- ->59<- ->052<- ->HD<-
+SOAPBOX:   Pair QSO 3722<- ->PH<- ->12/14/2025 3:22:00 PM<- ->YQ2A<- ->59<- ->052<- ->HD<- ->YO7CKQ<- ->59<- ->042<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3725 PH 2025-12-14 1522 YO7CKQ        59  043 GJ YO8BFB        59  029 BC 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:22:00 PM<- ->YO7CKQ<- ->59<- ->043<- ->GJ<- ->YO8BFB<- ->59<- ->029<- ->BC<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:23:00 PM<- ->YO8BFB<- ->59<- ->029<- ->BC<- ->YO7CKQ<- ->59<- ->043<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3725 PH 2025-12-14 1523 YO7CKQ        59  044 GJ YO2CXJ        59  036 HD 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:23:00 PM<- ->YO7CKQ<- ->59<- ->044<- ->GJ<- ->YO2CXJ<- ->59<- ->036<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:24:00 PM<- ->YO2CXJ<- ->59<- ->036<- ->HD<- ->YO7CKQ<- ->59<- ->044<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3725 PH 2025-12-14 1524 YO7CKQ        59  045 GJ YO4AUL        59  027 CT 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:24:00 PM<- ->YO7CKQ<- ->59<- ->045<- ->GJ<- ->YO4AUL<- ->59<- ->027<- ->CT<-
+SOAPBOX:   Pair QSO 3725<- ->PH<- ->12/14/2025 3:24:00 PM<- ->YO4AUL<- ->59<- ->027<- ->CT<- ->YO7CKQ<- ->59<- ->045<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3725 PH 2025-12-14 1524 YO7CKQ        59  046 GJ YO2MOO        59  026 HD 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:24:00 PM<- ->YO7CKQ<- ->59<- ->046<- ->GJ<- ->YO2MOO<- ->59<- ->026<- ->HD<-
+SOAPBOX:   Pair QSO 3706<- ->PH<- ->12/14/2025 3:24:00 PM<- ->YO2MOO<- ->59<- ->026<- ->HD<- ->YO7CKQ<- ->59<- ->046<- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3725 PH 2025-12-14 1525 YO7CKQ        59  047 GJ YO2LFN        59  032 TM 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:25:00 PM<- ->YO7CKQ<- ->59<- ->047<- ->GJ<- ->YO2LFN<- ->59<- ->032<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:25:00 PM<- ->YO2LFN<- ->59<- ->032<- ->TM<- ->YO7CKQ<- ->59<- ->047<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3725 PH 2025-12-14 1526 YO7CKQ        59  048 GJ YO2MKL        59  033 TM 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:26:00 PM<- ->YO7CKQ<- ->59<- ->048<- ->GJ<- ->YO2MKL<- ->59<- ->033<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:25:00 PM<- ->YO2MKL<- ->59<- ->033<- ->TM<- ->YO7CKQ<- ->59<- ->048<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3725 PH 2025-12-14 1526 YO7CKQ        59  049 GJ YO2CLL        59  037 TM 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:26:00 PM<- ->YO7CKQ<- ->59<- ->049<- ->GJ<- ->YO2CLL<- ->59<- ->037<- ->TM<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:    3725 PH 2025-12-14 1527 YO7CKQ        59  050 GJ YO2MIT        59  044 TM 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:27:00 PM<- ->YO7CKQ<- ->59<- ->050<- ->GJ<- ->YO2MIT<- ->59<- ->044<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:27:00 PM<- ->YO2MIT<- ->59<- ->044<- ->TM<- ->YO7CKQ<- ->59<- ->050<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3725 PH 2025-12-14 1527 YO7CKQ        59  051 GJ YO9BHI        59  040 BZ 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:27:00 PM<- ->YO7CKQ<- ->59<- ->051<- ->GJ<- ->YO9BHI<- ->59<- ->040<- ->BZ<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO9BHI<- ->59<- -><- ->BZ<- ->YO7CKQ<- ->59<- -><- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3725 PH 2025-12-14 1528 YO7CKQ        59  052 GJ YO2LJB        59  028 TM 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:28:00 PM<- ->YO7CKQ<- ->59<- ->052<- ->GJ<- ->YO2LJB<- ->59<- ->028<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:28:00 PM<- ->YO2LJB<- ->59<- ->028<- ->TM<- ->YO7CKQ<- ->59<- ->052<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3725 PH 2025-12-14 1528 YO7CKQ        59  053 GJ YO5ODL        59  030 BH 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:28:00 PM<- ->YO7CKQ<- ->59<- ->053<- ->GJ<- ->YO5ODL<- ->59<- ->030<- ->BH<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO5ODL<- ->59<- -><- ->BH<- ->YO7CKQ<- ->59<- -><- ->GJ<-
+SOAPBOX: Score 2
+QSO:    3725 PH 2025-12-14 1529 YO7CKQ        59  054 GJ YO2LCP        59  032 TM 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:29:00 PM<- ->YO7CKQ<- ->59<- ->054<- ->GJ<- ->YO2LCP<- ->59<- ->032<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:29:00 PM<- ->YO2LCP<- ->59<- ->032<- ->TM<- ->YO7CKQ<- ->59<- ->054<- ->GJ<-
+SOAPBOX: Score 4
+QSO:    3721 PH 2025-12-14 1548 YO7CKQ        59  055 GJ YO2MOZ        59  020 AR 
+SOAPBOX: Parsed QSO ->3721<- ->PH<- ->12/14/2025 3:48:00 PM<- ->YO7CKQ<- ->59<- ->055<- ->GJ<- ->YO2MOZ<- ->59<- ->020<- ->AR<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO2MOZ<- ->59<- -><- ->AR<- ->YO7CKQ<- ->59<- -><- ->GJ<-
+SOAPBOX: Score 2
+SOAPBOX: Multiplicator Etapa1 20
+SOAPBOX: Multiplicator Etapa2 19
+SOAPBOX: Scor Etapa1 1400
+SOAPBOX: Scor Etapa2 1330
+SOAPBOX: Scor 2730

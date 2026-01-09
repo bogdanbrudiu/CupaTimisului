@@ -1,0 +1,121 @@
+START-OF-LOG: 2.0
+CALLSIGN: YO9FLD
+CLUB: CSTA BUCURESTI
+CONTEST: CUPA TIMISULUI 2014
+CATEGORY: A STATII INDIVIDUALE 
+CLAIMED-SCORE: CALCULEAZA ARBITRUL
+OPERATORS: YO9FLD
+NAME: Gabriel Breten
+ADDRESS: Colentina 11
+ADDRESS: Bucharest,  021154
+ADDRESS: Romania
+CREATED-BY: N1MM Logger V13.9.0
+SOAPBOX:   mo yyyy mm dd hhmm call          rst exc co  call          rst exc co
+SOAPBOX:** ** ********** **** ************* *** *** **  ************* *** *** **
+QSO:  3702 PH 2014-12-14 1400 YO9FLD        59  001 BU  YO9KPM        59  001 TR                                       
+QSO:  3701 PH 2014-12-14 1401 YO9FLD        59  002 BU  YO2BLX        59  002 AR                                       
+QSO:  3701 PH 2014-12-14 1402 YO9FLD        59  003 BU  YO7CJB        59  004 GJ                                       
+QSO:  3701 PH 2014-12-14 1402 YO9FLD        59  004 BU  YO5TP         59  002 CJ                                       
+QSO:  3701 PH 2014-12-14 1403 YO9FLD        59  005 BU  YO2MKJ        59  002 CS                                       
+QSO:  3702 PH 2014-12-14 1404 YO9FLD        59  006 BU  YO7HUZ        59  002 VL                                       
+QSO:  3702 PH 2014-12-14 1405 YO9FLD        59  007 BU  YO2LSP        59  004 TM                                       
+QSO:  3703 PH 2014-12-14 1405 YO9FLD        59  008 BU  YO9FL         59  007 CL                                       
+QSO:  3707 PH 2014-12-14 1406 YO9FLD        59  009 BU  YP1989TM      59  022 TM                                       
+QSO:  3728 PH 2014-12-14 1407 YO9FLD        59  010 BU  YO2KAR        59  007 HD                                       
+QSO:  3730 PH 2014-12-14 1408 YO9FLD        59  011 BU  YP25LOJ       59  005 TM                                       
+QSO:  3732 PH 2014-12-14 1410 YO9FLD        59  012 BU  YO2MFC        59  010 TM                                       
+QSO:  3732 PH 2014-12-14 1411 YO9FLD        59  013 BU  YO2MHO        59  006 TM                                       
+QSO:  3732 PH 2014-12-14 1411 YO9FLD        59  014 BU  YO8PN         59  009 NT                                       
+QSO:  3732 PH 2014-12-14 1411 YO9FLD        59  015 BU  YO2MJZ        59  008 AR                                       
+QSO:  3732 PH 2014-12-14 1412 YO9FLD        59  016 BU  YO7LYM        59  002 DJ                                       
+QSO:  3732 PH 2014-12-14 1413 YO9FLD        59  017 BU  YO4BTB        59  003 CT                                       
+QSO:  3732 PH 2014-12-14 1413 YO9FLD        59  018 BU  YO3GNF        59  001 BU                                       
+QSO:  3732 PH 2014-12-14 1414 YO9FLD        59  019 BU  YO7LDT        59  008 DJ                                       
+QSO:  3732 PH 2014-12-14 1414 YO9FLD        59  020 BU  YO4KAK        59  011 BR                                       
+QSO:  3732 PH 2014-12-14 1415 YO9FLD        59  021 BU  YO7CJU        59  002 OT                                       
+QSO:  3732 PH 2014-12-14 1416 YO9FLD        59  022 BU  YP25MNC       59  012 AR                                       
+QSO:  3732 PH 2014-12-14 1417 YO9FLD        59  023 BU  YP25CJX       59  011 CS                                       
+QSO:  3732 PH 2014-12-14 1418 YO9FLD        59  024 BU  YO5KMM        59  008 MM                                       
+QSO:  3732 PH 2014-12-14 1418 YO9FLD        59  025 BU  YO2LGH        59  012 TM                                       
+QSO:  3732 PH 2014-12-14 1419 YO9FLD        59  026 BU  YO7AKY        59  013 AG                                       
+QSO:  3732 PH 2014-12-14 1419 YO9FLD        59  027 BU  YO5DDD        59  030 AB                                       
+QSO:  3732 PH 2014-12-14 1419 YO9FLD        59  028 BU  YO4RST        59  008 VN                                       
+QSO:  3716 PH 2014-12-14 1420 YO9FLD        59  029 BU  YO4AJ         59  026 TL                                       
+QSO:  3713 PH 2014-12-14 1421 YO9FLD        59  030 BU  YP25MTG       59  023 TM                                       
+QSO:  3697 PH 2014-12-14 1422 YO9FLD        59  031 BU  YP1WFF/P      59  027 IF                                       
+QSO:  3732 PH 2014-12-14 1424 YO9FLD        59  032 BU  YO2BPZ        59  007 HD                                       
+QSO:  3732 PH 2014-12-14 1424 YO9FLD        59  033 BU  YO5GHA        59  026 AB                                       
+QSO:  3732 PH 2014-12-14 1425 YO9FLD        59  034 BU  YP25SH        59  023 HD                                       
+QSO:  3732 PH 2014-12-14 1425 YO9FLD        59  035 BU  YO7CDB        59  038 GJ                                       
+QSO:  3732 PH 2014-12-14 1426 YO9FLD        59  036 BU  YO5CDF        59  011 BN                                       
+QSO:  3732 PH 2014-12-14 1426 YO9FLD        59  037 BU  YO9YVA        59  010 GR                                       
+QSO:  3705 PH 2014-12-14 1428 YO9FLD        59  038 BU  YO9XC         59  008 BZ                                       
+QSO:  3736 PH 2014-12-14 1433 YO9FLD        59  039 BU  YO4BYW        59  033 BR                                       
+QSO:  3732 PH 2014-12-14 1437 YO9FLD        59  040 BU  YO2GL         59  021 TM                                       
+QSO:  3732 PH 2014-12-14 1437 YO9FLD        59  041 BU  YP25MSP       59  022 TM                                       
+QSO:  3732 PH 2014-12-14 1437 YO9FLD        59  042 BU  YO2LXW        59  007 HD                                       
+QSO:  3737 PH 2014-12-14 1440 YO9FLD        59  043 BU  YO7CKQ        59  025 GJ                                       
+QSO:  3732 PH 2014-12-14 1443 YO9FLD        59  044 BU  YO2CDX        59  012 TM                                       
+QSO:  3732 PH 2014-12-14 1443 YO9FLD        59  045 BU  YO5ODL        59  008 BH                                       
+QSO:  3732 PH 2014-12-14 1445 YO9FLD        59  046 BU  YO6OHS        59  025 HR                                       
+QSO:  3732 PH 2014-12-14 1446 YO9FLD        59  047 BU  YP25MCK       59  014 TM                                       
+QSO:  3719 PH 2014-12-14 1448 YO9FLD        59  048 BU  YP60CCC       59  048 PH                                       
+QSO:  3703 PH 2014-12-14 1450 YO9FLD        59  049 BU  YO7ARY        59  002 DJ                                       
+QSO:  3732 PH 2014-12-14 1456 YO9FLD        59  050 BU  YO9CKJ        59  022 GJ                                       
+QSO:  3714 PH 2014-12-14 1458 YO9FLD        59  051 BU  YO2LMW        59  041 HD                                       
+QSO:  3715 PH 2014-12-14 1459 YO9FLD        59  052 BU  YP25LLZ       59  044 TM                                       
+QSO:  3715 PH 2014-12-14 1501 YO9FLD        59  053 BU  YP25LLZ       59  044 TM                                       
+QSO:  3726 PH 2014-12-14 1502 YO9FLD        59  054 BU  YO5DDD        59  063 AB                                       
+QSO:  3731 PH 2014-12-14 1502 YO9FLD        59  055 BU  YO9FL         59  049 CL                                       
+QSO:  3722 PH 2014-12-14 1503 YO9FLD        59  056 BU  YO7CDB        59  058 GJ                                       
+QSO:  3719 PH 2014-12-14 1504 YO9FLD        59  057 BU  YO9XC         59  045 BZ                                       
+QSO:  3714 PH 2014-12-14 1505 YO9FLD        59  058 BU  YO2LMW        59  052 HD                                       
+QSO:  3710 PH 2014-12-14 1505 YO9FLD        59  059 BU  YP25MTG       59  064 TM                                       
+QSO:  3703 PH 2014-12-14 1507 YO9FLD        59  060 BU  YP1989TM      59  079 TM                                       
+QSO:  3699 PH 2014-12-14 1508 YO9FLD        59  061 BU  YO2MKJ        59  032 CS                                       
+QSO:  3742 PH 2014-12-14 1509 YO9FLD        59  062 BU  YP60CCC       59  066 PH                                       
+QSO:  3734 PH 2014-12-14 1510 YO9FLD        59  063 BU  YO7AKY        59  052 AR                                       
+QSO:  3707 PH 2014-12-14 1513 YO9FLD        59  064 BU  YO7CKQ        59  052 GJ                                       
+QSO:  3707 PH 2014-12-14 1513 YO9FLD        59  065 BU  YP25LRK       59  040 TM                                       
+QSO:  3707 PH 2014-12-14 1513 YO9FLD        59  066 BU  YP25CJX       59  060 CS                                       
+QSO:  3707 PH 2014-12-14 1514 YO9FLD        59  067 BU  YO9HOW        59  033 TR                                       
+QSO:  3707 PH 2014-12-14 1516 YO9FLD        59  068 BU  IV3/YO8CNA    59  011 I                                        
+QSO:  3707 PH 2014-12-14 1516 YO9FLD        59  069 BU  YO4BYW        59  059 BR                                       
+QSO:  3707 PH 2014-12-14 1516 YO9FLD        59  070 BU  YO2MKK        59  025 CS                                       
+QSO:  3707 PH 2014-12-14 1517 YO9FLD        59  071 BU  YP25MSP       59  041 TM                                       
+QSO:  3707 PH 2014-12-14 1517 YO9FLD        59  072 BU  YO6OHS        59  037 HR                                       
+QSO:  3707 PH 2014-12-14 1517 YO9FLD        59  073 BU  YO2BPZ        59  033 HD                                       
+QSO:  3707 PH 2014-12-14 1518 YO9FLD        59  074 BU  YO2MHO        59  044 TM                                         
+QSO:  3707 PH 2014-12-14 1519 YO9FLD        59  075 BU  YO2MIZ        59  003 TM                                       
+QSO:  3707 PH 2014-12-14 1519 YO9FLD        59  076 BU  YP25LOJ       59  031 TM                                       
+QSO:  3707 PH 2014-12-14 1520 YO9FLD        59  077 BU  YP25MCK       59  028 TM                                       
+QSO:  3707 PH 2014-12-14 1520 YO9FLD        59  078 BU  YO4AJ         59  067 TL                                       
+QSO:  3707 PH 2014-12-14 1521 YO9FLD        59  079 BU  YO2MPG        59  033 AR                                       
+QSO:  3707 PH 2014-12-14 1522 YO9FLD        59  080 BU  YO9CKJ        59  038 GJ                                       
+QSO:  3707 PH 2014-12-14 1522 YO9FLD        59  081 BU  YP1WFF/P      59  065 IL                                       
+QSO:  3707 PH 2014-12-14 1523 YO9FLD        59  082 BU  YO2CDX        59  034 TM                                       
+QSO:  3707 PH 2014-12-14 1524 YO9FLD        59  083 BU  YO5TP         59  047 CJ                                       
+QSO:  3707 PH 2014-12-14 1525 YO9FLD        59  084 BU  YO4BTB        59  018 CT                                       
+QSO:  3707 PH 2014-12-14 1525 YO9FLD        59  085 BU  YO5GHA        59  089 AB                                       
+QSO:  3707 PH 2014-12-14 1526 YO9FLD        59  086 BU  YO5KMM        59  043 MM                                       
+QSO:  3707 PH 2014-12-14 1526 YO9FLD        59  087 BU  YO2MJZ        59  056 AR                                       
+QSO:  3707 PH 2014-12-14 1526 YO9FLD        59  088 BU  YO7ARY        59  040 DJ                                       
+QSO:  3707 PH 2014-12-14 1527 YO9FLD        59  089 BU  YO7CJU        59  011 OT                                       
+QSO:  3707 PH 2014-12-14 1528 YO9FLD        59  090 BU  YO3GNF        59  011 BU                                       
+QSO:  3707 PH 2014-12-14 1529 YO9FLD        59  091 BU  YO7CJB        59  083 GJ                                       
+QSO:  3707 PH 2014-12-14 1530 YO9FLD        59  092 BU  YP25SH        59  084 HD                                       
+QSO:  3707 PH 2014-12-14 1530 YO9FLD        59  093 BU  YO2LXW        59  052 HD                                       
+QSO:  3707 PH 2014-12-14 1531 YO9FLD        59  094 BU  YO2MFC        59  082 TM                                       
+QSO:  3707 PH 2014-12-14 1531 YO9FLD        59  095 BU  YO4KAK        59  072 BR                                       
+QSO:  3707 PH 2014-12-14 1532 YO9FLD        59  096 BU  YO2BLX        59  091 AR                                       
+QSO:  3707 PH 2014-12-14 1533 YO9FLD        59  097 BU  YO7HUZ        59  045 VL                                       
+QSO:  3707 PH 2014-12-14 1533 YO9FLD        59  098 BU  YO2LSP        59  080 TM                                       
+QSO:  3707 PH 2014-12-14 1534 YO9FLD        59  099 BU  YO4SI         59  001 CT                                       
+QSO:  3707 PH 2014-12-14 1534 YO9FLD        59  100 BU  YO3AIS        59  026 BU                                       
+QSO:  3753 PH 2014-12-14 1543 YO9FLD        59  101 BU  YO2KAR        59  080 HD                                       
+QSO:  3763 PH 2014-12-14 1543 YO9FLD        59  102 BU  YO7LDT        59  084 DJ                                       
+QSO:  3720 PH 2014-12-14 1548 YO9FLD        59  103 BU  YO8PN         59  095 NT                                       
+QSO:  3710 PH 2014-12-14 1553 YO9FLD        59  104 BU  YO5CDF        59  044 BN                                       
+QSO:  3710 PH 2014-12-14 1558 YO9FLD        59  105 BU  YP25MNC       59  078 AR                                       
+QSO:  3710 PH 2014-12-14 1558 YO9FLD        59  106 BU  YO9YVA        59  057 GR                                       
+END-OF-LOG:

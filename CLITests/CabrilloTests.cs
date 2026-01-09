@@ -1,5 +1,6 @@
 using CLI;
 using Contest;
+using Microsoft.Extensions.Logging;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,22 @@ namespace Test
 {
     public class CabrilloTest
     {
+        public ILogger logger;
+        public CabrilloTest() {
+            using var loggerFactory = LoggerFactory.Create(builder =>
+            {
+                builder
+                    .AddFilter("Microsoft", LogLevel.Warning)
+                    .AddFilter("System", LogLevel.Warning)
+                    .AddFilter("CLI.Program", LogLevel.Debug)
+                    .AddConsole();
+
+
+
+
+            });
+            logger=loggerFactory.CreateLogger<CabrilloTest>();
+        }
         [Test]
         public void Cabrillo_Parse()
         {
@@ -56,41 +73,41 @@ END-OF-LOG:
 ";
             byte[] byteArray = Encoding.ASCII.GetBytes(test);
             MemoryStream memStream = new MemoryStream(byteArray);
-            Cabrillo cabrillo = Cabrillo.Parse("FileName.test", memStream, false);
-            Assert.AreEqual("Cupa Timisului", cabrillo.Contest);
-            Assert.AreEqual("YO2MKE", cabrillo.CallSign);
-            Assert.AreEqual("NON-ASSISTED", cabrillo.CategoryAssisted);
-            Assert.AreEqual("20M", cabrillo.CategoryBand);
-            Assert.AreEqual("CW", cabrillo.CategoryMode);
-            Assert.AreEqual("SINGLE-OP", cabrillo.CategoryOperator);
-            Assert.AreEqual("QRP", cabrillo.CategoryPower);
-            Assert.AreEqual("K3", cabrillo.CategoryStation);
-            Assert.AreEqual("time", cabrillo.CategoryTime);
-            Assert.AreEqual("ONE", cabrillo.CategoryTransmiter);
-            Assert.AreEqual("overlay", cabrillo.CategoryOverlay);
-            Assert.AreEqual("160", cabrillo.ClaimedScore);
-            Assert.AreEqual("YO2KQT", cabrillo.Club);
-            Assert.AreEqual("YO2MKE", cabrillo.CreatedBy);
-            Assert.AreEqual("YO2MKE", cabrillo.Operators);
-            Assert.AreEqual("bogdan@brudiu.ro", cabrillo.Email);
-            Assert.AreEqual("KN", cabrillo.Location);
-            Assert.AreEqual("Bogdan BRUDIU", cabrillo.Name);
-            Assert.AreEqual(2, cabrillo.Address.Count);
-            Assert.AreEqual("7 Torontalului", cabrillo.Address[0]);
-            Assert.AreEqual("sc. A ap. 9", cabrillo.Address[1]);
-            Assert.AreEqual("Timisoara", cabrillo.AddressCity);
-            Assert.AreEqual("Timis", cabrillo.AddressStateProvince);
-            Assert.AreEqual("300627", cabrillo.AddressPostalCode);
-            Assert.AreEqual("ROMAINA", cabrillo.AddressCountry);
-            Assert.AreEqual("test", cabrillo.SoapBox[0]);
-            Assert.AreEqual("offtime", cabrillo.OffTime);
-            Assert.AreEqual("debug", cabrillo.Debug);
-            Assert.AreEqual(2, cabrillo.InvalidLines.Count);
-            Assert.AreEqual("INVALIDTAG1:this is an invalid tag", cabrillo.InvalidLines[0]);
-            Assert.AreEqual("INVALIDTAG2:this is an invalid tag", cabrillo.InvalidLines[1]);
-            Assert.AreEqual(7, cabrillo.ROWQSOs.Count);
-            Assert.AreEqual(" 3500 PH 2010-12-18 1400 YO2MKE    59  001 TM  YO5OED    59  001 BH", cabrillo.ROWQSOs[0]);
-            Assert.AreEqual(" 3500 PH 2010-12-18 1409 YO2MKE    59  007 TM  YO9FL     59  015 CL", cabrillo.ROWQSOs[6]);
+            Cabrillo cabrillo = Cabrillo.Parse("FileName.test", memStream, false, logger);
+            Assert.That(cabrillo.Contest, Is.EqualTo("Cupa Timisului"));
+            Assert.That(cabrillo.CallSign, Is.EqualTo("YO2MKE"));
+            Assert.That(cabrillo.CategoryAssisted, Is.EqualTo("NON-ASSISTED"));
+            Assert.That(cabrillo.CategoryBand, Is.EqualTo("20M"));
+            Assert.That(cabrillo.CategoryMode, Is.EqualTo("CW"));
+            Assert.That(cabrillo.CategoryOperator, Is.EqualTo("SINGLE-OP"));
+            Assert.That(cabrillo.CategoryPower, Is.EqualTo("QRP"));
+            Assert.That(cabrillo.CategoryStation, Is.EqualTo("K3"));
+            Assert.That(cabrillo.CategoryTime, Is.EqualTo("time"));
+            Assert.That(cabrillo.CategoryTransmiter, Is.EqualTo("ONE"));
+            Assert.That(cabrillo.CategoryOverlay, Is.EqualTo("overlay"));
+            Assert.That(cabrillo.ClaimedScore, Is.EqualTo("160"));
+            Assert.That(cabrillo.Club, Is.EqualTo("YO2KQT"));
+            Assert.That(cabrillo.CreatedBy, Is.EqualTo("YO2MKE"));
+            Assert.That(cabrillo.Operators, Is.EqualTo("YO2MKE"));
+            Assert.That(cabrillo.Email, Is.EqualTo("bogdan@brudiu.ro"));
+            Assert.That(cabrillo.Location, Is.EqualTo("KN"));
+            Assert.That(cabrillo.Name, Is.EqualTo("Bogdan BRUDIU"));
+            Assert.That(cabrillo.Address.Count, Is.EqualTo(2));
+            Assert.That(cabrillo.Address[0], Is.EqualTo("7 Torontalului"));
+            Assert.That(cabrillo.Address[1], Is.EqualTo("sc. A ap. 9"));
+            Assert.That(cabrillo.AddressCity, Is.EqualTo("Timisoara"));
+            Assert.That(cabrillo.AddressStateProvince, Is.EqualTo("Timis"));
+            Assert.That(cabrillo.AddressPostalCode, Is.EqualTo("300627"));
+            Assert.That(cabrillo.AddressCountry, Is.EqualTo("ROMAINA"));
+            Assert.That(cabrillo.SoapBox[0], Is.EqualTo("test"));
+            Assert.That(cabrillo.OffTime, Is.EqualTo("offtime"));
+            Assert.That(cabrillo.Debug, Is.EqualTo("debug"));
+            Assert.That(cabrillo.InvalidLines.Count, Is.EqualTo(2));
+            Assert.That(cabrillo.InvalidLines[0], Is.EqualTo("INVALIDTAG1:this is an invalid tag"));
+            Assert.That(cabrillo.InvalidLines[1], Is.EqualTo("INVALIDTAG2:this is an invalid tag"));
+            Assert.That(cabrillo.ROWQSOs.Count, Is.EqualTo(7));
+            Assert.That(cabrillo.ROWQSOs[0], Is.EqualTo(" 3500 PH 2010-12-18 1400 YO2MKE    59  001 TM  YO5OED    59  001 BH"));
+            Assert.That(cabrillo.ROWQSOs[6], Is.EqualTo(" 3500 PH 2010-12-18 1409 YO2MKE    59  007 TM  YO9FL     59  015 CL"));
         }
 
         [Test]
@@ -138,22 +155,23 @@ END-OF-LOG:
 ";
             byte[] byteArray = Encoding.ASCII.GetBytes(test);
             MemoryStream memStream = new MemoryStream(byteArray);
-            Cabrillo cabrillo = Cabrillo.Parse("FileName.test", memStream, false);
+         
+            Cabrillo cabrillo = Cabrillo.Parse("FileName.test", memStream, false, logger);
             cabrillo.ParseQSO(false, Contest.Program.ScorCupaTimisului);
-            Assert.AreEqual(7, cabrillo.QSOs.Count);
+            Assert.That(cabrillo.QSOs.Count, Is.EqualTo(7));
             QSO qso1 = cabrillo.QSOs[0];
-            Assert.AreEqual("YO2MKE", qso1.CallSign1);
-            Assert.AreEqual("YO5OED", qso1.CallSign2);
-            Assert.AreEqual("TM", qso1.County1);
-            Assert.AreEqual("BH", qso1.County2);
-            Assert.AreEqual("2010-12-18", qso1.DateTime.ToString("yyyy-MM-dd"));
-            Assert.AreEqual("001", qso1.Exchange1);
-            Assert.AreEqual("001", qso1.Exchange2);
-            Assert.AreEqual("3500", qso1.Frequency);
-            Assert.AreEqual("PH", qso1.Mode);
-            Assert.AreEqual("59", qso1.RST1);
-            Assert.AreEqual("59", qso1.RST2);
-            Assert.AreEqual("FileName.test", qso1.Log.FileName);
+            Assert.That(qso1.CallSign1, Is.EqualTo("YO2MKE"));
+            Assert.That(qso1.CallSign2, Is.EqualTo("YO5OED"));
+            Assert.That(qso1.County1, Is.EqualTo("TM"));
+            Assert.That(qso1.County2, Is.EqualTo("BH"));
+            Assert.That(qso1.DateTime.ToString("yyyy-MM-dd"), Is.EqualTo("2010-12-18"));
+            Assert.That(qso1.Exchange1, Is.EqualTo("001"));
+            Assert.That(qso1.Exchange2, Is.EqualTo("001"));
+            Assert.That(qso1.Frequency, Is.EqualTo("3500"));
+            Assert.That(qso1.Mode, Is.EqualTo("PH"));
+            Assert.That(qso1.RST1, Is.EqualTo("59"));
+            Assert.That(qso1.RST2, Is.EqualTo("59"));
+            Assert.That(qso1.Log.FileName, Is.EqualTo("FileName.test"));
         }
 
 
@@ -169,34 +187,34 @@ END-OF-LOG:
 ";
             byte[] byteArray = Encoding.ASCII.GetBytes(test);
             MemoryStream memStream = new MemoryStream(byteArray);
-            Cabrillo cabrillo = Cabrillo.Parse("FileName.test", memStream, false);
+            Cabrillo cabrillo = Cabrillo.Parse("FileName.test", memStream, false, logger);
             cabrillo.ParseQSO(false, Contest.Program.ScorCupaTimisului);
-            Assert.AreEqual(2, cabrillo.QSOs.Count);
+            Assert.That(cabrillo.QSOs.Count, Is.EqualTo(2));
             QSO qso0 = cabrillo.QSOs[0];
-            Assert.AreEqual("YO2MKE", qso0.CallSign1);
-            Assert.AreEqual("YO5OED", qso0.CallSign2);
-            Assert.AreEqual("TM", qso0.County1);
-            Assert.AreEqual("BH", qso0.County2);
-            Assert.AreEqual("2010-12-18", qso0.DateTime.ToString("yyyy-MM-dd"));
-            Assert.AreEqual("001", qso0.Exchange1);
-            Assert.AreEqual("001", qso0.Exchange2);
-            Assert.AreEqual("3500", qso0.Frequency);
-            Assert.AreEqual("PH", qso0.Mode);
-            Assert.AreEqual("59", qso0.RST1);
-            Assert.AreEqual("59", qso0.RST2);
+            Assert.That(qso0.CallSign1, Is.EqualTo("YO2MKE"));
+            Assert.That(qso0.CallSign2, Is.EqualTo("YO5OED"));
+            Assert.That(qso0.County1, Is.EqualTo("TM"));
+            Assert.That(qso0.County2, Is.EqualTo("BH"));
+            Assert.That(qso0.DateTime.ToString("yyyy-MM-dd"), Is.EqualTo("2010-12-18"));
+            Assert.That(qso0.Exchange1, Is.EqualTo("001"));
+            Assert.That(qso0.Exchange2, Is.EqualTo("001"));
+            Assert.That(qso0.Frequency, Is.EqualTo("3500"));
+            Assert.That(qso0.Mode, Is.EqualTo("PH"));
+            Assert.That(qso0.RST1, Is.EqualTo("59"));
+            Assert.That(qso0.RST2, Is.EqualTo("59"));
             QSO qso1 = cabrillo.QSOs[1];
-            Assert.AreEqual("YO2MKE", qso1.CallSign1);
-            Assert.AreEqual("YO2KAR", qso1.CallSign2);
-            Assert.AreEqual("TM", qso1.County1);
-            Assert.AreEqual("HD", qso1.County2);
-            Assert.AreEqual("2010-12-18", qso1.DateTime.ToString("yyyy-MM-dd"));
-            Assert.AreEqual("002", qso1.Exchange1);
-            Assert.AreEqual("003", qso1.Exchange2);
-            Assert.AreEqual("3500", qso1.Frequency);
-            Assert.AreEqual("PH", qso1.Mode);
-            Assert.AreEqual("59", qso1.RST1);
-            Assert.AreEqual("59", qso1.RST2);
-            Assert.AreEqual("FileName.test", qso1.Log.FileName);
+            Assert.That(qso1.CallSign1, Is.EqualTo("YO2MKE"));
+            Assert.That(qso1.CallSign2, Is.EqualTo("YO2KAR"));
+            Assert.That(qso1.County1, Is.EqualTo("TM"));
+            Assert.That(qso1.County2, Is.EqualTo("HD"));
+            Assert.That(qso1.DateTime.ToString("yyyy-MM-dd"), Is.EqualTo("2010-12-18"));
+            Assert.That(qso1.Exchange1, Is.EqualTo("002"));
+            Assert.That(qso1.Exchange2, Is.EqualTo("003"));
+            Assert.That(qso1.Frequency, Is.EqualTo("3500"));
+            Assert.That(qso1.Mode, Is.EqualTo("PH"));
+            Assert.That(qso1.RST1, Is.EqualTo("59"));
+            Assert.That(qso1.RST2, Is.EqualTo("59"));
+            Assert.That(qso1.Log.FileName, Is.EqualTo("FileName.test"));
         }
         [Test]
         public void Cabrillo_ProcessQSOs()
@@ -225,17 +243,17 @@ END-OF-LOG:
 
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
-            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
+            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false, logger);
             cabrillo1.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray2 = Encoding.ASCII.GetBytes(test2);
             MemoryStream memStream2 = new MemoryStream(byteArray2);
-            Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false);
+            Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false, logger);
             cabrillo2.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray3 = Encoding.ASCII.GetBytes(test3);
             MemoryStream memStream3 = new MemoryStream(byteArray3);
-            Cabrillo cabrillo3 = Cabrillo.Parse("File3.test", memStream3, false);
+            Cabrillo cabrillo3 = Cabrillo.Parse("File3.test", memStream3, false, logger);
             cabrillo3.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             List<Cabrillo> logList = new List<Cabrillo>();
@@ -246,16 +264,16 @@ END-OF-LOG:
             List<Tuple<DateTime, DateTime>> startendPairs = new List<Tuple<DateTime, DateTime>>();
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 14, 00, 00), new DateTime(2010, 12, 18, 15, 00, 00)));
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 15, 00, 00), new DateTime(2010, 12, 18, 16, 00, 00)));
-            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false);
-            Assert.AreEqual(2, etape.Count);
-            Assert.AreEqual(4, etape[0].Count);
-            Assert.AreEqual(4, etape[1].Count);
-            Assert.AreEqual(1, logList[0].QSOs[4].InvalidResons.Count);
+            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false, logger);
+            Assert.That(etape.Count, Is.EqualTo(2));
+            Assert.That(etape[0].Count, Is.EqualTo(4));
+            Assert.That(etape[1].Count, Is.EqualTo(4));
+            Assert.That(logList[0].QSOs[4].InvalidResons.Count, Is.EqualTo(1));
 
-            Assert.AreEqual(cabrillo2.QSOs[0], cabrillo1.QSOs[0].PairQSO);
-            Assert.AreEqual(cabrillo2.QSOs[1], cabrillo1.QSOs[1].PairQSO);
-            Assert.AreEqual(cabrillo3.QSOs[0], cabrillo1.QSOs[2].PairQSO);
-            Assert.AreEqual(cabrillo3.QSOs[1], cabrillo1.QSOs[3].PairQSO);
+            Assert.That(cabrillo2.QSOs[0], Is.EqualTo(cabrillo1.QSOs[0].PairQSO));
+            Assert.That(cabrillo2.QSOs[1], Is.EqualTo(cabrillo1.QSOs[1].PairQSO));
+            Assert.That(cabrillo3.QSOs[0], Is.EqualTo(cabrillo1.QSOs[2].PairQSO));
+            Assert.That(cabrillo3.QSOs[1], Is.EqualTo(cabrillo1.QSOs[3].PairQSO));
         }
 
         [Test]
@@ -288,17 +306,17 @@ END-OF-LOG:
 
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
-            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
+            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false, logger);
             cabrillo1.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray2 = Encoding.ASCII.GetBytes(test2);
             MemoryStream memStream2 = new MemoryStream(byteArray2);
-            Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false);
+            Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false, logger);
             cabrillo2.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray3 = Encoding.ASCII.GetBytes(test3);
             MemoryStream memStream3 = new MemoryStream(byteArray3);
-            Cabrillo cabrillo3 = Cabrillo.Parse("File3.test", memStream3, false);
+            Cabrillo cabrillo3 = Cabrillo.Parse("File3.test", memStream3, false, logger);
             cabrillo3.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             List<Cabrillo> logList = new List<Cabrillo>();
@@ -309,9 +327,9 @@ END-OF-LOG:
             List<Tuple<DateTime, DateTime>> startendPairs = new List<Tuple<DateTime, DateTime>>();
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 14, 00, 00), new DateTime(2010, 12, 18, 15, 00, 00)));
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 15, 00, 00), new DateTime(2010, 12, 18, 16, 00, 00)));
-            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false);
-            Cabrillo.CheckOneQSO(etape[0]);
-            Assert.AreEqual(1, logList[0].QSOs[5].InvalidResons.Count);
+            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false, logger);
+            Cabrillo.CheckOneQSO(etape[0], logger);
+            Assert.That(logList[0].QSOs[5].InvalidResons.Count, Is.EqualTo(1));
 
 
         }
@@ -333,7 +351,7 @@ END-OF-LOG:
 
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
-            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
+            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false, logger);
             cabrillo1.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
 
@@ -343,19 +361,19 @@ END-OF-LOG:
             List<Tuple<DateTime, DateTime>> startendPairs = new List<Tuple<DateTime, DateTime>>();
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 14, 00, 00), new DateTime(2010, 12, 18, 15, 00, 00)));
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 15, 00, 00), new DateTime(2010, 12, 18, 16, 00, 00)));
-            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false);
-            Cabrillo.ParseFrequency(cabrillo1.QSOs[0], false);
-            Assert.AreEqual(0, cabrillo1.QSOs[0].InvalidResons.Count);
-            Cabrillo.ParseFrequency(cabrillo1.QSOs[1], false);
-            Assert.AreEqual(1, cabrillo1.QSOs[1].InvalidResons.Count);
-            Cabrillo.ParseFrequency(cabrillo1.QSOs[2], false);
-            Assert.AreEqual(0, cabrillo1.QSOs[2].InvalidResons.Count);
-            Cabrillo.ParseFrequency(cabrillo1.QSOs[3], false);
-            Assert.AreEqual(1, cabrillo1.QSOs[3].InvalidResons.Count);
-            Cabrillo.ParseFrequency(cabrillo1.QSOs[4], false);
-            Assert.AreEqual(1, cabrillo1.QSOs[4].InvalidResons.Count);
-            Cabrillo.ParseFrequency(cabrillo1.QSOs[5], false);
-            Assert.AreEqual(1, cabrillo1.QSOs[5].InvalidResons.Count);
+            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false, logger);
+            Cabrillo.ParseFrequency(cabrillo1.QSOs[0], false, logger);
+            Assert.That(cabrillo1.QSOs[0].InvalidResons.Count, Is.EqualTo(0));
+            Cabrillo.ParseFrequency(cabrillo1.QSOs[1], false, logger);
+            Assert.That(cabrillo1.QSOs[1].InvalidResons.Count, Is.EqualTo(1));
+            Cabrillo.ParseFrequency(cabrillo1.QSOs[2], false, logger);
+            Assert.That(cabrillo1.QSOs[2].InvalidResons.Count, Is.EqualTo(0));
+            Cabrillo.ParseFrequency(cabrillo1.QSOs[3], false, logger);
+            Assert.That(cabrillo1.QSOs[3].InvalidResons.Count, Is.EqualTo(1));
+            Cabrillo.ParseFrequency(cabrillo1.QSOs[4], false, logger);
+            Assert.That(cabrillo1.QSOs[4].InvalidResons.Count, Is.EqualTo(1));
+            Cabrillo.ParseFrequency(cabrillo1.QSOs[5], false, logger);
+            Assert.That(cabrillo1.QSOs[5].InvalidResons.Count, Is.EqualTo(1));
 
         }
 
@@ -376,7 +394,7 @@ END-OF-LOG:
 
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
-            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
+            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false, logger);
             cabrillo1.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
 
@@ -387,9 +405,9 @@ END-OF-LOG:
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 14, 00, 00), new DateTime(2010, 12, 18, 15, 00, 00)));
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 15, 00, 00), new DateTime(2010, 12, 18, 16, 00, 00)));
 
-            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false);
-            Cabrillo.ModeChangeCheck(cabrillo1);
-            Assert.AreEqual(1, logList[0].QSOs[5].InvalidResons.Count);
+            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false, logger);
+            Cabrillo.ModeChangeCheck(cabrillo1, logger);
+            Assert.That(logList[0].QSOs[5].InvalidResons.Count, Is.EqualTo(1));
 
 
         }
@@ -577,42 +595,42 @@ END-OF-LOG:
 
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
-            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
+            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false, logger);
             cabrillo1.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray2 = Encoding.ASCII.GetBytes(test2);
             MemoryStream memStream2 = new MemoryStream(byteArray2);
-            Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false);
+            Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false, logger);
             cabrillo2.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray3 = Encoding.ASCII.GetBytes(test3);
             MemoryStream memStream3 = new MemoryStream(byteArray3);
-            Cabrillo cabrillo3 = Cabrillo.Parse("File3.test", memStream3, false);
+            Cabrillo cabrillo3 = Cabrillo.Parse("File3.test", memStream3, false, logger);
             cabrillo3.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray4 = Encoding.ASCII.GetBytes(test4);
             MemoryStream memStream4 = new MemoryStream(byteArray4);
-            Cabrillo cabrillo4 = Cabrillo.Parse("File4.test", memStream4, false);
+            Cabrillo cabrillo4 = Cabrillo.Parse("File4.test", memStream4, false, logger);
             cabrillo4.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray5 = Encoding.ASCII.GetBytes(test5);
             MemoryStream memStream5 = new MemoryStream(byteArray5);
-            Cabrillo cabrillo5 = Cabrillo.Parse("File5.test", memStream5, false);
+            Cabrillo cabrillo5 = Cabrillo.Parse("File5.test", memStream5, false, logger);
             cabrillo5.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray6 = Encoding.ASCII.GetBytes(test6);
             MemoryStream memStream6 = new MemoryStream(byteArray6);
-            Cabrillo cabrillo6 = Cabrillo.Parse("File6.test", memStream6, false);
+            Cabrillo cabrillo6 = Cabrillo.Parse("File6.test", memStream6, false, logger);
             cabrillo6.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray7 = Encoding.ASCII.GetBytes(test7);
             MemoryStream memStream7 = new MemoryStream(byteArray7);
-            Cabrillo cabrillo7 = Cabrillo.Parse("File7.test", memStream7, false);
+            Cabrillo cabrillo7 = Cabrillo.Parse("File7.test", memStream7, false, logger);
             cabrillo7.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             byte[] byteArray8 = Encoding.ASCII.GetBytes(test8);
             MemoryStream memStream8 = new MemoryStream(byteArray8);
-            Cabrillo cabrillo8 = Cabrillo.Parse("File8.test", memStream8, false);
+            Cabrillo cabrillo8 = Cabrillo.Parse("File8.test", memStream8, false, logger);
             cabrillo8.ParseQSO(false, Contest.Program.ScorCupaTimisului);
 
             List<Cabrillo> logList = new List<Cabrillo>();
@@ -628,21 +646,21 @@ END-OF-LOG:
             List<Tuple<DateTime, DateTime>> startendPairs = new List<Tuple<DateTime, DateTime>>();
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 14, 00, 00), new DateTime(2010, 12, 18, 15, 00, 00)));
             startendPairs.Add(Tuple.Create(new DateTime(2010, 12, 18, 15, 00, 00), new DateTime(2010, 12, 18, 16, 00, 00)));
-            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false);
+            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, false, logger);
             List<QSO> etapa1 = etape[0];
             List<QSO> etapa2 = etape[1];
-            Cabrillo.CheckOneQSO(etapa1);
-            Cabrillo.CheckOneQSO(etapa2);
+            Cabrillo.CheckOneQSO(etapa1, logger);
+            Cabrillo.CheckOneQSO(etapa2, logger);
             foreach (var cabrilloLog in logList)
             {
                 foreach (var qso in cabrilloLog.QSOs)
                 {
-                    Cabrillo.ParseFrequency(qso, false);
+                    Cabrillo.ParseFrequency(qso, false, logger);
                 }
             }
             foreach (var cabrilloLog in logList)
             {
-                Cabrillo.ModeChangeCheck(cabrilloLog);
+                Cabrillo.ModeChangeCheck(cabrilloLog, logger);
             }
             foreach (var cabrilloLog in logList)
             {
@@ -653,60 +671,60 @@ END-OF-LOG:
             }
             int total10 = (cabrillo1.Multiplicator[0] * cabrillo1.Etape[0].Sum(qso => qso.Score));
             int total11 = (cabrillo1.Multiplicator[1] * cabrillo1.Etape[1].Sum(qso => qso.Score));
-            Assert.AreEqual(1, cabrillo1.Multiplicator[0]);
-            Assert.AreEqual(1, cabrillo1.Multiplicator[1]);
-            Assert.AreEqual(5, total10);
-            Assert.AreEqual(8, total11);
+            Assert.That(cabrillo1.Multiplicator[0], Is.EqualTo(1));
+            Assert.That(cabrillo1.Multiplicator[1], Is.EqualTo(1));
+            Assert.That(total10, Is.EqualTo(5));
+            Assert.That(total11, Is.EqualTo(8));
 
             int total20 = (cabrillo2.Multiplicator[0] * cabrillo2.Etape[0].Sum(qso => qso.Score));
             int total21 = (cabrillo2.Multiplicator[1] * cabrillo2.Etape[1].Sum(qso => qso.Score));
-            Assert.AreEqual(0, cabrillo2.Multiplicator[0]);
-            Assert.AreEqual(1, cabrillo2.Multiplicator[1]);
-            Assert.AreEqual(0, total20);
-            Assert.AreEqual(8, total21);
+            Assert.That(cabrillo2.Multiplicator[0], Is.EqualTo(0));
+            Assert.That(cabrillo2.Multiplicator[1], Is.EqualTo(1));
+            Assert.That(total20, Is.EqualTo(0));
+            Assert.That(total21, Is.EqualTo(8));
 
             int total30 = (cabrillo3.Multiplicator[0] * cabrillo3.Etape[0].Sum(qso => qso.Score));
             int total31 = (cabrillo3.Multiplicator[1] * cabrillo3.Etape[1].Sum(qso => qso.Score));
-            Assert.AreEqual(2, cabrillo3.Multiplicator[0]);
-            Assert.AreEqual(2, cabrillo3.Multiplicator[1]);
-            Assert.AreEqual(12, total30);
-            Assert.AreEqual(16, total31);
+            Assert.That(cabrillo3.Multiplicator[0], Is.EqualTo(2));
+            Assert.That(cabrillo3.Multiplicator[1], Is.EqualTo(2));
+            Assert.That(total30, Is.EqualTo(12));
+            Assert.That(total31, Is.EqualTo(16));
 
             int total40 = (cabrillo4.Multiplicator[0] * cabrillo4.Etape[0].Sum(qso => qso.Score));
             int total41 = (cabrillo4.Multiplicator[1] * cabrillo4.Etape[1].Sum(qso => qso.Score));
-            Assert.AreEqual(1, cabrillo4.Multiplicator[0]);
-            Assert.AreEqual(1, cabrillo4.Multiplicator[1]);
-            Assert.AreEqual(3, total40);
-            Assert.AreEqual(2, total41);
+            Assert.That(cabrillo4.Multiplicator[0], Is.EqualTo(1));
+            Assert.That(cabrillo4.Multiplicator[1], Is.EqualTo(1));
+            Assert.That(total40, Is.EqualTo(3));
+            Assert.That(total41, Is.EqualTo(2));
 
             int total50 = (cabrillo5.Multiplicator[0] * cabrillo5.Etape[0].Sum(qso => qso.Score));
             int total51 = (cabrillo5.Multiplicator[1] * cabrillo5.Etape[1].Sum(qso => qso.Score));
-            Assert.AreEqual(1, cabrillo5.Multiplicator[0]);
-            Assert.AreEqual(2, cabrillo5.Multiplicator[1]);
-            Assert.AreEqual(3, total50);
-            Assert.AreEqual(16, total51);
+            Assert.That(cabrillo5.Multiplicator[0], Is.EqualTo(1));
+            Assert.That(cabrillo5.Multiplicator[1], Is.EqualTo(2));
+            Assert.That(total50, Is.EqualTo(3));
+            Assert.That(total51, Is.EqualTo(16));
 
             int total60 = (cabrillo6.Multiplicator[0] * cabrillo6.Etape[0].Sum(qso => qso.Score));
             int total61 = (cabrillo6.Multiplicator[1] * cabrillo6.Etape[1].Sum(qso => qso.Score));
-            Assert.AreEqual(1, cabrillo6.Multiplicator[0]);
-            Assert.AreEqual(4, cabrillo6.Multiplicator[1]);
-            Assert.AreEqual(2, total60);
-            Assert.AreEqual(56, total61);
+            Assert.That(cabrillo6.Multiplicator[0], Is.EqualTo(1));
+            Assert.That(cabrillo6.Multiplicator[1], Is.EqualTo(4));
+            Assert.That(total60, Is.EqualTo(2));
+            Assert.That(total61, Is.EqualTo(56));
 
 
             int total70 = (cabrillo7.Multiplicator[0] * cabrillo7.Etape[0].Sum(qso => qso.Score));
             int total71 = (cabrillo7.Multiplicator[1] * cabrillo7.Etape[1].Sum(qso => qso.Score));
-            Assert.AreEqual(0, cabrillo7.Multiplicator[0]);
-            Assert.AreEqual(1, cabrillo7.Multiplicator[1]);
-            Assert.AreEqual(0, total70);
-            Assert.AreEqual(2, total71);
+            Assert.That(cabrillo7.Multiplicator[0], Is.EqualTo(0));
+            Assert.That(cabrillo7.Multiplicator[1], Is.EqualTo(1));
+            Assert.That(total70, Is.EqualTo(0));
+            Assert.That(total71, Is.EqualTo(2));
 
             int total80 = (cabrillo8.Multiplicator[0] * cabrillo8.Etape[0].Sum(qso => qso.Score));
             int total81 = (cabrillo8.Multiplicator[1] * cabrillo8.Etape[1].Sum(qso => qso.Score));
-            Assert.AreEqual(0, cabrillo8.Multiplicator[0]);
-            Assert.AreEqual(0, cabrillo8.Multiplicator[1]);
-            Assert.AreEqual(0, total80);
-            Assert.AreEqual(0, total81);
+            Assert.That(cabrillo8.Multiplicator[0], Is.EqualTo(0));
+            Assert.That(cabrillo8.Multiplicator[1], Is.EqualTo(0));
+            Assert.That(total80, Is.EqualTo(0));
+            Assert.That(total81, Is.EqualTo(0));
         }
 
 
@@ -729,12 +747,12 @@ END-OF-LOG:
 
             byte[] byteArray1 = Encoding.ASCII.GetBytes(test1);
             MemoryStream memStream1 = new MemoryStream(byteArray1);
-            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false);
+            Cabrillo cabrillo1 = Cabrillo.Parse("File1.test", memStream1, false, logger);
             cabrillo1.ParseQSO(true, Contest.Program.ScorCupaTimisului, new DateTime(2011, 12, 18, 00, 00, 00));
 
             byte[] byteArray2 = Encoding.ASCII.GetBytes(test2);
             MemoryStream memStream2 = new MemoryStream(byteArray2);
-            Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false);
+            Cabrillo cabrillo2 = Cabrillo.Parse("File2.test", memStream2, false, logger);
             cabrillo2.ParseQSO(true, Contest.Program.ScorCupaTimisului, new DateTime(2011, 12, 18, 00, 00, 00));
 
 
@@ -745,18 +763,18 @@ END-OF-LOG:
             List<Tuple<DateTime, DateTime>> startendPairs = new List<Tuple<DateTime, DateTime>>();
             startendPairs.Add(Tuple.Create(new DateTime(2011, 12, 18, 14, 00, 00), new DateTime(2011, 12, 18, 15, 00, 00)));
             startendPairs.Add(Tuple.Create(new DateTime(2011, 12, 18, 15, 00, 00), new DateTime(2011, 12, 18, 16, 00, 00)));
-            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, true);
-            Assert.AreEqual(2, etape.Count);
-            Assert.AreEqual(1, etape[0].Count);
-            Assert.AreEqual(2, etape[1].Count);
-            Assert.AreEqual(0, logList[0].QSOs[0].InvalidResons.Count);
-            Assert.AreEqual(0, logList[0].QSOs[1].InvalidResons.Count);
-            Assert.AreEqual(0, logList[0].QSOs[0].InvalidResons.Count);
+            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, true, logger);
+            Assert.That(etape.Count, Is.EqualTo(2));
+            Assert.That(etape[0].Count, Is.EqualTo(1));
+            Assert.That(etape[1].Count, Is.EqualTo(2));
+            Assert.That(logList[0].QSOs[0].InvalidResons.Count, Is.EqualTo(0));
+            Assert.That(logList[0].QSOs[1].InvalidResons.Count, Is.EqualTo(0));
+            Assert.That(logList[0].QSOs[0].InvalidResons.Count, Is.EqualTo(0));
 
 
 
-            Assert.AreEqual(null, cabrillo1.QSOs[0].PairQSO);
-            Assert.AreEqual(cabrillo2.QSOs[0], cabrillo1.QSOs[1].PairQSO);
+            Assert.That(cabrillo1.QSOs[0].PairQSO, Is.EqualTo(null));
+            Assert.That(cabrillo2.QSOs[0], Is.EqualTo(cabrillo1.QSOs[1].PairQSO));
         }
     }
 }

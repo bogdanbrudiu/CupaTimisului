@@ -1,5 +1,37 @@
-﻿@{
+﻿@using System.IO
+@using System.Collections.Generic
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var years = (IEnumerable<int>)(ViewBag.AvailableYears ?? new List<int>());
+    var selectedYear = (int)(ViewBag.SelectedYear ?? Contest.Program.ContestDate.Year);
+    var uploadRootRelative = (string)(ViewBag.UploadRootRelative ?? Contest.Program.UploadPath);
 }
+@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment Env
 
-@await Html.PartialAsync("~/wwwroot/"+ Contest.Program.UploadPath + "/Result/total.cshtml")
+<div class="mb-3">
+    <strong>Loguri:</strong>
+    <ul class="list-inline">
+        @foreach (var y in years)
+        {
+            <li class="list-inline-item">
+                @if (y == selectedYear)
+                {
+                    <span class="badge bg-primary">@y</span>
+                }
+                else
+                {
+                    <a class="btn btn-link" href="@Url.Action("Results", "Home", new { year = y })">@y</a>
+                }
+            </li>
+        }
+    </ul>
+</div>
+
+@if (ViewBag.ResultExists == true)
+{
+    @Html.Raw((string)ViewBag.ResultHtml)
+}
+else
+{
+    <div class="alert alert-warning">Result file not found for year @ViewBag.SelectedYear.</div>
+}

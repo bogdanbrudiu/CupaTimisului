@@ -1,0 +1,259 @@
+CONTEST: Cupa Timisului 2026
+CALLSIGN:YP1989TM
+CATEGORY-ASSISTED:
+CATEGORY-BAND:
+CATEGORY-MODE:
+CATEGORY-OPERATOR:
+CATEGORY-POWER:
+CATEGORY-STATION:
+CATEGORY-TIME:
+CATEGORY-TRANSMITTER:
+CATEGORY-OVERLAY:
+CLAIMED-SCORE: 1936
+CLUB: YO2KQT
+CREATED-BY: Hamware/YO9HSW
+OPERATORS: YP1989TM
+EMAIL:
+LOCATION:
+NAME: 
+ADDRESS: 
+ADDRESS: 
+ADDRESS: Cupa Timisului 2026
+ADDRESS-CITY:
+ADDRESS-STATE-PROVINCE:
+ADDRESS-POSTALCODE:
+ADDRESS-COUNTRY:
+OFFTIME:
+DEBUG:
+SOAPBOX: 
+SOAPBOX: 
+QSO:  3500 PH 2025-12-14 1402 YP1989TM      59  001 TM YO6KNE        59  001 HR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:02:00 PM<- ->YP1989TM<- ->59<- ->001<- ->TM<- ->YO6KNE<- ->59<- ->001<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:01:00 PM<- ->YO6KNE<- ->59<- ->001<- ->HR<- ->YP1989TM<- ->59<- ->001<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1404 YP1989TM      59  002 TM YO7LDT        59  003 DJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:04:00 PM<- ->YP1989TM<- ->59<- ->002<- ->TM<- ->YO7LDT<- ->59<- ->003<- ->DJ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:03:00 PM<- ->YO7LDT<- ->59<- ->003<- ->DJ<- ->YP1989TM<- ->59<- ->002<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1405 YP1989TM      59  003 TM YO7CKQ        59  001 GJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:05:00 PM<- ->YP1989TM<- ->59<- ->003<- ->TM<- ->YO7CKQ<- ->59<- ->001<- ->GJ<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 2:05:00 PM<- ->YO7CKQ<- ->59<- ->001<- ->GJ<- ->YP1989TM<- ->59<- ->003<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1406 YP1989TM      59  004 TM YO2BLX        59  001 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:06:00 PM<- ->YP1989TM<- ->59<- ->004<- ->TM<- ->YO2BLX<- ->59<- ->001<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:06:00 PM<- ->YO2BLX<- ->59<- ->005<- ->AR<- ->YP1989TM<- ->59<- ->004<- ->TM<-
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 001 - 005<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1407 YP1989TM      59  005 TM YO2LQN        59  003 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:07:00 PM<- ->YP1989TM<- ->59<- ->005<- ->TM<- ->YO2LQN<- ->59<- ->003<- ->TM<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1408 YP1989TM      59  006 TM YO2LCP        59  005 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:08:00 PM<- ->YP1989TM<- ->59<- ->006<- ->TM<- ->YO2LCP<- ->59<- ->005<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:08:00 PM<- ->YO2LCP<- ->59<- ->005<- ->TM<- ->YP1989TM<- ->59<- ->006<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1409 YP1989TM      59  007 TM YO2MKL        59  007 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:09:00 PM<- ->YP1989TM<- ->59<- ->007<- ->TM<- ->YO2MKL<- ->59<- ->007<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:08:00 PM<- ->YO2MKL<- ->59<- ->006<- ->TM<- ->YP1989TM<- ->59<- ->007<- ->TM<-
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 007 - 006<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1409 YP1989TM      59  008 TM YO2BCO        59  007 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:09:00 PM<- ->YP1989TM<- ->59<- ->008<- ->TM<- ->YO2BCO<- ->59<- ->007<- ->TM<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1409 YP1989TM      59  009 TM YO2YA         59  010 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:09:00 PM<- ->YP1989TM<- ->59<- ->009<- ->TM<- ->YO2YA<- ->59<- ->010<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:09:00 PM<- ->YO2YA<- ->59<- ->010<- ->TM<- ->YP1989TM<- ->59<- ->009<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1410 YP1989TM      59  010 TM YO5ODL        59  001 BH
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:10:00 PM<- ->YP1989TM<- ->59<- ->010<- ->TM<- ->YO5ODL<- ->59<- ->001<- ->BH<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO5ODL<- ->59<- -><- ->BH<- ->YP1989TM<- ->59<- -><- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1411 YP1989TM      59  011 TM YO2MFC        59  013 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:11:00 PM<- ->YP1989TM<- ->59<- ->011<- ->TM<- ->YO2MFC<- ->59<- ->013<- ->TM<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1412 YP1989TM      59  012 TM YP2R          59  012 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:12:00 PM<- ->YP1989TM<- ->59<- ->012<- ->TM<- ->YP2R<- ->59<- ->012<- ->HD<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 2:12:00 PM<- ->YP2R<- ->59<- ->012<- ->HD<- ->YP1989TM<- ->59<- ->012<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1412 YP1989TM      59  013 TM YO2LFN        59  009 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:12:00 PM<- ->YP1989TM<- ->59<- ->013<- ->TM<- ->YO2LFN<- ->59<- ->009<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:12:00 PM<- ->YO2LFN<- ->59<- ->009<- ->TM<- ->YP1989TM<- ->59<- ->013<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1413 YP1989TM      59  014 TM YO2CLL        59  005 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:13:00 PM<- ->YP1989TM<- ->59<- ->014<- ->TM<- ->YO2CLL<- ->59<- ->005<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:10:00 PM<- ->YO2CLL<- ->59<- ->005<- ->TM<- ->YP1989TM<- ->59<- ->014<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1413 YP1989TM      59  015 TM YO2MOO        59  003 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:13:00 PM<- ->YP1989TM<- ->59<- ->015<- ->TM<- ->YO2MOO<- ->59<- ->003<- ->HD<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 2:13:00 PM<- ->YO2MOO<- ->59<- ->003<- ->HD<- ->YP1989TM<- ->59<- ->015<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1414 YP1989TM      59  016 TM YO3GCL        59  012 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:14:00 PM<- ->YP1989TM<- ->59<- ->016<- ->TM<- ->YO3GCL<- ->59<- ->012<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:13:00 PM<- ->YO3GCL<- ->59<- ->012<- ->BU<- ->YP1989TM<- ->59<- ->016<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1414 YP1989TM      59  017 TM YO2CK         59  004 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:14:00 PM<- ->YP1989TM<- ->59<- ->017<- ->TM<- ->YO2CK<- ->59<- ->004<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:14:00 PM<- ->YO2CK<- ->59<- ->004<- ->HD<- ->YP1989TM<- ->59<- ->017<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1414 YP1989TM      59  018 TM YQ2A          59  020 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:14:00 PM<- ->YP1989TM<- ->59<- ->018<- ->TM<- ->YQ2A<- ->59<- ->020<- ->HD<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 2:14:00 PM<- ->YQ2A<- ->59<- ->020<- ->HD<- ->YP1989TM<- ->59<- ->018<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1416 YP1989TM      59  019 TM YO7BEM        59  012 AG
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:16:00 PM<- ->YP1989TM<- ->59<- ->019<- ->TM<- ->YO7BEM<- ->59<- ->012<- ->AG<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1416 YP1989TM      59  020 TM YO2CXJ        59  009 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:16:00 PM<- ->YP1989TM<- ->59<- ->020<- ->TM<- ->YO2CXJ<- ->59<- ->009<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:17:00 PM<- ->YO2CXJ<- ->59<- ->009<- ->HD<- ->YP1989TM<- ->59<- ->020<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1418 YP1989TM      59  021 TM YO2MIT        59  015 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:18:00 PM<- ->YP1989TM<- ->59<- ->021<- ->TM<- ->YO2MIT<- ->59<- ->015<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:18:00 PM<- ->YO2MIT<- ->59<- ->015<- ->TM<- ->YP1989TM<- ->59<- ->021<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1424 YP1989TM      59  022 TM YO4DW         59  012 CT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YP1989TM<- ->59<- ->022<- ->TM<- ->YO4DW<- ->59<- ->012<- ->CT<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 2:23:00 PM<- ->YO4DW<- ->59<- ->012<- -><- ->YP1989TM<- ->59<- ->022<- ->TM<-
+SOAPBOX:County is not correct: ->CT - <-
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1424 YP1989TM      59  023 TM YO2MTG        59  026 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YP1989TM<- ->59<- ->023<- ->TM<- ->YO2MTG<- ->59<- ->026<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YO2MTG<- ->59<- ->026<- ->TM<- ->YP1989TM<- ->59<- ->023<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1425 YP1989TM      59  024 TM YO2LLZ        59  016 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:25:00 PM<- ->YP1989TM<- ->59<- ->024<- ->TM<- ->YO2LLZ<- ->59<- ->016<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:25:00 PM<- ->YO2LLZ<- ->59<- ->016<- ->TM<- ->YP1989TM<- ->59<- ->024<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1437 YP1989TM      59  025 TM YO9BHI        59  002 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:37:00 PM<- ->YP1989TM<- ->59<- ->025<- ->TM<- ->YO9BHI<- ->59<- ->002<- ->BZ<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO9BHI<- ->59<- -><- ->BZ<- ->YP1989TM<- ->59<- -><- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1440 YP1989TM      59  026 TM YO8BFB        59  013 BC
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:40:00 PM<- ->YP1989TM<- ->59<- ->026<- ->TM<- ->YO8BFB<- ->59<- ->013<- ->BC<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:41:00 PM<- ->YO8BFB<- ->59<- ->013<- ->BC<- ->YP1989TM<- ->59<- ->026<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1452 YP1989TM      59  027 TM YO4AUL        59  015 CT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 2:52:00 PM<- ->YP1989TM<- ->59<- ->027<- ->TM<- ->YO4AUL<- ->59<- ->015<- ->CT<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 2:52:00 PM<- ->YO4AUL<- ->59<- ->015<- ->CT<- ->YP1989TM<- ->59<- ->027<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1501 YP1989TM      59  028 TM YP2           59  032 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:01:00 PM<- ->YP1989TM<- ->59<- ->028<- ->TM<- ->YP2<- ->59<- ->032<- ->BU<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1501 YP1989TM      59  029 TM YO4DW         59  026 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:01:00 PM<- ->YP1989TM<- ->59<- ->029<- ->TM<- ->YO4DW<- ->59<- ->026<- ->BU<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 3:01:00 PM<- ->YO4DW<- ->59<- ->026<- -><- ->YP1989TM<- ->59<- ->029<- ->TM<-
+SOAPBOX:County is not correct: ->BU - <-
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1502 YP1989TM      59  030 TM YO3GCL        59  033 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:02:00 PM<- ->YP1989TM<- ->59<- ->030<- ->TM<- ->YO3GCL<- ->59<- ->033<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:01:00 PM<- ->YO3GCL<- ->59<- ->033<- ->BU<- ->YP1989TM<- ->59<- ->030<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1504 YP1989TM      59  031 TM YO4AUL        59  016 CT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:04:00 PM<- ->YP1989TM<- ->59<- ->031<- ->TM<- ->YO4AUL<- ->59<- ->016<- ->CT<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 3:04:00 PM<- ->YO4AUL<- ->59<- ->016<- ->CT<- ->YP1989TM<- ->59<- ->031<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1505 YP1989TM      59  032 TM YQ2A          59  035 HU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:05:00 PM<- ->YP1989TM<- ->59<- ->032<- ->TM<- ->YQ2A<- ->59<- ->035<- ->HU<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 3:05:00 PM<- ->YQ2A<- ->59<- ->035<- ->HD<- ->YP1989TM<- ->59<- ->032<- ->TM<-
+SOAPBOX:County is not correct: ->HU - HD<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1506 YP1989TM      59  033 TM YO7CKQ        59  033 GJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:06:00 PM<- ->YP1989TM<- ->59<- ->033<- ->TM<- ->YO7CKQ<- ->59<- ->033<- ->GJ<-
+SOAPBOX:   Pair QSO 3710<- ->PH<- ->12/14/2025 3:06:00 PM<- ->YO7CKQ<- ->59<- ->033<- ->GJ<- ->YP1989TM<- ->59<- ->033<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1506 YP1989TM      59  034 TM YO2MIT        59  031 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:06:00 PM<- ->YP1989TM<- ->59<- ->034<- ->TM<- ->YO2MIT<- ->59<- ->031<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:06:00 PM<- ->YO2MIT<- ->59<- ->031<- ->TM<- ->YP1989TM<- ->59<- ->034<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1507 YP1989TM      59  035 TM YO2BLX        59  034 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:07:00 PM<- ->YP1989TM<- ->59<- ->035<- ->TM<- ->YO2BLX<- ->59<- ->034<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:07:00 PM<- ->YO2BLX<- ->59<- ->034<- ->AR<- ->YP1989TM<- ->59<- ->035<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1507 YP1989TM      59  036 TM YO2CK         59  036 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:07:00 PM<- ->YP1989TM<- ->59<- ->036<- ->TM<- ->YO2CK<- ->59<- ->036<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:07:00 PM<- ->YO2CK<- ->59<- ->036<- ->HD<- ->YP1989TM<- ->59<- ->036<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1508 YP1989TM      59  037 TM YO9BHI        59  024 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:08:00 PM<- ->YP1989TM<- ->59<- ->037<- ->TM<- ->YO9BHI<- ->59<- ->024<- ->BZ<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO9BHI<- ->59<- -><- ->BZ<- ->YP1989TM<- ->59<- -><- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1509 YP1989TM      59  038 TM YO2MKL        59  025 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:09:00 PM<- ->YP1989TM<- ->59<- ->038<- ->TM<- ->YO2MKL<- ->59<- ->025<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:09:00 PM<- ->YO2MKL<- ->59<- ->025<- ->TM<- ->YP1989TM<- ->59<- ->038<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1510 YP1989TM      59  039 TM YO2LFM        59  023 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:10:00 PM<- ->YP1989TM<- ->59<- ->039<- ->TM<- ->YO2LFM<- ->59<- ->023<- ->TM<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1510 YP1989TM      59  040 TM YO2CXJ        59  028 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:10:00 PM<- ->YP1989TM<- ->59<- ->040<- ->TM<- ->YO2CXJ<- ->59<- ->028<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:09:00 PM<- ->YO2CXJ<- ->59<- ->028<- ->HD<- ->YP1989TM<- ->59<- ->040<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1511 YP1989TM      59  041 TM YO2KQT        59  044 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:11:00 PM<- ->YP1989TM<- ->59<- ->041<- ->TM<- ->YO2KQT<- ->59<- ->044<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:11:00 PM<- ->YO2KQT<- ->59<- ->044<- ->TM<- ->YP1989TM<- ->59<- ->041<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1513 YP1989TM      59  042 TM YO5ODL        59  020 BH
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:13:00 PM<- ->YP1989TM<- ->59<- ->042<- ->TM<- ->YO5ODL<- ->59<- ->020<- ->BH<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO5ODL<- ->59<- -><- ->BH<- ->YP1989TM<- ->59<- -><- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1514 YP1989TM      59  043 TM YO2CLL        59  033 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:14:00 PM<- ->YP1989TM<- ->59<- ->043<- ->TM<- ->YO2CLL<- ->59<- ->033<- ->TM<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2025-12-14 1515 YP1989TM      59  044 TM YO2LCP        59  027 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:15:00 PM<- ->YP1989TM<- ->59<- ->044<- ->TM<- ->YO2LCP<- ->59<- ->027<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:15:00 PM<- ->YO2LCP<- ->59<- ->027<- ->TM<- ->YP1989TM<- ->59<- ->044<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1517 YP1989TM      59  045 TM YO2LJB        59  026 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:17:00 PM<- ->YP1989TM<- ->59<- ->045<- ->TM<- ->YO2LJB<- ->59<- ->026<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:17:00 PM<- ->YO2LJB<- ->59<- ->026<- ->TM<- ->YP1989TM<- ->59<- ->045<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1518 YP1989TM      59  046 TM YO8BFB        59  027 BC
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:18:00 PM<- ->YP1989TM<- ->59<- ->046<- ->TM<- ->YO8BFB<- ->59<- ->027<- ->BC<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:18:00 PM<- ->YO8BFB<- ->59<- ->027<- ->BC<- ->YP1989TM<- ->59<- ->046<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1518 YP1989TM      59  047 TM YO2YA         59  048 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:18:00 PM<- ->YP1989TM<- ->59<- ->047<- ->TM<- ->YO2YA<- ->59<- ->048<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:18:00 PM<- ->YO2YA<- ->59<- ->048<- ->TM<- ->YP1989TM<- ->59<- ->047<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1519 YP1989TM      59  048 TM YO2LLZ        59  040 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:19:00 PM<- ->YP1989TM<- ->59<- ->048<- ->TM<- ->YO2LLZ<- ->59<- ->040<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:19:00 PM<- ->YO2LLZ<- ->59<- ->040<- ->TM<- ->YP1989TM<- ->59<- ->048<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1530 YP1989TM      59  049 TM YO2MOO        59  028 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:30:00 PM<- ->YP1989TM<- ->59<- ->049<- ->TM<- ->YO2MOO<- ->59<- ->028<- ->HD<-
+SOAPBOX:   Pair QSO 3706<- ->PH<- ->12/14/2025 3:30:00 PM<- ->YO2MOO<- ->59<- ->028<- ->HD<- ->YP1989TM<- ->59<- ->053<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1531 YP1989TM      59  050 TM YO2MOZ        59  001 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:31:00 PM<- ->YP1989TM<- ->59<- ->050<- ->TM<- ->YO2MOZ<- ->59<- ->001<- ->AR<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO2MOZ<- ->59<- -><- ->AR<- ->YP1989TM<- ->59<- -><- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1533 YP1989TM      59  051 TM YO2BCO        59  042 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:33:00 PM<- ->YP1989TM<- ->59<- ->051<- ->TM<- ->YO2BCO<- ->59<- ->042<- ->TM<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/14/2025 3:33:00 PM<- ->YO2BCO<- ->59<- ->042<- ->TM<- ->YP1989TM<- ->59<- ->051<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2025-12-14 1534 YP1989TM      59  052 TM YO9XC         59  020 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:34:00 PM<- ->YP1989TM<- ->59<- ->052<- ->TM<- ->YO9XC<- ->59<- ->020<- ->BZ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:34:00 PM<- ->YO9XC<- ->59<- ->020<- ->BZ<- ->YP1989TM<- ->59<- ->052<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1535 YP1989TM      59  053 TM YO6KNE        59  059 HR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:35:00 PM<- ->YP1989TM<- ->59<- ->053<- ->TM<- ->YO6KNE<- ->59<- ->059<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:34:00 PM<- ->YO6KNE<- ->59<- ->059<- ->HR<- ->YP1989TM<- ->59<- ->053<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1538 YP1989TM      59  054 TM YO7LDT        59  050 DJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:38:00 PM<- ->YP1989TM<- ->59<- ->054<- ->TM<- ->YO7LDT<- ->59<- ->050<- ->DJ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:38:00 PM<- ->YO7LDT<- ->59<- ->050<- ->DJ<- ->YP1989TM<- ->59<- ->054<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2025-12-14 1540 YP1989TM      59  055 TM YO2MTG        59  055 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/14/2025 3:40:00 PM<- ->YP1989TM<- ->59<- ->055<- ->TM<- ->YO2MTG<- ->59<- ->055<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:40:00 PM<- ->YO2MTG<- ->59<- ->055<- ->TM<- ->YP1989TM<- ->59<- ->055<- ->TM<-
+SOAPBOX: Score 1
+SOAPBOX: Multiplicator Etapa1 9
+SOAPBOX: Multiplicator Etapa2 10
+SOAPBOX: Scor Etapa1 531
+SOAPBOX: Scor Etapa2 650
+SOAPBOX: Scor 1181

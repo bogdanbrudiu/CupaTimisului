@@ -1,0 +1,246 @@
+CONTEST: Cupa Timisului 2024
+CALLSIGN:YO4BXX
+CATEGORY-ASSISTED:
+CATEGORY-BAND:
+CATEGORY-MODE:
+CATEGORY-OPERATOR:
+CATEGORY-POWER:
+CATEGORY-STATION:
+CATEGORY-TIME:
+CATEGORY-TRANSMITTER:
+CATEGORY-OVERLAY:
+CLAIMED-SCORE: 1464
+CLUB:
+CREATED-BY: Hamware/YO9HSW
+OPERATORS:
+EMAIL:
+LOCATION:
+NAME: CONRAD CORNELIU
+ADDRESS: STR. AL. PUSKIN NR. 19 TECHIRGHIOL
+ADDRESS: COD 906100 JUD. CONSTANTA
+ADDRESS: Cupa Timisului 2024
+ADDRESS-CITY:
+ADDRESS-STATE-PROVINCE:
+ADDRESS-POSTALCODE:
+ADDRESS-COUNTRY:
+OFFTIME:
+DEBUG:
+SOAPBOX: IC 7300 100W ANTENA DIPOL 2X20metri
+SOAPBOX: LA MULTI ANI 2025!
+QSO:  3500 PH 2024-12-15 1404 YO4BXX        59  001 CT YO3GCL        59  012 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:04:00 PM<- ->YO4BXX<- ->59<- ->001<- ->CT<- ->YO3GCL<- ->59<- ->012<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:03:00 PM<- ->YO3GCL<- ->59<- ->012<- ->BU<- ->YO4BXX<- ->59<- ->001<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:04:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1406 YO4BXX        59  002 CT YO3JW         59  010 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:06:00 PM<- ->YO4BXX<- ->59<- ->002<- ->CT<- ->YO3JW<- ->59<- ->010<- ->BZ<-
+SOAPBOX:   Pair QSO 3697<- ->PH<- ->12/15/2024 2:06:00 PM<- ->YO3JW<- ->59<- ->010<- ->BZ<- ->YO4BXX<- ->59<- ->002<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:06:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1408 YO4BXX        59  003 CT YO3FFF        59  006 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:08:00 PM<- ->YO4BXX<- ->59<- ->003<- ->CT<- ->YO3FFF<- ->59<- ->006<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:08:00 PM<- ->YO3FFF<- ->59<- ->006<- ->BU<- ->YO4BXX<- ->59<- ->003<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:08:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1414 YO4BXX        59  004 CT YO7LDT        59  014 DJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:14:00 PM<- ->YO4BXX<- ->59<- ->004<- ->CT<- ->YO7LDT<- ->59<- ->014<- ->DJ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:13:00 PM<- ->YO7LDT<- ->59<- ->014<- ->DJ<- ->YO4BXX<- ->59<- ->004<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:14:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1416 YO4BXX        59  005 CT YO4SLL        59  008 GL
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:16:00 PM<- ->YO4BXX<- ->59<- ->005<- ->CT<- ->YO4SLL<- ->59<- ->008<- ->GL<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:15:00 PM<- ->YO4SLL<- ->59<- ->005<- ->CT<- ->YO4BXX<- ->59<- ->008<- ->GL<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:16:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 008 - 005<-
+SOAPBOX:County is not correct: ->GL - CT<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1417 YO4BXX        59  006 CT YO2KMD        59  021 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:17:00 PM<- ->YO4BXX<- ->59<- ->006<- ->CT<- ->YO2KMD<- ->59<- ->021<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:17:00 PM<- ->YO2KMD<- ->59<- ->021<- ->HD<- ->YO4BXX<- ->59<- ->006<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:17:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1418 YO4BXX        59  007 CT YO3AF         59  006 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:18:00 PM<- ->YO4BXX<- ->59<- ->007<- ->CT<- ->YO3AF<- ->59<- ->006<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:18:00 PM<- ->YO3AF<- ->59<- ->006<- ->BU<- ->YO4BXX<- ->59<- ->007<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:18:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1420 YO4BXX        59  008 CT YO5KAL        59  025 AB
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:20:00 PM<- ->YO4BXX<- ->59<- ->008<- ->CT<- ->YO5KAL<- ->59<- ->025<- ->AB<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:20:00 PM<- ->YO5KAL<- ->59<- ->025<- ->AB<- ->YO4BXX<- ->59<- ->008<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:20:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1424 YO4BXX        59  009 CT YO2CK         59  014 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:24:00 PM<- ->YO4BXX<- ->59<- ->009<- ->CT<- ->YO2CK<- ->59<- ->014<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:23:00 PM<- ->YO2CK<- ->59<- ->024<- ->HD<- ->YO4BXX<- ->59<- ->009<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:24:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 014 - 024<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1427 YO4BXX        59  010 CT YO5DAS        59  024 SM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:27:00 PM<- ->YO4BXX<- ->59<- ->010<- ->CT<- ->YO5DAS<- ->59<- ->024<- ->SM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:26:00 PM<- ->YO5DAS<- ->59<- ->024<- ->SM<- ->YO4BXX<- ->59<- ->010<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:27:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1428 YO4BXX        59  011 CT YO9FGY        59  002 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:28:00 PM<- ->YO4BXX<- ->59<- ->011<- ->CT<- ->YO9FGY<- ->59<- ->002<- ->BZ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:24:00 PM<- ->YO9FGY<- ->59<- ->012<- ->BZ<- ->YO4BXX<- ->59<- ->011<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:28:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 002 - 012<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1430 YO4BXX        59  012 CT YO4SI         59  011 CT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:30:00 PM<- ->YO4BXX<- ->59<- ->012<- ->CT<- ->YO4SI<- ->59<- ->011<- ->CT<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:30:00 PM<- ->YO4SI<- ->59<- ->011<- ->CT<- ->YO4BXX<- ->59<- ->012<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:30:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1437 YO4BXX        59  013 CT YO2MOZ        59  025 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:37:00 PM<- ->YO4BXX<- ->59<- ->013<- ->CT<- ->YO2MOZ<- ->59<- ->025<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:37:00 PM<- ->YO2MOZ<- ->59<- ->025<- ->AR<- ->YO4BXX<- ->59<- ->013<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:37:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1441 YO4BXX        59  014 CT YO2LSB        59  026 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:41:00 PM<- ->YO4BXX<- ->59<- ->014<- ->CT<- ->YO2LSB<- ->59<- ->026<- ->TM<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:41:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1442 YO4BXX        59  015 CT YO9FTR        59  025 PH
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:42:00 PM<- ->YO4BXX<- ->59<- ->015<- ->CT<- ->YO9FTR<- ->59<- ->025<- ->PH<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/15/2024 2:42:00 PM<- ->YO9FTR<- ->59<- ->025<- ->PH<- ->YO4BXX<- ->59<- ->015<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:42:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1449 YO4BXX        59  016 CT YO2ABO        59  025 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:49:00 PM<- ->YO4BXX<- ->59<- ->016<- ->CT<- ->YO2ABO<- ->59<- ->025<- ->AR<-
+SOAPBOX:   Pair QSO 3600<- ->PH<- ->12/15/2024 2:49:00 PM<- ->YO2ABO<- ->59<- ->025<- ->AR<- ->YO4BXX<- ->59<- ->016<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:49:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1450 YO4BXX        59  017 CT YO9XC         59  014 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:50:00 PM<- ->YO4BXX<- ->59<- ->017<- ->CT<- ->YO9XC<- ->59<- ->014<- ->BZ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:50:00 PM<- ->YO9XC<- ->59<- ->014<- ->BZ<- ->YO4BXX<- ->59<- ->017<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:50:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1456 YO4BXX        59  018 CT YO7HUZ        59  020 VL
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:56:00 PM<- ->YO4BXX<- ->59<- ->018<- ->CT<- ->YO7HUZ<- ->59<- ->020<- ->VL<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:59:00 PM<- ->YO7HUZ<- ->59<- ->020<- ->VL<- ->YO4BXX<- ->59<- ->018<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:56:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1459 YO4BXX        59  019 CT YO2YA         59  030 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 2:59:00 PM<- ->YO4BXX<- ->59<- ->019<- ->CT<- ->YO2YA<- ->59<- ->030<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 2:59:00 PM<- ->YO2YA<- ->59<- ->030<- ->TM<- ->YO4BXX<- ->59<- ->019<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 2:59:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1500 YO4BXX        59  020 CT YO3AF         59  028 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:00:00 PM<- ->YO4BXX<- ->59<- ->020<- ->CT<- ->YO3AF<- ->59<- ->028<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:00:00 PM<- ->YO3AF<- ->59<- ->028<- ->BU<- ->YO4BXX<- ->59<- ->020<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:00:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1501 YO4BXX        59  021 CT YO9FTR        59  032 PH
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:01:00 PM<- ->YO4BXX<- ->59<- ->021<- ->CT<- ->YO9FTR<- ->59<- ->032<- ->PH<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/15/2024 3:01:00 PM<- ->YO9FTR<- ->59<- ->032<- ->PH<- ->YO4BXX<- ->59<- ->021<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:01:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1502 YO4BXX        59  022 CT YP8IC         59  041 IS
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:02:00 PM<- ->YO4BXX<- ->59<- ->022<- ->CT<- ->YP8IC<- ->59<- ->041<- ->IS<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:02:00 PM<- ->YP8IC<- ->59<- ->041<- ->IS<- ->YO4BXX<- ->59<- ->022<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:02:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1503 YO4BXX        59  023 CT YO2CK         59  025 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:03:00 PM<- ->YO4BXX<- ->59<- ->023<- ->CT<- ->YO2CK<- ->59<- ->025<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:03:00 PM<- ->YO2CK<- ->59<- ->035<- ->HD<- ->YO4BXX<- ->59<- ->023<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:03:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 025 - 035<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1505 YO4BXX        59  024 CT YO3JW         59  051 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:05:00 PM<- ->YO4BXX<- ->59<- ->024<- ->CT<- ->YO3JW<- ->59<- ->051<- ->BZ<-
+SOAPBOX:   Pair QSO 3712<- ->PH<- ->12/15/2024 3:05:00 PM<- ->YO3JW<- ->59<- ->051<- ->BZ<- ->YO4BXX<- ->59<- ->024<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:05:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1507 YO4BXX        59  025 CT YO2YA         59  041 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:07:00 PM<- ->YO4BXX<- ->59<- ->025<- ->CT<- ->YO2YA<- ->59<- ->041<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:07:00 PM<- ->YO2YA<- ->59<- ->041<- ->TM<- ->YO4BXX<- ->59<- ->025<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:07:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1508 YO4BXX        59  026 CT YO3FFF        59  053 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:08:00 PM<- ->YO4BXX<- ->59<- ->026<- ->CT<- ->YO3FFF<- ->59<- ->053<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:08:00 PM<- ->YO3FFF<- ->59<- ->053<- ->BU<- ->YO4BXX<- ->59<- ->026<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:08:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1510 YO4BXX        59  027 CT YO4BYW        59  041 BR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:10:00 PM<- ->YO4BXX<- ->59<- ->027<- ->CT<- ->YO4BYW<- ->59<- ->041<- ->BR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:09:00 PM<- ->YO4BYW<- ->59<- ->041<- ->BR<- ->YO4BXX<- ->59<- ->027<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:10:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1510 YO4BXX        59  028 CT YO3GCL        59  049 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:10:00 PM<- ->YO4BXX<- ->59<- ->028<- ->CT<- ->YO3GCL<- ->59<- ->049<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:09:00 PM<- ->YO3GCL<- ->59<- ->049<- ->BU<- ->YO4BXX<- ->59<- ->028<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:10:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1513 YO4BXX        59  029 CT YO5DGE        59  026 BN
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:13:00 PM<- ->YO4BXX<- ->59<- ->029<- ->CT<- ->YO5DGE<- ->59<- ->026<- ->BN<-
+SOAPBOX:   Pair QSO 3706<- ->PH<- ->12/15/2024 3:13:00 PM<- ->YO5DGE<- ->59<- ->026<- ->BN<- ->YO4BXX<- ->59<- ->029<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:13:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1515 YO4BXX        59  030 CT YO9XC         59  033 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:15:00 PM<- ->YO4BXX<- ->59<- ->030<- ->CT<- ->YO9XC<- ->59<- ->033<- ->BZ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:15:00 PM<- ->YO9XC<- ->59<- ->033<- ->BZ<- ->YO4BXX<- ->59<- ->030<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:15:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1518 YO4BXX        59  031 CT YO2KQT        59  042 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:18:00 PM<- ->YO4BXX<- ->59<- ->031<- ->CT<- ->YO2KQT<- ->59<- ->042<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:18:00 PM<- ->YO2KQT<- ->59<- ->042<- ->TM<- ->YO4BXX<- ->59<- ->031<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:18:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1520 YO4BXX        59  032 CT YO5KAL        59  050 AB
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:20:00 PM<- ->YO4BXX<- ->59<- ->032<- ->CT<- ->YO5KAL<- ->59<- ->050<- ->AB<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:20:00 PM<- ->YO5KAL<- ->59<- ->050<- ->AB<- ->YO4BXX<- ->59<- ->032<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:20:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1521 YO4BXX        59  033 CT YO7HUZ        59  041 VL
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:21:00 PM<- ->YO4BXX<- ->59<- ->033<- ->CT<- ->YO7HUZ<- ->59<- ->041<- ->VL<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:21:00 PM<- ->YO7HUZ<- ->59<- ->041<- ->VL<- ->YO4BXX<- ->59<- ->033<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:21:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1526 YO4BXX        59  034 CT YO5DAS        59  053 SM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:26:00 PM<- ->YO4BXX<- ->59<- ->034<- ->CT<- ->YO5DAS<- ->59<- ->053<- ->SM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:26:00 PM<- ->YO5DAS<- ->59<- ->053<- ->SM<- ->YO4BXX<- ->59<- ->034<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:26:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1534 YO4BXX        59  035 CT YO4SLL        59  056 GL
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:34:00 PM<- ->YO4BXX<- ->59<- ->035<- ->CT<- ->YO4SLL<- ->59<- ->056<- ->GL<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:34:00 PM<- ->YO4SLL<- ->59<- ->035<- ->CT<- ->YO4BXX<- ->59<- ->056<- ->GL<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:34:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 056 - 035<-
+SOAPBOX:County is not correct: ->GL - CT<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1537 YO4BXX        59  036 CT YO7LDT        59  058 DJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:37:00 PM<- ->YO4BXX<- ->59<- ->036<- ->CT<- ->YO7LDT<- ->59<- ->058<- ->DJ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:38:00 PM<- ->YO7LDT<- ->59<- ->058<- ->DJ<- ->YO4BXX<- ->59<- ->036<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:37:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1540 YO4BXX        59  037 CT YO4SI         59  046 CT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:40:00 PM<- ->YO4BXX<- ->59<- ->037<- ->CT<- ->YO4SI<- ->59<- ->046<- ->CT<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:40:00 PM<- ->YO4SI<- ->59<- ->046<- ->CT<- ->YO4BXX<- ->59<- ->037<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:40:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1543 YO4BXX        59  038 CT YO2ABO        59  051 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:43:00 PM<- ->YO4BXX<- ->59<- ->038<- ->CT<- ->YO2ABO<- ->59<- ->051<- ->AR<-
+SOAPBOX:   Pair QSO 3600<- ->PH<- ->12/15/2024 3:43:00 PM<- ->YO2ABO<- ->59<- ->051<- ->AR<- ->YO4BXX<- ->59<- ->038<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:43:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1545 YO4BXX        59  039 CT YO7KFA        59  008 AG
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:45:00 PM<- ->YO4BXX<- ->59<- ->039<- ->CT<- ->YO7KFA<- ->59<- ->008<- ->AG<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:46:00 PM<- ->YO7KFA<- ->59<- ->008<- ->AG<- ->YO4BXX<- ->59<- ->039<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:45:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1552 YO4BXX        59  040 CT YO6XK         59  022 SB
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:52:00 PM<- ->YO4BXX<- ->59<- ->040<- ->CT<- ->YO6XK<- ->59<- ->022<- ->SB<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/15/2024 3:52:00 PM<- ->YO6XK<- ->59<- ->022<- ->SB<- ->YO4BXX<- ->59<- ->040<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:52:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2024-12-15 1558 YO4BXX        59  041 CT YO2LSP        59  057 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/15/2024 3:58:00 PM<- ->YO4BXX<- ->59<- ->041<- ->CT<- ->YO2LSP<- ->59<- ->057<- ->TM<-
+SOAPBOX:   Pair QSO 3692<- ->PH<- ->12/15/2024 3:58:00 PM<- ->YO2LSP<- ->59<- ->057<- ->TM<- ->YO4BXX<- ->59<- ->041<- ->CT<-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/15/2024 3:58:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+SOAPBOX: Multiplicator Etapa1 0
+SOAPBOX: Multiplicator Etapa2 0
+SOAPBOX: Scor Etapa1 0
+SOAPBOX: Scor Etapa2 0
+SOAPBOX: Scor 0

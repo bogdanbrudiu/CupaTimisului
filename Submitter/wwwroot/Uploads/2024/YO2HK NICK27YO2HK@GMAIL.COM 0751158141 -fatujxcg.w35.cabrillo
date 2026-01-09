@@ -1,0 +1,55 @@
+START-OF-LOG: 3.0
+LOCATION: KN16JH
+CALLSIGN: YO2HK
+CLUB:SILVER FOX DEVA  
+CONTEST: CUPA TIMISULUI
+CATEGORY-OPERATOR: SINGLE-OP
+CATEGORY-ASSISTED: NON-ASSISTED
+CATEGORY-BAND: 80M
+CATEGORY-MODE: SSB
+CATEGORY-POWER: LOW
+CATEGORY-STATION: FIXED
+CATEGORY-TRANSMITTER: ONE
+CLAIMED-SCORE: 0
+OPERATORS: YO2HK
+NAME: NICK
+ADDRESS: BULZESTI
+ADDRESS-CITY: BULZESTI
+ADDRESS-STATE-PROVINCE: HD
+ADDRESS-POSTALCODE: 
+ADDRESS-COUNTRY: ROMANIA
+GRID-LOCATOR: KN16JH
+EMAIL: nick27yo2hk@gmail.com
+
+QSO:   001  PH 2024-12-15 1433 YO2HK           59    001 HD     YO2CK           59    030 HD     
+QSO:   002  PH 2024-12-15 1434 YO2HK           59    002 HD     YO4SLL          59    026 GL       
+QSO:   003  PH 2024-12-15 1435 YO2HK           59    003 HD     YO2KMD          59    029 HD    
+QSO:   004  PH 2024-12-15 1440 YO2HK           59    004 HD     YO4SI           59    022 CT    
+QSO:   005  PH 2024-12-15 1443 YO2HK           59    005 HD     YO5KAL          59    031 AB     
+QSO:   006  PH 2024-12-15 1446 YO2HK           59    006 HD     YO3GCL          59    035 BU       
+QSO:   007  PH 2024-12-15 1448 YO2HK           59    007 HD     YO2MOZ          59    027 AR     
+QSO:   008  PH 2024-12-15 1450 YO2HK           59    008 HD     YO2ABO          59    026 AR      
+QSO:   009  PH 2024-12-15 1451 YO2HK           59    009 HD     YO3FFF          59    037 BU     
+QSO:   010  PH 2024-12-15 1452 YO2HK           59    010 HD     YO3JW           59    039 BZ     
+QSO:   011  PH 2024-12-15 1453 YO2HK           59    011 HD     YO2YA           59    029 TM    
+QSO:   012  PH 2024-12-15 1455 YO2HK           59    012 HD     YP8IC           59    036 IS      
+QSO:   013  PH 2024-12-15 1457 YO2HK           59    013 HD     YO3AF           59    027 BU     
+QSO:   014  PH 2024-12-15 1459 YO2HK           59    014 HD     YO9FTR          59    030 PH     
+QSO:   015  PH 2024-12-15 1501 YO2HK           59    015 HD     YO2CK           59    032 HD     
+QSO:   016  PH 2024-12-15 1508 YO2HK           59    016 HD     YO2YA           59    043 TM     
+QSO:   017  PH 2024-12-15 1511 YO2HK           59    017 HD     YO2ABO          59    038 AR     
+QSO:   018  PH 2024-12-15 1513 YO2HK           59    018 HD     YO3AF           59    046 BU    
+QSO:   019  PH 2024-12-15 1515 YO2HK           59    019 HD     YO9XC           59    032 BZ    
+QSO:   020  PH 2024-12-15 1516 YO2HK           59    020 HD     YO2KMD          59    044 HD     
+QSO:   021  PH 2024-12-15 1518 YO2HK           59    021 HD     YO3GCL          59    059 BU     
+QSO:   022  PH 2024-12-15 1520 YO2HK           59    022 HD     YO7HUZ          59    040 VL
+QSO:   023  PH 2024-12-15 1522 YO2HK           59    023 HD     YO5KAL          59    052 AB     
+QSO:   024  PH 2024-12-15 1523 YO2HK           59    024 HD     YO4SLL          59    037 GL       
+QSO:   025  PH 2024-12-15 1525 YO2HK           59    025 HD     YO7LDT          59    046 DJ    
+QSO:   026  PH 2024-12-15 1529 YO2HK           59    026 HD     YO3JW           59    065 BZ    
+QSO:   027  PH 2024-12-15 1530 YO2HK           59    027 HD     YO2LSP          59    038 TM     
+QSO:   028  PH 2024-12-15 1540 YO2HK           59    028 HD     YO6XK           59    011 SB       
+QSO:   029  PH 2024-12-15 1543 YO2HK           59    029 HD     YO4SI           59    047 CT     
+QSO:   030  PH 2024-12-15 1554 YO2HK           59    030 HD     YO7KFA          59    021 AG      
+QSO:   031  PH 2024-12-15 1557 YO2HK           59    031 HD     YO3FFF          59    076 BU     
+END-OF-LOG:

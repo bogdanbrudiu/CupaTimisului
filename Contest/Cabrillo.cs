@@ -6,9 +6,9 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Globalization;
 using System.Collections;
-using log4net;
 using System.Diagnostics;
 using CommandLine;
+using Microsoft.Extensions.Logging;
 
 namespace Contest
 {
@@ -124,40 +124,40 @@ namespace Contest
 
     public class Cabrillo
     {
-        protected static readonly ILog log = LogManager.GetLogger(typeof(Cabrillo));
-        public static string START_OF_LOG = "START-OF-LOG";
-        public static string END_OF_LOG = "END-OF-LOG";
-        public static string CALLSIGN = "CALLSIGN";
-        public static string CATEGORY_ASSISTED = "CATEGORY-ASSISTED";
-        public static string CATEGORY_BAND = "CATEGORY-BAND";
-        public static string CATEGORY_MODE = "CATEGORY-MODE";
-        public static string CATEGORY_OPERATOR = "CATEGORY-OPERATOR";
-        public static string CATEGORY_POWER = "CATEGORY-POWER";
-        public static string CATEGORY_STATION = "CATEGORY-STATION";
-        public static string CATEGORY_TIME = "CATEGORY-TIME";
-        public static string CATEGORY_TRANSMITTER = "CATEGORY-TRANSMITTER";
-        public static string CATEGORY_OVERLAY = "CATEGORY-OVERLAY";
-        public static string CLAIMED_SCORE = "CLAIMED-SCORE";
-        public static string CLUB = "CLUB";
-        public static string CONTEST = "CONTEST";
-        public static string CREATED_BY = "CREATED-BY";
-        public static string EMAIL = "EMAIL";
-        public static string LOCATION = "LOCATION";
-        public static string NAME = "NAME";
-        public static string ADDRESS = "ADDRESS";
-        public static string ADDRESS_CITY = "ADDRESS-CITY";
-        public static string ADDRESS_STATE_PROVINCE = "ADDRESS-STATE-PROVINCE";
-        public static string ADDRESS_POSTALCODE = "ADDRESS-POSTALCODE";
-        public static string ADDRESS_COUNTRY = "ADDRESS-COUNTRY";
-        public static string OPERATORS = "OPERATORS";
-        public static string OFFTIME = "OFFTIME";
-        public static string SOAPBOX = "SOAPBOX";
-        public static string QSO = "QSO";
-        public static string DEBUG = "DEBUG";
+        public const string START_OF_LOG = "START-OF-LOG";
+        public const string END_OF_LOG = "END-OF-LOG";
+        public const string CALLSIGN = "CALLSIGN";
+        public const string CATEGORY_ASSISTED = "CATEGORY-ASSISTED";
+        public const string CATEGORY_BAND = "CATEGORY-BAND";
+        public const string CATEGORY_MODE = "CATEGORY-MODE";
+        public const string CATEGORY_OPERATOR = "CATEGORY-OPERATOR";
+        public const string CATEGORY_POWER = "CATEGORY-POWER";
+        public const string CATEGORY_STATION = "CATEGORY-STATION";
+        public const string CATEGORY_TIME = "CATEGORY-TIME";
+        public const string CATEGORY_TRANSMITTER = "CATEGORY-TRANSMITTER";
+        public const string CATEGORY_OVERLAY = "CATEGORY-OVERLAY";
+        public const string CLAIMED_SCORE = "CLAIMED-SCORE";
+        public const string CLUB = "CLUB";
+        public const string CONTEST = "CONTEST";
+        public const string CREATED_BY = "CREATED-BY";
+        public const string EMAIL = "EMAIL";
+        public const string LOCATION = "LOCATION";
+        public const string NAME = "NAME";
+        public const string ADDRESS = "ADDRESS";
+        public const string ADDRESS_CITY = "ADDRESS-CITY";
+        public const string ADDRESS_STATE_PROVINCE = "ADDRESS-STATE-PROVINCE";
+        public const string ADDRESS_POSTALCODE = "ADDRESS-POSTALCODE";
+        public const string ADDRESS_COUNTRY = "ADDRESS-COUNTRY";
+        public const string OPERATORS = "OPERATORS";
+        public const string OFFTIME = "OFFTIME";
+        public const string SOAPBOX = "SOAPBOX";
+        public const string QSO = "QSO";
+        public const string DEBUG = "DEBUG";
+        private readonly ILogger log;
 
-
-        public Cabrillo() 
+        public Cabrillo(ILogger logger) 
         {
+            this.log = logger;
             InvalidLines = new List<string>();
             ROWQSOs = new List<string>();
             QSOs = new List<QSO>();
@@ -269,12 +269,12 @@ namespace Contest
             }
         }
 
-        public static Cabrillo Parse(string fullName, Stream fs, bool ignoreStartOfLogTag)
+        public static Cabrillo Parse(string fullName, Stream fs, bool ignoreStartOfLogTag, ILogger log)
         {
 
 
             StreamReader r = new StreamReader(fs);
-            Cabrillo c = new Cabrillo();
+            Cabrillo c = new Cabrillo(log);
             c.FileName = fullName;
             bool started = false;
 
@@ -464,7 +464,7 @@ namespace Contest
                 {
                     if (!DateTime.TryParseExact(dtignoreDateTimeValidation.ToString("yyyy-MM-dd") + " " + matches.Groups["HH"].Value + matches.Groups["MM"].Value, "yyyy-MM-dd HHmm", DateTimeFormatInfo.InvariantInfo, DateTimeStyles.None, out dt))
                     {
-                        log.Error("Invalid DateTime: " + this.FileName + " ->" + matches.Groups["Date"].Value + " " + matches.Groups["HH"].Value + matches.Groups["MM"].Value + "<-");
+                        log.LogError("Invalid DateTime: " + this.FileName + " ->" + matches.Groups["Date"].Value + " " + matches.Groups["HH"].Value + matches.Groups["MM"].Value + "<-");
                         qso.IsInvalid("Invalid DateTime: ->" + matches.Groups["Date"].Value + " " + matches.Groups["HH"].Value + matches.Groups["MM"].Value + "<-");
                     }
                 }
@@ -472,7 +472,7 @@ namespace Contest
                 {
                     if (!DateTime.TryParseExact(matches.Groups["Date"].Value + " " + matches.Groups["HH"].Value + matches.Groups["MM"].Value, "yyyy-MM-dd HHmm", DateTimeFormatInfo.InvariantInfo, DateTimeStyles.None, out dt))
                     {
-                        log.Error("Invalid DateTime: " + this.FileName + " ->" + matches.Groups["Date"].Value + " " + matches.Groups["HH"].Value + matches.Groups["MM"].Value + "<-");
+                        log.LogError("Invalid DateTime: " + this.FileName + " ->" + matches.Groups["Date"].Value + " " + matches.Groups["HH"].Value + matches.Groups["MM"].Value + "<-");
                         qso.IsInvalid("Invalid DateTime: ->" + matches.Groups["Date"].Value + " " + matches.Groups["HH"].Value + matches.Groups["MM"].Value + "<-");
                     }
                 }
@@ -480,14 +480,14 @@ namespace Contest
                 qso.CallSign1 = matches.Groups["CallSign1"].Value;
                 if (string.IsNullOrEmpty(qso.CallSign1))
                 {
-                    log.Error("Invalid CallSign1: " + this.FileName + " ->" + matches.Groups["CallSign1"].Value + "<-");
+                    log.LogError("Invalid CallSign1: " + this.FileName + " ->" + matches.Groups["CallSign1"].Value + "<-");
                     qso.IsInvalid("Invalid CallSign1: ->" + matches.Groups["CallSign1"].Value + "<-");
                 }
 
                 qso.CallSign2 = matches.Groups["CallSign2"].Value;
                 if (string.IsNullOrEmpty(qso.CallSign2))
                 {
-                    log.Error("Invalid CallSign2: " + this.FileName + " ->" + matches.Groups["CallSign2"].Value + "<-");
+                    log.LogError("Invalid CallSign2: " + this.FileName + " ->" + matches.Groups["CallSign2"].Value + "<-");
                     qso.IsInvalid("Invalid CallSign2: ->" + matches.Groups["CallSign2"].Value + "<-");
                 }
 
@@ -495,21 +495,21 @@ namespace Contest
                 qso.RST1 = matches.Groups["RST1"].Value;
                 if (string.IsNullOrEmpty(qso.RST1))
                 {
-                    log.Error("Invalid RST1: " + this.FileName + " ->" + matches.Groups["RST1"].Value + "<-");
+                    log.LogError("Invalid RST1: " + this.FileName + " ->" + matches.Groups["RST1"].Value + "<-");
                     qso.IsInvalid("Invalid RST1: ->" + matches.Groups["RST1"].Value + "<-");
                 }
 
                 qso.RST2 = matches.Groups["RST2"].Value;
                 if (string.IsNullOrEmpty(qso.RST2))
                 {
-                    log.Error("Invalid RST2: " + this.FileName + " ->" + matches.Groups["RST2"].Value + "<-");
+                    log.LogError("Invalid RST2: " + this.FileName + " ->" + matches.Groups["RST2"].Value + "<-");
                     qso.IsInvalid("Invalid RST2: ->" + matches.Groups["RST2"].Value + "<-");
                 }
 
                 qso.Exchange1 = matches.Groups["Exchange1"].Value;
                 if (string.IsNullOrEmpty(qso.Exchange1))
                 {
-                    log.Error("Invalid Exchange1: " + this.FileName + " ->" + matches.Groups["Exchange1"].Value + "<-");
+                    log.LogError("Invalid Exchange1: " + this.FileName + " ->" + matches.Groups["Exchange1"].Value + "<-");
                     qso.IsInvalid("Invalid Exchange1: ->" + matches.Groups["Exchange1"].Value + "<-");
                 }
 
@@ -517,14 +517,14 @@ namespace Contest
                 qso.Exchange2 = matches.Groups["Exchange2"].Value;
                 if (string.IsNullOrEmpty(qso.Exchange2))
                 {
-                    log.Error("Invalid Exchange2: " + this.FileName + " ->" + matches.Groups["Exchange2"].Value + "<-");
+                    log.LogError("Invalid Exchange2: " + this.FileName + " ->" + matches.Groups["Exchange2"].Value + "<-");
                     qso.IsInvalid("Invalid Exchange2: ->" + matches.Groups["Exchange2"].Value + "<-");
                 }
 
                 qso.County1 = matches.Groups["County1"].Value;
                 if (string.IsNullOrEmpty(qso.County1))
                 {
-                    log.Error("Invalid County1: " + this.FileName + " ->" + matches.Groups["County1"].Value + "<-");
+                    log.LogError("Invalid County1: " + this.FileName + " ->" + matches.Groups["County1"].Value + "<-");
                     qso.IsInvalid("Invalid County1: ->" + matches.Groups["County1"].Value + "<-");
                 }
 
@@ -532,7 +532,7 @@ namespace Contest
                 qso.County2 = matches.Groups["County2"].Value;
                 if (string.IsNullOrEmpty(qso.County2))
                 {
-                    log.Error("Invalid County2: " + this.FileName + " ->" + matches.Groups["County2"].Value + "<-");
+                    log.LogError("Invalid County2: " + this.FileName + " ->" + matches.Groups["County2"].Value + "<-");
                     qso.IsInvalid("Invalid County2: ->" + matches.Groups["County2"].Value + "<-");
                 }
                 
@@ -542,7 +542,7 @@ namespace Contest
             }
         }
 
-        public static List<List<QSO>> ProcessQSOs(List<Cabrillo> logList, List<Tuple<DateTime, DateTime>> startendPairs, bool ignoreDateTimeValidation)
+        public static List<List<QSO>> ProcessQSOs(List<Cabrillo> logList, List<Tuple<DateTime, DateTime>> startendPairs, bool ignoreDateTimeValidation, ILogger log)
         {
             List<List<QSO>> etape = new List<List<QSO>>();
             foreach (var item in startendPairs)
@@ -577,7 +577,7 @@ namespace Contest
                     }
                     if (!sw)
                     {
-                        log.Error("Invalid QSOs DateTime out of bounds:" + cabrilloLog.FileName + " ->" + qso.DateTime + "<-");
+                        log.LogError("Invalid QSOs DateTime out of bounds:" + cabrilloLog.FileName + " ->" + qso.DateTime + "<-");
 
                         string between = "";
                         foreach (Tuple<DateTime, DateTime> etapa in startendPairs)
@@ -628,25 +628,25 @@ namespace Contest
                                         qso.Exchange1.TrimStart(new char[] { '0' }) != qso_.Exchange2.TrimStart(new char[] { '0' }) 
                                         )
                                     {
-                                        log.Error("RST or Exchange are not correct: " + qso_.Log.FileName + " - " + qso.Log.FileName + " ->" + qso_.ROWQSO + " - " + qso.ROWQSO + "<-");
+                                        log.LogError("RST or Exchange are not correct: " + qso_.Log.FileName + " - " + qso.Log.FileName + " ->" + qso_.ROWQSO + " - " + qso.ROWQSO + "<-");
                                         qso_.IsInvalid("RST or Exchange are not correct: ->" + qso_.RST2 + " - " + qso.RST1 + " " + qso_.Exchange2 + " - " + qso.Exchange1 + "<-");
                                     }
                                     if (qso.RST2 != qso_.RST1 ||
                                         qso.Exchange2.TrimStart(new char[] { '0' }) != qso_.Exchange1.TrimStart(new char[] { '0' })
                                      )
                                     {
-                                        log.Error("RST or Exchange are not correct: " + qso.Log.FileName + " - " + qso_.Log.FileName + " ->" + qso.ROWQSO + " - " + qso_.ROWQSO + "<-");
+                                        log.LogError("RST or Exchange are not correct: " + qso.Log.FileName + " - " + qso_.Log.FileName + " ->" + qso.ROWQSO + " - " + qso_.ROWQSO + "<-");
                                         qso.IsInvalid("RST or Exchange are not correct: ->" + qso.RST2 + " - " + qso_.RST1 + " " + qso.Exchange2 + " - " + qso_.Exchange1 + "<-");
                                     }
 
                                     if (qso.County1.ToUpper() != qso_.County2.ToUpper())
                                     {
-                                        log.Error("County is not correct: " + qso_.Log.FileName + " - " + qso.Log.FileName + " ->" + qso_.ROWQSO + " - " + qso.ROWQSO + "<-");
+                                        log.LogError("County is not correct: " + qso_.Log.FileName + " - " + qso.Log.FileName + " ->" + qso_.ROWQSO + " - " + qso.ROWQSO + "<-");
                                         qso_.IsInvalid("County is not correct: ->" + qso_.County2 + " - " + qso.County1+ "<-");
                                     }
                                     if (qso.County2.ToUpper() != qso_.County1.ToUpper())
                                     {
-                                        log.Error("County is not correct: " + qso.Log.FileName + " - " + qso_.Log.FileName + " ->" + qso.ROWQSO + " - " + qso_.ROWQSO + "<-");
+                                        log.LogError("County is not correct: " + qso.Log.FileName + " - " + qso_.Log.FileName + " ->" + qso.ROWQSO + " - " + qso_.ROWQSO + "<-");
                                         qso.IsInvalid("County is not correct: ->" + qso.County2 + " - " + qso_.County1+"<-");
                                     }
 
@@ -655,7 +655,7 @@ namespace Contest
                                     {
                                         if (qso.DateTime.Subtract(qso_.DateTime).Duration().CompareTo(new TimeSpan(0, 5, 0)) == 1)
                                         {
-                                            log.Error("More then 5 min difference: " + qso.Log.FileName + " - " + qso_.Log.FileName + " ->" + qso.ROWQSO + " - " + qso_.ROWQSO + "<-");
+                                            log.LogError("More then 5 min difference: " + qso.Log.FileName + " - " + qso_.Log.FileName + " ->" + qso.ROWQSO + " - " + qso_.ROWQSO + "<-");
                                             qso_.IsInvalid("More then 5 min difference: ->" + qso_.DateTime + " - " + qso.DateTime + "<-");
                                             qso.IsInvalid("More then 5 min difference: ->" + qso.DateTime + " - " + qso_.DateTime + "<-");
                                         }
@@ -666,7 +666,7 @@ namespace Contest
                                         {
                                             if ((qso.DateTime.Minute < qso_.DateTime.Minute) ? Math.Abs(qso.DateTime.Minute+60 - qso_.DateTime.Minute) > 5 : Math.Abs(qso.DateTime.Minute - qso_.DateTime.Minute-60) > 5)
                                             {
-                                            log.Error("More then 5 min difference: " + qso.Log.FileName + " - " + qso_.Log.FileName + " ->" + qso.ROWQSO + " - " + qso_.ROWQSO + "<-");
+                                            log.LogError("More then 5 min difference: " + qso.Log.FileName + " - " + qso_.Log.FileName + " ->" + qso.ROWQSO + " - " + qso_.ROWQSO + "<-");
                                             qso_.IsInvalid("More then 5 min difference: ->" + qso_.DateTime + " - " + qso.DateTime + "<-");
                                             qso.IsInvalid("More then 5 min difference: ->" + qso.DateTime + " - " + qso_.DateTime + "<-");
                                             }
@@ -692,7 +692,7 @@ namespace Contest
             return etape;
         }
 
-        public static void CheckOneQSO(List<QSO> etapa1)
+        public static void CheckOneQSO(List<QSO> etapa1, ILogger log)
         {
             List<string> pairs = new List<string>();
             foreach (QSO qso in etapa1)
@@ -706,19 +706,19 @@ namespace Contest
                     }
                     else
                     {
-                        log.Error("Invalid QSOs more then once:" + qso.Log.FileName + " ->" + signature + "<-");
+                        log.LogError("Invalid QSOs more then once:" + qso.Log.FileName + " ->" + signature + "<-");
                         qso.IsInvalid("Invalid QSOs more then once: " + signature);
                     }
                 }
             }
         }
 
-        public static void ParseFrequency(QSO qso, bool ignoreModeFrequencyValidation)
+        public static void ParseFrequency(QSO qso, bool ignoreModeFrequencyValidation, ILogger log)
         {
             double freq;
             if (!Double.TryParse(qso.Frequency, out freq))
             {
-                log.Error("Invalid Frequency :" + qso.Log.FileName + " ->" + qso.Frequency + "<-");
+                log.LogError("Invalid Frequency :" + qso.Log.FileName + " ->" + qso.Frequency + "<-");
                 qso.IsInvalid("Invalid Frequency: ->" + qso.Frequency+"<-");
             }
             else
@@ -730,7 +730,7 @@ namespace Contest
 
                         if (freq < 3510 || freq > 3560)
                         {
-                            log.Error("Mode Frequency Violation:" + qso.Log.FileName + " ->" + qso.Mode + " " + qso.Frequency + "<-");
+                            log.LogError("Mode Frequency Violation:" + qso.Log.FileName + " ->" + qso.Mode + " " + qso.Frequency + "<-");
                             qso.IsInvalid("Mode Frequency Violation: ->" + qso.Mode + " " + qso.Frequency + "<- for CW should be 3510><3560");
                         }
                     }
@@ -740,13 +740,13 @@ namespace Contest
                         {
                             if (freq < 3675 || freq > 3775)
                             {
-                                log.Error("Mode Frequency Violation:" + qso.Log.FileName + " ->" + qso.Mode + " " + qso.Frequency + "<-");
+                                log.LogError("Mode Frequency Violation:" + qso.Log.FileName + " ->" + qso.Mode + " " + qso.Frequency + "<-");
                                 qso.IsInvalid("Mode Frequency Violation: ->" + qso.Mode + " " + qso.Frequency + "<- for PH/SSB should be 3675><3775");
                             }
                         }
                         else
                         {
-                            log.Error("Mode Violation:" + qso.Log.FileName + " ->" + qso.Mode + "<-");
+                            log.LogError("Mode Violation:" + qso.Log.FileName + " ->" + qso.Mode + "<-");
                             qso.IsInvalid("Mode Violation: ->" + qso.Mode + "<- should be CW PH or SSB");
                         }
                     }
@@ -754,7 +754,7 @@ namespace Contest
             }
         }
 
-        public static void ModeChangeCheck(Cabrillo cabrilloLog)
+        public static void ModeChangeCheck(Cabrillo cabrilloLog, ILogger log)
         {
             string lastmode = "";
             DateTime lastmodeTime = DateTime.MinValue;
@@ -769,7 +769,7 @@ namespace Contest
 
                     if (beforelastmodeTime.AddMinutes(5) > qso.DateTime)
                     {
-                        log.Error("Mode Change Violation:" + cabrilloLog.FileName + " ->" + qso.DateTime + " " + qso.Mode + "<-");
+                        log.LogError("Mode Change Violation:" + cabrilloLog.FileName + " ->" + qso.DateTime + " " + qso.Mode + "<-");
                         qso.IsInvalid("Mode Change Violation: ->" + qso.DateTime + " " + qso.Mode + "<-");
                     }
                     else
@@ -804,7 +804,7 @@ namespace Contest
             get {
                 DateTime myDate = new DateTime(DateTime.Today.Month<12?DateTime.Today.Year-1: DateTime.Today.Year, 12,17);
                 int offset = myDate.DayOfWeek - DayOfWeek.Sunday;
-                return myDate.AddDays(offset <3?- offset:7-offset);
+                return myDate.AddDays(offset <=3?- offset:7-offset);
             }
         }
 
@@ -864,8 +864,8 @@ namespace Contest
         }
 
 
-        static readonly ILog log = LogManager.GetLogger(typeof(Program));
-        public static void ProcessFolder(Options options)
+
+        public static void ProcessFolder(Options options, ILogger log)
         {
             List<Cabrillo> logList = new List<Cabrillo>();
             string folder = options.InputFolder;
@@ -873,7 +873,7 @@ namespace Contest
             {
                 folder += "\\";
             }
-            log.Info("Opening files from folder:" + folder);
+            log.LogInformation("Opening files from folder:" + folder);
             DirectoryInfo di = new DirectoryInfo(Path.GetDirectoryName(folder));
             if (di != null)
             {
@@ -882,7 +882,7 @@ namespace Contest
                 {
                     foreach (FileInfo subFile in subFiles)
                     {
-                        Cabrillo newlog = Parse(subFile, options.IgnoreStartOfLogTag);
+                        Cabrillo newlog = Parse(subFile, options.IgnoreStartOfLogTag, log);
                         Cabrillo existing = logList.Find(x => x.CallSign.Equals(newlog.CallSign));
                         if (existing != null && new FileInfo(existing.FileName).CreationTime < subFile.CreationTime)
                         {
@@ -901,11 +901,11 @@ namespace Contest
             }
             if (options.CupaTimisului)
             {
-                ParseQSO(logList, options.IgnoreDateTimeValidation, ScorCupaTimisului);
+                ParseQSO(logList, options.IgnoreDateTimeValidation, ScorCupaTimisului, log);
             }
             if (options.ZiuaTelecomunicatiilor)
             {
-                ParseQSO(logList, options.IgnoreDateTimeValidation, ScorZT);
+                ParseQSO(logList, options.IgnoreDateTimeValidation, ScorZT, log);
             }
             List<Tuple<DateTime, DateTime>> startendPairs = new List<Tuple<DateTime, DateTime>>();
             //startendPairs.Add(Tuple.Create(etapa1Start, etapa1End));
@@ -913,7 +913,7 @@ namespace Contest
 
             startendPairs.Add(Tuple.Create(options.Etapa1Start, options.Etapa1End));
             startendPairs.Add(Tuple.Create(options.Etapa2Start, options.Etapa2End));
-            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, options.IgnoreDateTimeValidation);
+            List<List<QSO>> etape = Cabrillo.ProcessQSOs(logList, startendPairs, options.IgnoreDateTimeValidation, log);
 
 
             List<QSO> etapa1 = etape[0];
@@ -922,20 +922,20 @@ namespace Contest
 
             //Cu o statie se poate lucra o singura data  in fiecare etapa, in CW sau in SSB, pe portiunea de banda rezervata modului respectiv.
             List<string> pairs = new List<string>();
-            log.Info("Check OneQSO");
-            Cabrillo.CheckOneQSO(etapa1);
-            Cabrillo.CheckOneQSO(etapa2);
-            log.Info("Done Checking OneQSO");
+            log.LogInformation("Check OneQSO");
+            Cabrillo.CheckOneQSO(etapa1,log);
+            Cabrillo.CheckOneQSO(etapa2, log);
+            log.LogInformation("Done Checking OneQSO");
 
 
             foreach (var cabrilloLog in logList)
             {
-                log.Info("Check Mode QSOs:" + cabrilloLog.FileName);
+                log.LogInformation("Check Mode QSOs:" + cabrilloLog.FileName);
                 foreach (var qso in cabrilloLog.QSOs)
                 {
-                    Cabrillo.ParseFrequency(qso, options.IgnoreModeFrequencyValidation);
+                    Cabrillo.ParseFrequency(qso, options.IgnoreModeFrequencyValidation, log);
                 }
-                log.Info("Done Checking Mode QSOs:" + cabrilloLog.FileName);
+                log.LogInformation("Done Checking Mode QSOs:" + cabrilloLog.FileName);
             }
 
             if (options.CupaTimisului)
@@ -943,9 +943,9 @@ namespace Contest
                 //Schimbarea modului de lucru se poate face la un interval de cel putin 5 minute.
                 foreach (var cabrilloLog in logList)
                 {
-                    log.Info("Check ModeChange QSOs:" + cabrilloLog.FileName);
-                    Cabrillo.ModeChangeCheck(cabrilloLog);
-                    log.Info("Done Checking ModeChange QSOs:" + cabrilloLog.FileName);
+                    log.LogInformation("Check ModeChange QSOs:" + cabrilloLog.FileName);
+                    Cabrillo.ModeChangeCheck(cabrilloLog, log);
+                    log.LogInformation("Done Checking ModeChange QSOs:" + cabrilloLog.FileName);
                 }
             }
             if (options.CupaTimisului)
@@ -953,20 +953,20 @@ namespace Contest
                 //In clasament vor intra doar logurile care contin minim 5 QSO – uri.
                 foreach (var cabrilloLog in logList)
                 {
-                    log.Info("Check MinQso nr.:" + cabrilloLog.FileName);
+                    log.LogInformation("Check MinQso nr.:" + cabrilloLog.FileName);
                     if (cabrilloLog.QSOs.Count < 5)
                     {
-                        log.Warn("MinQSO nr Violation:" + cabrilloLog.FileName + " ->" + cabrilloLog.QSOs.Count + "<-");
+                        log.LogWarning("MinQSO nr Violation:" + cabrilloLog.FileName + " ->" + cabrilloLog.QSOs.Count + "<-");
                         cabrilloLog.Valid = false;
                     }
-                    log.Info("Done Checking MinQSO nr:" + cabrilloLog.FileName);
+                    log.LogInformation("Done Checking MinQSO nr:" + cabrilloLog.FileName);
                 }
             }
             foreach (var cabrilloLog in logList)
             {
                 int total0 = (cabrilloLog.Multiplicator[0] * cabrilloLog.Etape[0].Sum(qso => qso.Score));
                 int total1 = (cabrilloLog.Multiplicator[1] * cabrilloLog.Etape[1].Sum(qso => qso.Score));
-                log.Info(cabrilloLog.FileName + "-" + cabrilloLog.CallSign + "- Etapa1:" + cabrilloLog.Multiplicator[0] + "-" + cabrilloLog.Etape[0].Sum(qso => qso.Score) + "->" + total0 + "<-" + " Etapa2:" + cabrilloLog.Multiplicator[1] + "-" + cabrilloLog.Etape[1].Sum(qso => qso.Score) + "->" + total1 + "<-");
+                log.LogInformation(cabrilloLog.FileName + "-" + cabrilloLog.CallSign + "- Etapa1:" + cabrilloLog.Multiplicator[0] + "-" + cabrilloLog.Etape[0].Sum(qso => qso.Score) + "->" + total0 + "<-" + " Etapa2:" + cabrilloLog.Multiplicator[1] + "-" + cabrilloLog.Etape[1].Sum(qso => qso.Score) + "->" + total1 + "<-");
             }
 
             if (Directory.Exists(Path.Combine(di.FullName, "Result")))
@@ -1170,34 +1170,34 @@ namespace Contest
             Console.WriteLine("Done.");
         }
 
-        public static void ParseQSO(List<Cabrillo> list, bool ignoreDateTimeValidation, QSO.CalculateScore myScore)
+        public static void ParseQSO(List<Cabrillo> list, bool ignoreDateTimeValidation, QSO.CalculateScore myScore, ILogger log)
         {
             foreach (Cabrillo cabrilloLog in list)
             {
-                log.Info("Parsing QSO:" + cabrilloLog.FileName);
+                log.LogInformation("Parsing QSO:" + cabrilloLog.FileName);
                 cabrilloLog.ParseQSO(ignoreDateTimeValidation, myScore);
-                log.Info("Done Parsing QSO:" + cabrilloLog.FileName);
+                log.LogInformation("Done Parsing QSO:" + cabrilloLog.FileName);
             }
         }
 
-        public static Cabrillo Parse(FileInfo subFile, bool ignoreStartOfLogTag)
+        public static Cabrillo Parse(FileInfo subFile, bool ignoreStartOfLogTag, ILogger log)
         {
             Cabrillo result;
-            log.Info("Opening File:" + subFile.FullName);
+            log.LogInformation("Opening File:" + subFile.FullName);
             FileStream fs = subFile.Open(FileMode.Open, FileAccess.Read, FileShare.None);
-            result = Parse(fs, subFile.FullName, ignoreStartOfLogTag);
+            result = Parse(fs, subFile.FullName, ignoreStartOfLogTag, log);
             fs.Close();
             return result;
         }
 
-        public static Cabrillo Parse(Stream fs, string fullName, bool ignoreStartOfLogTag)
+        public static Cabrillo Parse(Stream fs, string fullName, bool ignoreStartOfLogTag, ILogger log)
         {
-            log.Info("Parsing:" + fullName);
+            log.LogInformation("Parsing:" + fullName);
 
-            Cabrillo c = Cabrillo.Parse(fullName, fs, ignoreStartOfLogTag);
+            Cabrillo c = Cabrillo.Parse(fullName, fs, ignoreStartOfLogTag, log);
             foreach (string invalidLine in c.InvalidLines)
             {
-                log.Warn("Invalid tag:" + c.FileName + " ->" + invalidLine + "<-");
+                log.LogWarning("Invalid tag:" + c.FileName + " ->" + invalidLine + "<-");
             }
             return c;
         }

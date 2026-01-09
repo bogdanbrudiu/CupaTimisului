@@ -1,4 +1,4 @@
-﻿@inject Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnv
+﻿@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment hostingEnv
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,7 +28,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; @Contest.Program.ContestDate.Year.ToString() - Bogdan-Ioan BRUDIU @hostingEnv.EnvironmentName
+            &copy; @(((DateTime?)ViewData["ContestDate"])?.Year ?? DateTime.Now.Year) - Bogdan-Ioan BRUDIU @hostingEnv.EnvironmentName
         </div>
     </footer>
 

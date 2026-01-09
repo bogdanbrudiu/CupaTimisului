@@ -1,0 +1,548 @@
+CONTEST:        
+CALLSIGN:
+CATEGORY-ASSISTED:
+CATEGORY-BAND:
+CATEGORY-MODE:
+CATEGORY-OPERATOR:
+CATEGORY-POWER:
+CATEGORY-STATION:
+CATEGORY-TIME:
+CATEGORY-TRANSMITTER:
+CATEGORY-OVERLAY:
+CLAIMED-SCORE:
+CLUB:
+CREATED-BY:       Logix
+OPERATORS:
+EMAIL:
+LOCATION:
+NAME:            
+ADDRESS:        
+ADDRESS-CITY:
+ADDRESS-STATE-PROVINCE:
+ADDRESS-POSTALCODE:
+ADDRESS-COUNTRY:
+OFFTIME:
+DEBUG:
+SOAPBOX:         
+SOAPBOX:         
+SOAPBOX:         
+SOAPBOX:         
+QSO: 
+SOAPBOX: Parsed QSO -><- -><- ->1/1/0001 12:00:00 AM<- -><- -><- -><- -><- -><- -><- -><- -><-
+SOAPBOX:   Pair QSO <- -><- ->1/1/0001 12:00:00 AM<- -><- -><- -><- -><- -><- -><- -><- -><-
+SOAPBOX:Invalid DateTime: -> <-
+SOAPBOX:Invalid CallSign1: -><-
+SOAPBOX:Invalid CallSign2: -><-
+SOAPBOX:Invalid RST1: -><-
+SOAPBOX:Invalid RST2: -><-
+SOAPBOX:Invalid Exchange1: -><-
+SOAPBOX:Invalid Exchange2: -><-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->1/1/0001 12:00:00 AM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:Invalid Frequency: -><-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1402 YO4AJ         59  001 TL  YO7BEM        59  005  
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:02:00 PM<- ->YO4AJ<- ->59<- ->001<- ->TL<- ->YO7BEM<- ->59<- ->005<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:02:00 PM<- ->YO7BEM<- ->59<- ->005<- ->AG<- ->YO4AJ<- ->59<- ->001<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:02:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AG<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1404 YO4AJ         59  002 TL  YP8XMAS       59  003 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:04:00 PM<- ->YO4AJ<- ->59<- ->002<- ->TL<- ->YP8XMAS<- ->59<- ->003<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:04:00 PM<- ->YP8XMAS<- ->59<- ->003<- ->SV<- ->YO4AJ<- ->59<- ->002<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:04:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - SV<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1410 YO4AJ         59  003 TL  YO2BLX        59  016 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:10:00 PM<- ->YO4AJ<- ->59<- ->003<- ->TL<- ->YO2BLX<- ->59<- ->016<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:10:00 PM<- ->YO2BLX<- ->59<- ->016<- ->AR<- ->YO4AJ<- ->59<- ->003<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:10:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1411 YO4AJ         59  004 TL  YO3JW         59  015 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:11:00 PM<- ->YO4AJ<- ->59<- ->004<- ->TL<- ->YO3JW<- ->59<- ->015<- -><-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/20/2020 2:11:00 PM<- ->YO3JW<- ->59<- ->015<- ->BZ<- ->YO4AJ<- ->59<- ->004<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:11:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BZ<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1413 YO4AJ         59  005 TL  YO2LRK        59  020 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:13:00 PM<- ->YO4AJ<- ->59<- ->005<- ->TL<- ->YO2LRK<- ->59<- ->020<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:13:00 PM<- ->YO2LRK<- ->59<- ->020<- ->TM<- ->YO4AJ<- ->59<- ->005<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:13:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1415 YO4AJ         59  006 TL  YO2MNZ        59  012 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:15:00 PM<- ->YO4AJ<- ->59<- ->006<- ->TL<- ->YO2MNZ<- ->59<- ->012<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:14:00 PM<- ->YO2MNZ<- ->59<- ->012<- ->HD<- ->YO4AJ<- ->59<- ->006<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:15:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - HD<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1416 YO4AJ         59  007 TL  YO9FLD        59  021 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:16:00 PM<- ->YO4AJ<- ->59<- ->007<- ->TL<- ->YO9FLD<- ->59<- ->021<- -><-
+SOAPBOX:   Pair QSO 3716<- ->PH<- ->12/20/2020 2:16:00 PM<- ->YO9FLD<- ->59<- ->021<- ->BU<- ->YO4AJ<- ->59<- ->007<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:16:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BU<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1417 YO4AJ         59  008 TL  YO2MTG        59  022 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:17:00 PM<- ->YO4AJ<- ->59<- ->008<- ->TL<- ->YO2MTG<- ->59<- ->022<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:17:00 PM<- ->YO2MTG<- ->59<- ->022<- ->TM<- ->YO4AJ<- ->59<- ->008<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:17:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1418 YO4AJ         59  009 TL  YO2MTD        59  022 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:18:00 PM<- ->YO4AJ<- ->59<- ->009<- ->TL<- ->YO2MTD<- ->59<- ->022<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:18:00 PM<- ->YO2MTD<- ->59<- ->022<- ->TM<- ->YO4AJ<- ->59<- ->009<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:18:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1418 YO4AJ         59  010 TL  YO8THG        59  016 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:18:00 PM<- ->YO4AJ<- ->59<- ->010<- ->TL<- ->YO8THG<- ->59<- ->016<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:19:00 PM<- ->YO8THG<- ->59<- ->016<- ->BC<- ->YO4AJ<- ->59<- ->010<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:18:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BC<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1419 YO4AJ         59  011 TL  YO4KAK        59  010 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:19:00 PM<- ->YO4AJ<- ->59<- ->011<- ->TL<- ->YO4KAK<- ->59<- ->010<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:19:00 PM<- ->YO4KAK<- ->59<- ->010<- ->BR<- ->YO4AJ<- ->59<- ->011<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:19:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1421 YO4AJ         59  012 TL  YO3APJ        59  029 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:21:00 PM<- ->YO4AJ<- ->59<- ->012<- ->TL<- ->YO3APJ<- ->59<- ->029<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:21:00 PM<- ->YO3APJ<- ->59<- ->029<- ->PH<- ->YO4AJ<- ->59<- ->012<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:21:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - PH<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1428 YO4AJ         59  013 TL  YO7AKY        59  023 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:28:00 PM<- ->YO4AJ<- ->59<- ->013<- ->TL<- ->YO7AKY<- ->59<- ->023<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:29:00 PM<- ->YO7AKY<- ->59<- ->023<- ->AG<- ->YO4AJ<- ->59<- ->013<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:28:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AG<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1431 YO4AJ         59  014 TL  YO5OHB        59  026 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:31:00 PM<- ->YO4AJ<- ->59<- ->014<- ->TL<- ->YO5OHB<- ->59<- ->026<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:31:00 PM<- ->YO5OHB<- ->59<- ->026<- ->SM<- ->YO4AJ<- ->59<- ->014<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:31:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - SM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1435 YO4AJ         59  015 TL  YO9FTR        59  010 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:35:00 PM<- ->YO4AJ<- ->59<- ->015<- ->TL<- ->YO9FTR<- ->59<- ->010<- -><-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/20/2020 2:35:00 PM<- ->YO9FTR<- ->59<- ->010<- ->PH<- ->YO4AJ<- ->59<- ->015<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:35:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - PH<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1437 YO4AJ         59  016 TL  YO3GNF        59  005 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:37:00 PM<- ->YO4AJ<- ->59<- ->016<- ->TL<- ->YO3GNF<- ->59<- ->005<- -><-
+SOAPBOX:   Pair QSO 3722<- ->PH<- ->12/20/2020 2:36:00 PM<- ->YO3GNF<- ->59<- ->005<- ->BU<- ->YO4AJ<- ->59<- ->016<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:37:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BU<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1437 YO4AJ         59  017 TL  YO8CKR        59  027 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:37:00 PM<- ->YO4AJ<- ->59<- ->017<- ->TL<- ->YO8CKR<- ->59<- ->027<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:37:00 PM<- ->YO8CKR<- ->59<- ->027<- ->SV<- ->YO4AJ<- ->59<- ->017<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:37:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - SV<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1437 YO4AJ         59  018 TL  YO2LCV        59  019 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:37:00 PM<- ->YO4AJ<- ->59<- ->018<- ->TL<- ->YO2LCV<- ->59<- ->019<- -><-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/20/2020 2:37:00 PM<- ->YO2LCV<- ->59<- ->019<- ->HD<- ->YO4AJ<- ->59<- ->018<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:37:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - HD<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1438 YO4AJ         59  019 TL  YO6BJG        59  025 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:38:00 PM<- ->YO4AJ<- ->59<- ->019<- ->TL<- ->YO6BJG<- ->59<- ->025<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:37:00 PM<- ->YO6BJG<- ->59<- ->025<- ->BV<- ->YO4AJ<- ->59<- ->019<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:38:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BV<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1440 YO4AJ         59  020 TL  YO7HUZ        59  018 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:40:00 PM<- ->YO4AJ<- ->59<- ->020<- ->TL<- ->YO7HUZ<- ->59<- ->018<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:39:00 PM<- ->YO7HUZ<- ->59<- ->018<- ->VL<- ->YO4AJ<- ->59<- ->020<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:40:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - VL<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1440 YO4AJ         59  021 TL  YO4SI         59  024 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:40:00 PM<- ->YO4AJ<- ->59<- ->021<- ->TL<- ->YO4SI<- ->59<- ->024<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:40:00 PM<- ->YO4SI<- ->59<- ->024<- ->CT<- ->YO4AJ<- ->59<- ->021<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:40:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - CT<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1441 YO4AJ         59  022 TL  YO7FWS        59  016 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:41:00 PM<- ->YO4AJ<- ->59<- ->022<- ->TL<- ->YO7FWS<- ->59<- ->016<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:41:00 PM<- ->YO7FWS<- ->59<- ->016<- ->OT<- ->YO4AJ<- ->59<- ->022<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:41:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - OT<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1442 YO4AJ         59  023 TL  YO2LQI        59  007 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:42:00 PM<- ->YO4AJ<- ->59<- ->023<- ->TL<- ->YO2LQI<- ->59<- ->007<- -><-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO2LQI<- ->59<- -><- -><- ->YO4AJ<- ->59<- -><- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:42:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1442 YO4AJ         59  024 TL  YO4BYW        59  025 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:42:00 PM<- ->YO4AJ<- ->59<- ->024<- ->TL<- ->YO4BYW<- ->59<- ->025<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:42:00 PM<- ->YO4BYW<- ->59<- ->025<- ->BR<- ->YO4AJ<- ->59<- ->024<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:42:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1443 YO4AJ         59  025 TL  YO2CXJ        59  035 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:43:00 PM<- ->YO4AJ<- ->59<- ->025<- ->TL<- ->YO2CXJ<- ->59<- ->035<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:40:00 PM<- ->YO2CXJ<- ->59<- ->035<- ->HD<- ->YO4AJ<- ->59<- ->025<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:43:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - HD<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1443 YO4AJ         59  026 TL  YO2LDU        59  035 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 2:43:00 PM<- ->YO4AJ<- ->59<- ->026<- ->TL<- ->YO2LDU<- ->59<- ->035<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 2:43:00 PM<- ->YO2LDU<- ->59<- ->035<- ->AR<- ->YO4AJ<- ->59<- ->026<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:43:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AR<-
+SOAPBOX: Score 0
+QSO:  3500 CW 2020-12-20 1447 YO4AJ         599 027 TL  YO7LYM        599 012 
+SOAPBOX: Parsed QSO ->3500<- ->CW<- ->12/20/2020 2:47:00 PM<- ->YO4AJ<- ->599<- ->027<- ->TL<- ->YO7LYM<- ->599<- ->012<- -><-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/20/2020 2:47:00 PM<- ->YO7LYM<- ->599<- ->012<- ->DJ<- ->YO4AJ<- ->599<- ->027<- ->CT<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:47:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - DJ<-
+SOAPBOX: Score 0
+QSO:  3500 CW 2020-12-20 1449 YO4AJ         599 028 TL  YO4TL         599 009 
+SOAPBOX: Parsed QSO ->3500<- ->CW<- ->12/20/2020 2:49:00 PM<- ->YO4AJ<- ->599<- ->028<- ->TL<- ->YO4TL<- ->599<- ->009<- -><-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/20/2020 2:49:00 PM<- ->YO4TL<- ->599<- ->9<- -><- ->YO4AJ<- ->599<- ->28<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:49:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 CW 2020-12-20 1452 YO4AJ         599 029 TL  YO2GL         599 023 
+SOAPBOX: Parsed QSO ->3500<- ->CW<- ->12/20/2020 2:52:00 PM<- ->YO4AJ<- ->599<- ->029<- ->TL<- ->YO2GL<- ->599<- ->023<- -><-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/20/2020 2:52:00 PM<- ->YO2GL<- ->599<- ->023<- ->TM<- ->YO4AJ<- ->599<- ->029<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:52:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 CW 2020-12-20 1453 YO4AJ         599 030 TL  YO2CMI        599 013 
+SOAPBOX: Parsed QSO ->3500<- ->CW<- ->12/20/2020 2:53:00 PM<- ->YO4AJ<- ->599<- ->030<- ->TL<- ->YO2CMI<- ->599<- ->013<- -><-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/20/2020 2:54:00 PM<- ->YO2CMI<- ->599<- ->013<- ->TM<- ->YO4AJ<- ->599<- ->030<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:53:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 CW 2020-12-20 1454 YO4AJ         599 031 TL  YO2AMU        599 023 
+SOAPBOX: Parsed QSO ->3500<- ->CW<- ->12/20/2020 2:54:00 PM<- ->YO4AJ<- ->599<- ->031<- ->TL<- ->YO2AMU<- ->599<- ->023<- -><-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/20/2020 2:54:00 PM<- ->YO2AMU<- ->599<- ->023<- ->AR<- ->YO4AJ<- ->599<- ->031<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:54:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AR<-
+SOAPBOX: Score 0
+QSO:  3500 CW 2020-12-20 1459 YO4AJ         599 032 TL  YO2LDU        599 040 
+SOAPBOX: Parsed QSO ->3500<- ->CW<- ->12/20/2020 2:59:00 PM<- ->YO4AJ<- ->599<- ->032<- ->TL<- ->YO2LDU<- ->599<- ->040<- -><-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/20/2020 2:59:00 PM<- ->YO2LDU<- ->599<- ->040<- ->AR<- ->YO4AJ<- ->599<- ->032<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 2:59:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1501 YO4AJ         59  033 TL  YO4KAK        59  025 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:01:00 PM<- ->YO4AJ<- ->59<- ->033<- ->TL<- ->YO4KAK<- ->59<- ->025<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:01:00 PM<- ->YO4KAK<- ->59<- ->025<- ->BR<- ->YO4AJ<- ->59<- ->033<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:01:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1504 YO4AJ         59  034 TL  YO2LRK        59  056 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:04:00 PM<- ->YO4AJ<- ->59<- ->034<- ->TL<- ->YO2LRK<- ->59<- ->056<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:04:00 PM<- ->YO2LRK<- ->59<- ->056<- ->TM<- ->YO4AJ<- ->59<- ->034<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:04:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1508 YO4AJ         59  035 TL  YO5OHB        59  062 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:08:00 PM<- ->YO4AJ<- ->59<- ->035<- ->TL<- ->YO5OHB<- ->59<- ->062<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:08:00 PM<- ->YO5OHB<- ->59<- ->062<- ->SM<- ->YO4AJ<- ->59<- ->035<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:08:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - SM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1508 YO4AJ         59  036 TL  YO9FLD        59  064 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:08:00 PM<- ->YO4AJ<- ->59<- ->036<- ->TL<- ->YO9FLD<- ->59<- ->064<- -><-
+SOAPBOX:   Pair QSO 3717<- ->PH<- ->12/20/2020 3:09:00 PM<- ->YO9FLD<- ->59<- ->064<- ->BU<- ->YO4AJ<- ->59<- ->036<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:08:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BU<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1509 YO4AJ         59  037 TL  YO2NWW        59  046 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:09:00 PM<- ->YO4AJ<- ->59<- ->037<- ->TL<- ->YO2NWW<- ->59<- ->046<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:09:00 PM<- ->YO2NWW<- ->59<- ->047<- ->TM<- ->YO4AJ<- ->59<- ->037<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:09:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 046 - 047<-
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1510 YO4AJ         59  038 TL  YO3JW         59  072 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:10:00 PM<- ->YO4AJ<- ->59<- ->038<- ->TL<- ->YO3JW<- ->59<- ->072<- -><-
+SOAPBOX:   Pair QSO 3724<- ->PH<- ->12/20/2020 3:10:00 PM<- ->YO3JW<- ->59<- ->072<- ->BZ<- ->YO4AJ<- ->59<- ->038<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:10:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BZ<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1512 YO4AJ         59  039 TL  YO2LDU        59  050 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:12:00 PM<- ->YO4AJ<- ->59<- ->039<- ->TL<- ->YO2LDU<- ->59<- ->050<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:11:00 PM<- ->YO2LDU<- ->59<- ->050<- ->AR<- ->YO4AJ<- ->59<- ->039<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:12:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1513 YO4AJ         59  040 TL  YO7MPI        59  050 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:13:00 PM<- ->YO4AJ<- ->59<- ->040<- ->TL<- ->YO7MPI<- ->59<- ->050<- -><-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:13:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1515 YO4AJ         59  041 TL  YO3APJ        59  075 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:15:00 PM<- ->YO4AJ<- ->59<- ->041<- ->TL<- ->YO3APJ<- ->59<- ->075<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:15:00 PM<- ->YO3APJ<- ->59<- ->075<- ->PH<- ->YO4AJ<- ->59<- ->041<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:15:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - PH<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1519 YO4AJ         59  042 TL  YP8XMAS       59  043 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:19:00 PM<- ->YO4AJ<- ->59<- ->042<- ->TL<- ->YP8XMAS<- ->59<- ->043<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:19:00 PM<- ->YP8XMAS<- ->59<- ->043<- ->SV<- ->YO4AJ<- ->59<- ->042<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:19:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - SV<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1521 YO4AJ         59  043 TL  YO2CK         59  022 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:21:00 PM<- ->YO4AJ<- ->59<- ->043<- ->TL<- ->YO2CK<- ->59<- ->022<- -><-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:21:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1521 YO4AJ         59  044 TL  YO6BJG        59  047 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:21:00 PM<- ->YO4AJ<- ->59<- ->044<- ->TL<- ->YO6BJG<- ->59<- ->047<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:20:00 PM<- ->YO6BJG<- ->59<- ->047<- ->BV<- ->YO4AJ<- ->59<- ->044<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:21:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BV<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1521 YO4AJ         59  045 TL  YO2BLX        59  073 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:21:00 PM<- ->YO4AJ<- ->59<- ->045<- ->TL<- ->YO2BLX<- ->59<- ->073<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:21:00 PM<- ->YO2BLX<- ->59<- ->073<- ->AR<- ->YO4AJ<- ->59<- ->045<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:21:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1522 YO4AJ         59  046 TL  YO2LCV        59  039 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:22:00 PM<- ->YO4AJ<- ->59<- ->046<- ->TL<- ->YO2LCV<- ->59<- ->039<- -><-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/20/2020 3:22:00 PM<- ->YO2LCV<- ->59<- ->039<- ->HD<- ->YO4AJ<- ->59<- ->046<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:22:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - HD<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1522 YO4AJ         59  047 TL  YO2MJZ        59  038 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:22:00 PM<- ->YO4AJ<- ->59<- ->047<- ->TL<- ->YO2MJZ<- ->59<- ->038<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:22:00 PM<- ->YO2MJZ<- ->59<- ->038<- ->AR<- ->YO4AJ<- ->59<- ->047<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:22:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1523 YO4AJ         59  048 TL  YO7BEM        59  063 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:23:00 PM<- ->YO4AJ<- ->59<- ->048<- ->TL<- ->YO7BEM<- ->59<- ->063<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:22:00 PM<- ->YO7BEM<- ->59<- ->063<- ->AG<- ->YO4AJ<- ->59<- ->048<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:23:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AG<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1523 YO4AJ         59  049 TL  YO2LXW        59  033 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:23:00 PM<- ->YO4AJ<- ->59<- ->049<- ->TL<- ->YO2LXW<- ->59<- ->033<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:23:00 PM<- ->YO2LXW<- ->59<- ->033<- ->HD<- ->YO4AJ<- ->59<- ->049<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:23:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - HD<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1524 YO4AJ         59  050 TL  YO8THG        59  052 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:24:00 PM<- ->YO4AJ<- ->59<- ->050<- ->TL<- ->YO8THG<- ->59<- ->052<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:24:00 PM<- ->YO8THG<- ->59<- ->052<- ->BC<- ->YO4AJ<- ->59<- ->050<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:24:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BC<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1524 YO4AJ         59  051 TL  YO7HUZ        59  031 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:24:00 PM<- ->YO4AJ<- ->59<- ->051<- ->TL<- ->YO7HUZ<- ->59<- ->031<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:24:00 PM<- ->YO7HUZ<- ->59<- ->031<- ->VL<- ->YO4AJ<- ->59<- ->051<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:24:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - VL<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1524 YO4AJ         59  052 TL  YO4BYW        59  050 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:24:00 PM<- ->YO4AJ<- ->59<- ->052<- ->TL<- ->YO4BYW<- ->59<- ->050<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:24:00 PM<- ->YO4BYW<- ->59<- ->050<- ->BR<- ->YO4AJ<- ->59<- ->052<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:24:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - BR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1525 YO4AJ         59  053 TL  YO2SH         59  043 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:25:00 PM<- ->YO4AJ<- ->59<- ->053<- ->TL<- ->YO2SH<- ->59<- ->043<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:25:00 PM<- ->YO2SH<- ->59<- ->043<- ->HD<- ->YO4AJ<- ->59<- ->053<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:25:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - HD<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1525 YO4AJ         59  054 TL  YO9FTR        59  026 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:25:00 PM<- ->YO4AJ<- ->59<- ->054<- ->TL<- ->YO9FTR<- ->59<- ->026<- -><-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/20/2020 3:25:00 PM<- ->YO9FTR<- ->59<- ->026<- ->PH<- ->YO4AJ<- ->59<- ->054<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:25:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - PH<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1525 YO4AJ         59  055 TL  YO2LQI        59  024 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:25:00 PM<- ->YO4AJ<- ->59<- ->055<- ->TL<- ->YO2LQI<- ->59<- ->024<- -><-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO2LQI<- ->59<- -><- -><- ->YO4AJ<- ->59<- -><- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:25:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1526 YO4AJ         59  056 TL  YO2LLZ        59  055 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:26:00 PM<- ->YO4AJ<- ->59<- ->056<- ->TL<- ->YO2LLZ<- ->59<- ->055<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:26:00 PM<- ->YO2LLZ<- ->59<- ->055<- ->TM<- ->YO4AJ<- ->59<- ->056<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:26:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1527 YO4AJ         59  057 TL  YO2BCS        59  014 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:27:00 PM<- ->YO4AJ<- ->59<- ->057<- ->TL<- ->YO2BCS<- ->59<- ->014<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:27:00 PM<- ->YO2BCS<- ->59<- ->014<- ->TM<- ->YO4AJ<- ->59<- ->057<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:27:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1528 YO4AJ         59  058 TL  YO2AMU        59  39 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:28:00 PM<- ->YO4AJ<- ->59<- ->058<- ->TL<- ->YO2AMU<- ->59<- ->39<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:28:00 PM<- ->YO2AMU<- ->59<- ->039<- ->AR<- ->YO4AJ<- ->59<- ->058<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:28:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AR<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1530 YO4AJ         59  059 TL  OE5CCE        59  030 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:30:00 PM<- ->YO4AJ<- ->59<- ->059<- ->TL<- ->OE5CCE<- ->59<- ->030<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:30:00 PM<- ->OE5CCE<- ->59<- ->030<- ->OE<- ->YO4AJ<- ->59<- ->059<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:30:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - OE<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1531 YO4AJ         59  060 TL  YO2CLL        59  037 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:31:00 PM<- ->YO4AJ<- ->59<- ->060<- ->TL<- ->YO2CLL<- ->59<- ->037<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:30:00 PM<- ->YO2CLL<- ->59<- ->037<- ->TM<- ->YO4AJ<- ->59<- ->060<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:31:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1532 YO4AJ         59  061 TL  YO7FWS        59  036 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:32:00 PM<- ->YO4AJ<- ->59<- ->061<- ->TL<- ->YO7FWS<- ->59<- ->036<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:32:00 PM<- ->YO7FWS<- ->59<- ->036<- ->OT<- ->YO4AJ<- ->59<- ->061<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:32:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - OT<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1532 YO4AJ         59  062 TL  YO4BXX        59  027 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:32:00 PM<- ->YO4AJ<- ->59<- ->062<- ->TL<- ->YO4BXX<- ->59<- ->027<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:33:00 PM<- ->YO4BXX<- ->59<- ->027<- ->CT<- ->YO4AJ<- ->59<- ->062<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:32:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - CT<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1533 YO4AJ         59  063 TL  YO2MIT        59  043 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:33:00 PM<- ->YO4AJ<- ->59<- ->063<- ->TL<- ->YO2MIT<- ->59<- ->043<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:33:00 PM<- ->YO2MIT<- ->59<- ->043<- ->TM<- ->YO4AJ<- ->59<- ->063<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:33:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1534 YO4AJ         59  064 TL  YO7AKY        59  058 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:34:00 PM<- ->YO4AJ<- ->59<- ->064<- ->TL<- ->YO7AKY<- ->59<- ->058<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:35:00 PM<- ->YO7AKY<- ->59<- ->058<- ->AG<- ->YO4AJ<- ->59<- ->064<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:34:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - AG<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1535 YO4AJ         59  065 TL  YO4SI         59  051 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:35:00 PM<- ->YO4AJ<- ->59<- ->065<- ->TL<- ->YO4SI<- ->59<- ->051<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:35:00 PM<- ->YO4SI<- ->59<- ->051<- ->CT<- ->YO4AJ<- ->59<- ->065<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:35:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - CT<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1541 YO4AJ         59  066 TL  YO2LSP        59  076 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:41:00 PM<- ->YO4AJ<- ->59<- ->066<- ->TL<- ->YO2LSP<- ->59<- ->076<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:41:00 PM<- ->YO2LSP<- ->59<- ->076<- ->TM<- ->YO4AJ<- ->59<- ->066<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:41:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1542 YO4AJ         59  067 TL  YO2KQK        59  098 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:42:00 PM<- ->YO4AJ<- ->59<- ->067<- ->TL<- ->YO2KQK<- ->59<- ->098<- -><-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO2KQK<- ->59<- -><- -><- ->YO4AJ<- ->59<- -><- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:42:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1543 YO4AJ         59  068 TL  YO6PEG        59  078 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:43:00 PM<- ->YO4AJ<- ->59<- ->068<- ->TL<- ->YO6PEG<- ->59<- ->078<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:43:00 PM<- ->YO6PEG<- ->59<- ->078<- ->SB<- ->YO4AJ<- ->59<- ->068<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:43:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - SB<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2020-12-20 1545 YO4AJ         59  069 TL  YO2LCP        59  065 
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/20/2020 3:45:00 PM<- ->YO4AJ<- ->59<- ->069<- ->TL<- ->YO2LCP<- ->59<- ->065<- -><-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/20/2020 3:45:00 PM<- ->YO2LCP<- ->59<- ->065<- ->MH<- ->YO4AJ<- ->59<- ->069<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:45:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - MH<-
+SOAPBOX: Score 0
+QSO:  3500 CW 2020-12-20 1552 YO4AJ         599 070 TL  YO7LYM        599 027 
+SOAPBOX: Parsed QSO ->3500<- ->CW<- ->12/20/2020 3:52:00 PM<- ->YO4AJ<- ->599<- ->070<- ->TL<- ->YO7LYM<- ->599<- ->027<- -><-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/20/2020 3:52:00 PM<- ->YO7LYM<- ->599<- ->027<- ->DJ<- ->YO4AJ<- ->599<- ->070<- ->BR<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:52:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - DJ<-
+SOAPBOX: Score 0
+QSO:  3500 CW 2020-12-20 1556 YO4AJ         599 071 TL  YO2CMI        599 025 
+SOAPBOX: Parsed QSO ->3500<- ->CW<- ->12/20/2020 3:56:00 PM<- ->YO4AJ<- ->599<- ->071<- ->TL<- ->YO2CMI<- ->599<- ->025<- -><-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/20/2020 3:56:00 PM<- ->YO2CMI<- ->599<- ->025<- ->TM<- ->YO4AJ<- ->599<- ->071<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:56:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - TM<-
+SOAPBOX: Score 0
+QSO:  3500 CW 2020-12-20 1557 YO4AJ         599 072 TL  YO4SI         599 063 
+SOAPBOX: Parsed QSO ->3500<- ->CW<- ->12/20/2020 3:57:00 PM<- ->YO4AJ<- ->599<- ->072<- ->TL<- ->YO4SI<- ->599<- ->063<- -><-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/20/2020 3:57:00 PM<- ->YO4SI<- ->599<- ->063<- ->CT<- ->YO4AJ<- ->599<- ->072<- ->TL<-
+SOAPBOX:Invalid County2: -><-
+SOAPBOX:Invalid QSOs DateTime out of bounds: ->12/20/2020 3:57:00 PM<- should be between 12/14/2025 2:00:00 PM-12/14/2025 3:00:00 PM 12/14/2025 3:00:00 PM-12/14/2025 4:00:00 PM 
+SOAPBOX:County is not correct: -> - CT<-
+SOAPBOX: Score 0
+SOAPBOX: Multiplicator Etapa1 0
+SOAPBOX: Multiplicator Etapa2 0
+SOAPBOX: Scor Etapa1 0
+SOAPBOX: Scor Etapa2 0
+SOAPBOX: Scor 0

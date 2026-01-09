@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Submitter.Models;
 
@@ -39,11 +40,11 @@ namespace Submitter
             services.AddScoped<ITemplateRenderer, TemplateRenderer>();
             services.AddScoped<ICoreMvcMailer, CoreMvcMailer>();
             services.AddElmah();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, Microsoft.AspNetCore.Hosting.IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -58,15 +59,12 @@ namespace Submitter
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            loggerFactory.AddDebug();
-            app.UseElmah();
 
-            app.UseMvc(routes =>
+            app.UseElmah();
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllers();
             });
         }
     }

@@ -1,0 +1,187 @@
+CONTEST: Cupa Timisului 2021
+CALLSIGN:YO2CLL
+CATEGORY-ASSISTED:
+CATEGORY-BAND:
+CATEGORY-MODE:
+CATEGORY-OPERATOR:
+CATEGORY-POWER:
+CATEGORY-STATION:
+CATEGORY-TIME:
+CATEGORY-TRANSMITTER:
+CATEGORY-OVERLAY:
+CLAIMED-SCORE: 1239
+CLUB: 
+CREATED-BY: Hamware/YO9HSW
+OPERATORS: BEHAWETZ OTTO
+EMAIL:
+LOCATION:
+NAME: YO2CLL
+ADDRESS: 
+ADDRESS: 
+ADDRESS: Cupa Timisului 2021
+ADDRESS-CITY:
+ADDRESS-STATE-PROVINCE:
+ADDRESS-POSTALCODE:
+ADDRESS-COUNTRY:
+OFFTIME:
+DEBUG:
+SOAPBOX: 
+SOAPBOX: 
+QSO:  3500 PH 2021-12-19 14:16 YO2CLL        59  001 TM YO9KNE        59  030 HR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:16:00 PM<- ->YO2CLL<- ->59<- ->001<- ->TM<- ->YO9KNE<- ->59<- ->030<- ->HR<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 14:17 YO2CLL        59  002 TM YOCK          59  029 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:17:00 PM<- ->YO2CLL<- ->59<- ->002<- ->TM<- ->YOCK<- ->59<- ->029<- ->HD<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 14:19 YO2CLL        59  003 TM YO5AVN        59  016 MM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:19:00 PM<- ->YO2CLL<- ->59<- ->003<- ->TM<- ->YO5AVN<- ->59<- ->016<- ->MM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:19:00 PM<- ->YO5AVN<- ->59<- ->016<- ->MM<- ->YO2CLL<- ->59<- ->003<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 14:20 YO2CLL        59  004 TM YO2BLX        59  028 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:20:00 PM<- ->YO2CLL<- ->59<- ->004<- ->TM<- ->YO2BLX<- ->59<- ->028<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:20:00 PM<- ->YO2BLX<- ->59<- ->028<- ->AR<- ->YO2CLL<- ->59<- ->004<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 14:21 YO2CLL        59  005 TM YO2AQO        59  019 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:21:00 PM<- ->YO2CLL<- ->59<- ->005<- ->TM<- ->YO2AQO<- ->59<- ->019<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:21:00 PM<- ->YO2AQO<- ->59<- ->019<- ->TM<- ->YO2CLL<- ->59<- ->005<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2021-12-19 14:24 YO2CLL        59  006 TM YO7CKQ        59  026 GJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:24:00 PM<- ->YO2CLL<- ->59<- ->006<- ->TM<- ->YO7CKQ<- ->59<- ->026<- ->GJ<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/19/2021 2:23:00 PM<- ->YO7CKQ<- ->59<- ->026<- ->GJ<- ->YO2CLL<- ->59<- ->006<- ->M<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 14:25 YO2CLL        59  007 TM YO2LGU        59  028 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:25:00 PM<- ->YO2CLL<- ->59<- ->007<- ->TM<- ->YO2LGU<- ->59<- ->028<- ->TM<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 14:28 YO2CLL        59  008 TM YO5LD         59  021 CJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:28:00 PM<- ->YO2CLL<- ->59<- ->008<- ->TM<- ->YO5LD<- ->59<- ->021<- ->CJ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:28:00 PM<- ->YO5LD<- ->59<- ->021<- ->TM<- ->YO2CLL<- ->59<- ->008<- ->TM<-
+SOAPBOX:County is not correct: ->CJ - TM<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 14:28 YO2CLL        59  009 TM YO2LLZ        59  028 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:28:00 PM<- ->YO2CLL<- ->59<- ->009<- ->TM<- ->YO2LLZ<- ->59<- ->028<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:28:00 PM<- ->YO2LLZ<- ->59<- ->028<- ->TM<- ->YO2CLL<- ->59<- ->009<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2021-12-19 14:29 YO2CLL        59  010 TM YO9FLD        59  042 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:29:00 PM<- ->YO2CLL<- ->59<- ->010<- ->TM<- ->YO9FLD<- ->59<- ->042<- ->BU<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/19/2021 2:30:00 PM<- ->YO9FLD<- ->59<- ->042<- ->BU<- ->YO2CLL<- ->59<- ->010<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 14:36 YO2CLL        59  011 TM YO5DAS        59  033 SM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:36:00 PM<- ->YO2CLL<- ->59<- ->011<- ->TM<- ->YO5DAS<- ->59<- ->033<- ->SM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:36:00 PM<- ->YO5DAS<- ->59<- ->033<- ->SM<- ->YO2CLL<- ->59<- ->011<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 14:38 YO2CLL        59  012 TM YO5DDD        59  042 AB
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:38:00 PM<- ->YO2CLL<- ->59<- ->012<- ->TM<- ->YO5DDD<- ->59<- ->042<- ->AB<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:38:00 PM<- ->YO5DDD<- ->59<- ->042<- ->AB<- ->YO2CLL<- ->59<- ->012<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 14:47 YO2CLL        59  013 TM YO8WW         59  021 NT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:47:00 PM<- ->YO2CLL<- ->59<- ->013<- ->TM<- ->YO8WW<- ->59<- ->021<- ->NT<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:48:00 PM<- ->YO8WW<- ->59<- ->021<- ->NT<- ->YO2CLL<- ->59<- ->013<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 14:58 YO2CLL        59  014 TM YO3CWT        59  043 BU                                           
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:58:00 PM<- ->YO2CLL<- ->59<- ->014<- ->TM<- ->YO3CWT<- ->59<- ->043<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:58:00 PM<- ->YO3CWT<- ->59<- ->043<- ->BU<- ->YO2CLL<- ->59<- ->014<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:01 YO2CLL        59  015 TM YO2LDU        59  051 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:01:00 PM<- ->YO2CLL<- ->59<- ->015<- ->TM<- ->YO2LDU<- ->59<- ->051<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:02:00 PM<- ->YO2LDU<- ->59<- ->051<- ->AR<- ->YO2CLL<- ->59<- ->015<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:02 YO2CLL        59  016 TM YO7BEM        59  047 AG
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:02:00 PM<- ->YO2CLL<- ->59<- ->016<- ->TM<- ->YO7BEM<- ->59<- ->047<- ->AG<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:02:00 PM<- ->YO7BEM<- ->59<- ->047<- ->AG<- ->YO2CLL<- ->59<- ->016<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:05 YO2CLL        59  017 TM YO2BLX        59  059 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:05:00 PM<- ->YO2CLL<- ->59<- ->017<- ->TM<- ->YO2BLX<- ->59<- ->059<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:05:00 PM<- ->YO2BLX<- ->59<- ->059<- ->AR<- ->YO2CLL<- ->59<- ->017<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:07 YO2CLL        59  018 TM YO2DFA        59  058 CS
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:07:00 PM<- ->YO2CLL<- ->59<- ->018<- ->TM<- ->YO2DFA<- ->59<- ->058<- ->CS<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:07:00 PM<- ->YO2DFA<- ->59<- ->058<- ->CS<- ->YO2CLL<- ->59<- ->018<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:12 YO2CLL        59  019 TM YO5AVN        59  068 MM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:12:00 PM<- ->YO2CLL<- ->59<- ->019<- ->TM<- ->YO5AVN<- ->59<- ->068<- ->MM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:12:00 PM<- ->YO5AVN<- ->59<- ->068<- ->MM<- ->YO2CLL<- ->59<- ->019<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:14 YO2CLL        59  020 TM YO5DDD        59  069 AB
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:14:00 PM<- ->YO2CLL<- ->59<- ->020<- ->TM<- ->YO5DDD<- ->59<- ->069<- ->AB<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:14:00 PM<- ->YO5DDD<- ->59<- ->069<- ->AB<- ->YO2CLL<- ->59<- ->020<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:16 YO2CLL        59  021 TM YO5LD         59  077 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:16:00 PM<- ->YO2CLL<- ->59<- ->021<- ->TM<- ->YO5LD<- ->59<- ->077<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:16:00 PM<- ->YO5LD<- ->59<- ->077<- ->TM<- ->YO2CLL<- ->59<- ->021<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2021-12-19 15:18 YO2CLL        59  022 TM YO6KNE        59  074 HR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:18:00 PM<- ->YO2CLL<- ->59<- ->022<- ->TM<- ->YO6KNE<- ->59<- ->074<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:18:00 PM<- ->YO6KNE<- ->59<- ->074<- ->HR<- ->YO2CLL<- ->59<- ->022<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:19 YO2CLL        59  023 TM YO2AQO        59  056 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:19:00 PM<- ->YO2CLL<- ->59<- ->023<- ->TM<- ->YO2AQO<- ->59<- ->056<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:19:00 PM<- ->YO2AQO<- ->59<- ->056<- ->TM<- ->YO2CLL<- ->59<- ->023<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2021-12-19 15:20 YO2CLL        59  024 TM YO2CK         59  080 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:20:00 PM<- ->YO2CLL<- ->59<- ->024<- ->TM<- ->YO2CK<- ->59<- ->080<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:20:00 PM<- ->YO2CK<- ->59<- ->080<- ->HD<- ->YO2CLL<- ->59<- ->024<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:23 YO2CLL        59  025 TM YO8WW         59  073 NT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:23:00 PM<- ->YO2CLL<- ->59<- ->025<- ->TM<- ->YO8WW<- ->59<- ->073<- ->NT<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:23:00 PM<- ->YO8WW<- ->59<- ->073<- ->NT<- ->YO2CLL<- ->59<- ->025<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:26 YO2CLL        59  026 TM YO2LCP        59  021 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:26:00 PM<- ->YO2CLL<- ->59<- ->026<- ->TM<- ->YO2LCP<- ->59<- ->021<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:26:00 PM<- ->YO2LCP<- ->59<- ->021<- ->TM<- ->YO2CLL<- ->59<- ->026<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2021-12-19 15:29 YO2CLL        59  027 TM YO2LOJ        59  029 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:29:00 PM<- ->YO2CLL<- ->59<- ->027<- ->TM<- ->YO2LOJ<- ->59<- ->029<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:29:00 PM<- ->YO2LOJ<- ->59<- ->029<- ->TM<- ->YO2CLL<- ->59<- ->029<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2021-12-19 15:30 YO2CLL        59  028 TM YO3DIU        59  081 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:30:00 PM<- ->YO2CLL<- ->59<- ->028<- ->TM<- ->YO3DIU<- ->59<- ->081<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:31:00 PM<- ->YO3DIU<- ->59<- ->081<- ->BU<- ->YO2CLL<- ->59<- ->028<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:32 YO2CLL        59  029 TM YO9FLD        59  096 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:32:00 PM<- ->YO2CLL<- ->59<- ->029<- ->TM<- ->YO9FLD<- ->59<- ->096<- ->BU<-
+SOAPBOX:   Pair QSO 3725<- ->PH<- ->12/19/2021 3:32:00 PM<- ->YO9FLD<- ->59<- ->096<- ->BU<- ->YO2CLL<- ->59<- ->029<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:34 YO2CLL        59  030 TM YO7CKQ        59  081 GJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:34:00 PM<- ->YO2CLL<- ->59<- ->030<- ->TM<- ->YO7CKQ<- ->59<- ->081<- ->GJ<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/19/2021 3:33:00 PM<- ->YO7CKQ<- ->59<- ->081<- ->GJ<- ->YO2CLL<- ->59<- ->030<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:35 YO2CLL        59  031 TM YO5PEU        59  067 SM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:35:00 PM<- ->YO2CLL<- ->59<- ->031<- ->TM<- ->YO5PEU<- ->59<- ->067<- ->SM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:36:00 PM<- ->YO5PEU<- ->59<- ->067<- ->SM<- ->YO2CLL<- ->59<- ->031<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:37 YO2CLL        59  032 TM YO7PED        59  061 MH
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:37:00 PM<- ->YO2CLL<- ->59<- ->032<- ->TM<- ->YO7PED<- ->59<- ->061<- ->MH<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:38:00 PM<- ->YO7PED<- ->59<- ->061<- ->MH<- ->YO2CLL<- ->59<- ->032<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:40 YO2CLL        59  033 TM YO2MIT        59  049 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:40:00 PM<- ->YO2CLL<- ->59<- ->033<- ->TM<- ->YO2MIT<- ->59<- ->049<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:40:00 PM<- ->YO2MIT<- ->59<- ->049<- ->TM<- ->YO2CLL<- ->59<- ->033<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2021-12-19 15:41 YO2CLL        59  034 TM YO2LLZ        59  068 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:41:00 PM<- ->YO2CLL<- ->59<- ->034<- ->TM<- ->YO2LLZ<- ->59<- ->068<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:41:00 PM<- ->YO2LLZ<- ->59<- ->068<- ->TM<- ->YO2CLL<- ->59<- ->034<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2021-12-19 15:43 YO2CLL        59  035 TM YO8MI         59  045 BC
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:43:00 PM<- ->YO2CLL<- ->59<- ->035<- ->TM<- ->YO8MI<- ->59<- ->045<- ->BC<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:41:00 PM<- ->YO8MI<- ->59<- ->045<- ->BC<- ->YO2CLL<- ->59<- ->025<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:45 YO2CLL        59  036 TM YO5DAS        59  079 SM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:45:00 PM<- ->YO2CLL<- ->59<- ->036<- ->TM<- ->YO5DAS<- ->59<- ->079<- ->SM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:45:00 PM<- ->YO5DAS<- ->59<- ->079<- ->SM<- ->YO2CLL<- ->59<- ->036<- ->TM<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 15:48 YO2CLL        59  037 TM YP1989TM      59  077 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:48:00 PM<- ->YO2CLL<- ->59<- ->037<- ->TM<- ->YP1989TM<- ->59<- ->077<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:48:00 PM<- ->YP1989TM<- ->59<- ->077<- ->TM<- ->YO2CLL<- ->59<- ->037<- ->TM<-
+SOAPBOX: Score 1
+QSO:  3500 PH 2021-12-19 15:55 YO2CLL        59  038 TM OE5CCE        59  007 OE
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:55:00 PM<- ->YO2CLL<- ->59<- ->038<- ->TM<- ->OE5CCE<- ->59<- ->007<- ->OE<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:55:00 PM<- ->OE5CCE<- ->59<- ->007<- ->OE<- ->YO2CLL<- ->59<- ->038<- ->TM<-
+SOAPBOX: Score 4
+SOAPBOX: Multiplicator Etapa1 7
+SOAPBOX: Multiplicator Etapa2 14
+SOAPBOX: Scor Etapa1 238
+SOAPBOX: Scor Etapa2 1050
+SOAPBOX: Scor 1288

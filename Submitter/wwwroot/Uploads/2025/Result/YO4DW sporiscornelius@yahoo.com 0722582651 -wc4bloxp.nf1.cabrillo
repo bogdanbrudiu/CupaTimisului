@@ -1,0 +1,292 @@
+CONTEST: Cupa Timisului
+CALLSIGN:YO4DW
+CATEGORY-ASSISTED: ASSISTED
+CATEGORY-BAND: 80M
+CATEGORY-MODE: MIXED
+CATEGORY-OPERATOR: A
+CATEGORY-POWER: LOW
+CATEGORY-STATION: FIXED
+CATEGORY-TIME:
+CATEGORY-TRANSMITTER: ONE
+CATEGORY-OVERLAY:
+CLAIMED-SCORE: 780
+CLUB: Radioclubul Radu Bratu
+CREATED-BY: N1MM Logger+ 1.0.11037.0
+OPERATORS: YO4DW
+EMAIL: sporiscornelius@yahoo.com
+LOCATION: DX
+NAME: Cornelius Sporis
+ADDRESS: Sos. Vitan-Barzesti 7D, Bl. 3
+ADDRESS: Sc. B, Apt. 368
+ADDRESS: Cupa Timisului
+ADDRESS-CITY: Bucuresti
+ADDRESS-STATE-PROVINCE: 
+ADDRESS-POSTALCODE: 042121
+ADDRESS-COUNTRY: ROMANIA
+OFFTIME:
+DEBUG:
+QSO:    3715 PH 2025-12-14 1400 YO4DW         59  001    YO2MTG        59  001 TM 
+SOAPBOX: Parsed QSO ->3715<- ->PH<- ->12/14/2025 2:00:00 PM<- ->YO4DW<- ->59<- ->001<- -><- ->YO2MTG<- ->59<- ->001<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:00:00 PM<- ->YO2MTG<- ->59<- ->001<- ->TM<- ->YO4DW<- ->59<- ->001<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3713 PH 2025-12-14 1402 YO4DW         59  002    YO8CKR        59  004 SV 
+SOAPBOX: Parsed QSO ->3713<- ->PH<- ->12/14/2025 2:02:00 PM<- ->YO4DW<- ->59<- ->002<- -><- ->YO8CKR<- ->59<- ->004<- ->SV<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:02:00 PM<- ->YO8CKR<- ->59<- ->004<- ->SV<- ->YO4DW<- ->59<- ->002<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3713 PH 2025-12-14 1402 YO4DW         59  003    YO6KNE        59  002 HR 
+SOAPBOX: Parsed QSO ->3713<- ->PH<- ->12/14/2025 2:02:00 PM<- ->YO4DW<- ->59<- ->003<- -><- ->YO6KNE<- ->59<- ->002<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:02:00 PM<- ->YO6KNE<- ->59<- ->002<- ->HR<- ->YO4DW<- ->59<- ->003<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3713 PH 2025-12-14 1403 YO4DW         59  004    YO7BEM        59  004 AG 
+SOAPBOX: Parsed QSO ->3713<- ->PH<- ->12/14/2025 2:03:00 PM<- ->YO4DW<- ->59<- ->004<- -><- ->YO7BEM<- ->59<- ->004<- ->AG<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:    3713 PH 2025-12-14 1403 YO4DW         59  005    YO8BFB        59  002 BC 
+SOAPBOX: Parsed QSO ->3713<- ->PH<- ->12/14/2025 2:03:00 PM<- ->YO4DW<- ->59<- ->005<- -><- ->YO8BFB<- ->59<- ->002<- ->BC<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:03:00 PM<- ->YO8BFB<- ->59<- ->002<- ->BC<- ->YO4DW<- ->59<- ->005<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3713 PH 2025-12-14 1404 YO4DW         59  006    YO3GCL        59  006 BU 
+SOAPBOX: Parsed QSO ->3713<- ->PH<- ->12/14/2025 2:04:00 PM<- ->YO4DW<- ->59<- ->006<- -><- ->YO3GCL<- ->59<- ->006<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:04:00 PM<- ->YO3GCL<- ->59<- ->006<- ->BU<- ->YO4DW<- ->59<- ->006<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3729 PH 2025-12-14 1414 YO4DW         59  007    YO7LDT        59  014 DJ 
+SOAPBOX: Parsed QSO ->3729<- ->PH<- ->12/14/2025 2:14:00 PM<- ->YO4DW<- ->59<- ->007<- -><- ->YO7LDT<- ->59<- ->014<- ->DJ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:14:00 PM<- ->YO7LDT<- ->59<- ->014<- ->DJ<- ->YO4DW<- ->59<- ->007<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3726 PH 2025-12-14 1416 YO4DW         59  008    YO7CKQ        59  013 GJ 
+SOAPBOX: Parsed QSO ->3726<- ->PH<- ->12/14/2025 2:16:00 PM<- ->YO4DW<- ->59<- ->008<- -><- ->YO7CKQ<- ->59<- ->013<- ->GJ<-
+SOAPBOX:   Pair QSO 3725<- ->PH<- ->12/14/2025 2:16:00 PM<- ->YO7CKQ<- ->59<- ->013<- ->GJ<- ->YO4DW<- ->59<- ->008<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3726 PH 2025-12-14 1418 YO4DW         59  009    YQ2A          59  024 HD 
+SOAPBOX: Parsed QSO ->3726<- ->PH<- ->12/14/2025 2:18:00 PM<- ->YO4DW<- ->59<- ->009<- -><- ->YQ2A<- ->59<- ->024<- ->HD<-
+SOAPBOX:   Pair QSO 3726<- ->PH<- ->12/14/2025 2:18:00 PM<- ->YQ2A<- ->59<- ->024<- ->HD<- ->YO4DW<- ->59<- ->009<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3726 PH 2025-12-14 1419 YO4DW         59  010    YO2CXJ        59  011 HD 
+SOAPBOX: Parsed QSO ->3726<- ->PH<- ->12/14/2025 2:19:00 PM<- ->YO4DW<- ->59<- ->010<- -><- ->YO2CXJ<- ->59<- ->011<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:19:00 PM<- ->YO2CXJ<- ->59<- ->011<- ->HD<- ->YO4DW<- ->59<- ->010<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3720 PH 2025-12-14 1420 YO4DW         59  011    YO2CK         59  018 HD 
+SOAPBOX: Parsed QSO ->3720<- ->PH<- ->12/14/2025 2:20:00 PM<- ->YO4DW<- ->59<- ->011<- -><- ->YO2CK<- ->59<- ->018<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:20:00 PM<- ->YO2CK<- ->59<- ->018<- ->HD<- ->YO4DW<- ->59<- ->011<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3710 PH 2025-12-14 1423 YO4DW         59  012    YP1989TM      59  022 TM 
+SOAPBOX: Parsed QSO ->3710<- ->PH<- ->12/14/2025 2:23:00 PM<- ->YO4DW<- ->59<- ->012<- -><- ->YP1989TM<- ->59<- ->022<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YP1989TM<- ->59<- ->022<- ->TM<- ->YO4DW<- ->59<- ->012<- ->CT<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3717 PH 2025-12-14 1424 YO4DW         59  013    YO2YA         59  024 TM 
+SOAPBOX: Parsed QSO ->3717<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YO4DW<- ->59<- ->013<- -><- ->YO2YA<- ->59<- ->024<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:24:00 PM<- ->YO2YA<- ->59<- ->024<- ->TM<- ->YO4DW<- ->59<- ->013<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3518 CW 2025-12-14 1432 YO4DW         599 014    YO5YM         599 003 AB 
+SOAPBOX: Parsed QSO ->3518<- ->CW<- ->12/14/2025 2:32:00 PM<- ->YO4DW<- ->599<- ->014<- -><- ->YO5YM<- ->599<- ->003<- ->AB<-
+SOAPBOX:   Pair QSO 3713<- ->CW<- ->12/14/2025 2:33:00 PM<- ->YO5YM<- ->599<- ->003<- ->AB<- ->YO4DW<- ->599<- ->014<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3518 CW 2025-12-14 1433 YO4DW         599 015    YO4FPF        599 003 CT 
+SOAPBOX: Parsed QSO ->3518<- ->CW<- ->12/14/2025 2:33:00 PM<- ->YO4DW<- ->599<- ->015<- -><- ->YO4FPF<- ->599<- ->003<- ->CT<-
+SOAPBOX:   Pair QSO 3518<- ->CW<- ->12/14/2025 2:33:00 PM<- ->YO4FPF<- ->599<- ->003<- ->CT<- ->YO4DW<- ->599<- ->015<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3518 CW 2025-12-14 1434 YO4DW         599 016    YO2BLX        599 024 AR 
+SOAPBOX: Parsed QSO ->3518<- ->CW<- ->12/14/2025 2:34:00 PM<- ->YO4DW<- ->599<- ->016<- -><- ->YO2BLX<- ->599<- ->024<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/14/2025 2:33:00 PM<- ->YO2BLX<- ->599<- ->024<- ->AR<- ->YO4DW<- ->599<- ->016<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3730 PH 2025-12-14 1442 YO4DW         59  017    YP2R          59  028 HD 
+SOAPBOX: Parsed QSO ->3730<- ->PH<- ->12/14/2025 2:42:00 PM<- ->YO4DW<- ->59<- ->017<- -><- ->YP2R<- ->59<- ->028<- ->HD<-
+SOAPBOX:   Pair QSO 3730<- ->PH<- ->12/14/2025 2:42:00 PM<- ->YP2R<- ->59<- ->028<- ->HD<- ->YO4DW<- ->59<- ->017<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3730 PH 2025-12-14 1442 YO4DW         59  018    YO2MIT        59  022 TM 
+SOAPBOX: Parsed QSO ->3730<- ->PH<- ->12/14/2025 2:42:00 PM<- ->YO4DW<- ->59<- ->018<- -><- ->YO2MIT<- ->59<- ->022<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:43:00 PM<- ->YO2MIT<- ->59<- ->022<- ->TM<- ->YO4DW<- ->59<- ->018<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3725 PH 2025-12-14 1446 YO4DW         59  019    YO9BHI        59  014 BZ 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 2:46:00 PM<- ->YO4DW<- ->59<- ->019<- -><- ->YO9BHI<- ->59<- ->014<- ->BZ<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO9BHI<- ->59<- -><- ->BZ<- ->YO4DW<- ->59<- -><- -><-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3731 PH 2025-12-14 1447 YO4DW         59  020    YO2KQT        59  026 TM 
+SOAPBOX: Parsed QSO ->3731<- ->PH<- ->12/14/2025 2:47:00 PM<- ->YO4DW<- ->59<- ->020<- -><- ->YO2KQT<- ->59<- ->026<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:47:00 PM<- ->YO2KQT<- ->59<- ->026<- ->TM<- ->YO4DW<- ->59<- ->020<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3731 PH 2025-12-14 1448 YO4DW         59  021    YO2MOO        59  013 HD 
+SOAPBOX: Parsed QSO ->3731<- ->PH<- ->12/14/2025 2:48:00 PM<- ->YO4DW<- ->59<- ->021<- -><- ->YO2MOO<- ->59<- ->013<- ->HD<-
+SOAPBOX:   Pair QSO 3706<- ->PH<- ->12/14/2025 2:48:00 PM<- ->YO2MOO<- ->59<- ->013<- ->HD<- ->YO4DW<- ->59<- ->021<- ->B<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3731 PH 2025-12-14 1449 YO4DW         59  022    YO4AUL        59  013 CT 
+SOAPBOX: Parsed QSO ->3731<- ->PH<- ->12/14/2025 2:49:00 PM<- ->YO4DW<- ->59<- ->022<- -><- ->YO4AUL<- ->59<- ->013<- ->CT<-
+SOAPBOX:   Pair QSO 3731<- ->PH<- ->12/14/2025 2:49:00 PM<- ->YO4AUL<- ->59<- ->013<- ->CT<- ->YO4DW<- ->59<- ->022<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3731 PH 2025-12-14 1451 YO4DW         59  023    YO2CLL        59  022 TM 
+SOAPBOX: Parsed QSO ->3731<- ->PH<- ->12/14/2025 2:51:00 PM<- ->YO4DW<- ->59<- ->023<- -><- ->YO2CLL<- ->59<- ->022<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:51:00 PM<- ->YO2CLL<- ->59<- ->022<- ->TM<- ->YO4DW<- ->59<- ->023<- ->CT<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3731 PH 2025-12-14 1452 YO4DW         59  024    YO2LLZ        59  022 TM 
+SOAPBOX: Parsed QSO ->3731<- ->PH<- ->12/14/2025 2:52:00 PM<- ->YO4DW<- ->59<- ->024<- -><- ->YO2LLZ<- ->59<- ->022<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 2:52:00 PM<- ->YO2LLZ<- ->59<- ->022<- ->TM<- ->YO4DW<- ->59<- ->024<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3707 PH 2025-12-14 1500 YO4DW         59  025    YO6KNE        59  032 HR 
+SOAPBOX: Parsed QSO ->3707<- ->PH<- ->12/14/2025 3:00:00 PM<- ->YO4DW<- ->59<- ->025<- -><- ->YO6KNE<- ->59<- ->032<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:00:00 PM<- ->YO6KNE<- ->59<- ->032<- ->HR<- ->YO4DW<- ->59<- ->025<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3710 PH 2025-12-14 1501 YO4DW         59  026    YP1989TM      59  029 TM 
+SOAPBOX: Parsed QSO ->3710<- ->PH<- ->12/14/2025 3:01:00 PM<- ->YO4DW<- ->59<- ->026<- -><- ->YP1989TM<- ->59<- ->029<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:01:00 PM<- ->YP1989TM<- ->59<- ->029<- ->TM<- ->YO4DW<- ->59<- ->026<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3719 PH 2025-12-14 1503 YO4DW         59  027    YO2YA         59  032 TM 
+SOAPBOX: Parsed QSO ->3719<- ->PH<- ->12/14/2025 3:03:00 PM<- ->YO4DW<- ->59<- ->027<- -><- ->YO2YA<- ->59<- ->032<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:03:00 PM<- ->YO2YA<- ->59<- ->032<- ->TM<- ->YO4DW<- ->59<- ->027<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3704 PH 2025-12-14 1505 YO4DW         59  028    YO2KQT        59  037 TM 
+SOAPBOX: Parsed QSO ->3704<- ->PH<- ->12/14/2025 3:05:00 PM<- ->YO4DW<- ->59<- ->028<- -><- ->YO2KQT<- ->59<- ->037<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:05:00 PM<- ->YO2KQT<- ->59<- ->037<- ->TM<- ->YO4DW<- ->59<- ->028<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3701 PH 2025-12-14 1506 YO4DW         59  029    YO2MTG        59  044 TM 
+SOAPBOX: Parsed QSO ->3701<- ->PH<- ->12/14/2025 3:06:00 PM<- ->YO4DW<- ->59<- ->029<- -><- ->YO2MTG<- ->59<- ->044<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:06:00 PM<- ->YO2MTG<- ->59<- ->044<- ->TM<- ->YO4DW<- ->59<- ->029<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3716 PH 2025-12-14 1508 YO4DW         59  030    YO2BLX        59  036 AR 
+SOAPBOX: Parsed QSO ->3716<- ->PH<- ->12/14/2025 3:08:00 PM<- ->YO4DW<- ->59<- ->030<- -><- ->YO2BLX<- ->59<- ->036<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:08:00 PM<- ->YO2BLX<- ->59<- ->036<- ->AR<- ->YO4DW<- ->59<- ->030<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1509 YO4DW         59  031    YO2MIT        59  035 TM 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:09:00 PM<- ->YO4DW<- ->59<- ->031<- -><- ->YO2MIT<- ->59<- ->035<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:09:00 PM<- ->YO2MIT<- ->59<- ->035<- ->TM<- ->YO4DW<- ->59<- ->031<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1509 YO4DW         59  032    YP2R          59  042 HD 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:09:00 PM<- ->YO4DW<- ->59<- ->032<- -><- ->YP2R<- ->59<- ->042<- ->HD<-
+SOAPBOX:   Pair QSO 3724<- ->PH<- ->12/14/2025 3:09:00 PM<- ->YP2R<- ->59<- ->042<- ->HD<- ->YO4DW<- ->59<- ->032<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1510 YO4DW         59  033    YO2CK         59  039 HD 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:10:00 PM<- ->YO4DW<- ->59<- ->033<- -><- ->YO2CK<- ->59<- ->039<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:10:00 PM<- ->YO2CK<- ->59<- ->039<- ->HD<- ->YO4DW<- ->59<- ->033<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1510 YO4DW         59  034    YO3GCL        59  044 BU 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:10:00 PM<- ->YO4DW<- ->59<- ->034<- -><- ->YO3GCL<- ->59<- ->044<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:10:00 PM<- ->YO3GCL<- ->59<- ->044<- ->BU<- ->YO4DW<- ->59<- ->034<- ->CT<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1511 YO4DW         59  035    YO2MKL        59  027 TM 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:11:00 PM<- ->YO4DW<- ->59<- ->035<- -><- ->YO2MKL<- ->59<- ->027<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:11:00 PM<- ->YO2MKL<- ->59<- ->027<- ->TM<- ->YO4DW<- ->59<- ->035<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1512 YO4DW         59  036    YO7LDT        59  033 DJ 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:12:00 PM<- ->YO4DW<- ->59<- ->036<- -><- ->YO7LDT<- ->59<- ->033<- ->DJ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:12:00 PM<- ->YO7LDT<- ->59<- ->033<- ->DJ<- ->YO4DW<- ->59<- ->036<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1512 YO4DW         59  037    YO2CLL        59  031 TM 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:12:00 PM<- ->YO4DW<- ->59<- ->037<- -><- ->YO2CLL<- ->59<- ->031<- ->TM<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1512 YO4DW         59  038    YO7CKQ        59  037 GJ 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:12:00 PM<- ->YO4DW<- ->59<- ->038<- -><- ->YO7CKQ<- ->59<- ->037<- ->GJ<-
+SOAPBOX:   Pair QSO 3724<- ->PH<- ->12/14/2025 3:12:00 PM<- ->YO7CKQ<- ->59<- ->037<- ->GJ<- ->YO4DW<- ->59<- ->038<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1513 YO4DW         59  039    YO8BFB        59  023 BC 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:13:00 PM<- ->YO4DW<- ->59<- ->039<- -><- ->YO8BFB<- ->59<- ->023<- ->BC<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:13:00 PM<- ->YO8BFB<- ->59<- ->023<- ->BC<- ->YO4DW<- ->59<- ->039<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1514 YO4DW         59  040    YO2LLZ        59  038 TM 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:14:00 PM<- ->YO4DW<- ->59<- ->040<- -><- ->YO2LLZ<- ->59<- ->038<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:14:00 PM<- ->YO2LLZ<- ->59<- ->038<- ->TM<- ->YO4DW<- ->59<- ->040<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3724 PH 2025-12-14 1514 YO4DW         59  041    YO2CXJ        59  031 HD 
+SOAPBOX: Parsed QSO ->3724<- ->PH<- ->12/14/2025 3:14:00 PM<- ->YO4DW<- ->59<- ->041<- -><- ->YO2CXJ<- ->59<- ->031<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:14:00 PM<- ->YO2CXJ<- ->59<- ->031<- ->HD<- ->YO4DW<- ->59<- ->041<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3725 PH 2025-12-14 1517 YO4DW         59  042    YO9BHI        59  035 BZ 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:17:00 PM<- ->YO4DW<- ->59<- ->042<- -><- ->YO9BHI<- ->59<- ->035<- ->BZ<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO9BHI<- ->59<- -><- ->BZ<- ->YO4DW<- ->59<- -><- -><-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3725 PH 2025-12-14 1518 YO4DW         59  043    YO5ODL        59  024 BH 
+SOAPBOX: Parsed QSO ->3725<- ->PH<- ->12/14/2025 3:18:00 PM<- ->YO4DW<- ->59<- ->043<- -><- ->YO5ODL<- ->59<- ->024<- ->BH<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO5ODL<- ->59<- -><- ->BH<- ->YO4DW<- ->59<- -><- -><-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3722 PH 2025-12-14 1521 YO4DW         59  044    YQ2A          59  050 HD 
+SOAPBOX: Parsed QSO ->3722<- ->PH<- ->12/14/2025 3:21:00 PM<- ->YO4DW<- ->59<- ->044<- -><- ->YQ2A<- ->59<- ->050<- ->HD<-
+SOAPBOX:   Pair QSO 3722<- ->PH<- ->12/14/2025 3:21:00 PM<- ->YQ2A<- ->59<- ->050<- ->HD<- ->YO4DW<- ->59<- ->044<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3714 PH 2025-12-14 1523 YO4DW         59  045    YO9XC         59  018 BZ 
+SOAPBOX: Parsed QSO ->3714<- ->PH<- ->12/14/2025 3:23:00 PM<- ->YO4DW<- ->59<- ->045<- -><- ->YO9XC<- ->59<- ->018<- ->BZ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/14/2025 3:23:00 PM<- ->YO9XC<- ->59<- ->018<- ->BZ<- ->YO4DW<- ->59<- ->045<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3735 PH 2025-12-14 1534 YO4DW         59  046    YO2LJB        59  034 TM 
+SOAPBOX: Parsed QSO ->3735<- ->PH<- ->12/14/2025 3:34:00 PM<- ->YO4DW<- ->59<- ->046<- -><- ->YO2LJB<- ->59<- ->034<- ->TM<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:    3715 PH 2025-12-14 1538 YO4DW         59  047    YO4AUL        59  029 CT 
+SOAPBOX: Parsed QSO ->3715<- ->PH<- ->12/14/2025 3:38:00 PM<- ->YO4DW<- ->59<- ->047<- -><- ->YO4AUL<- ->59<- ->029<- ->CT<-
+SOAPBOX:   Pair QSO 3715<- ->PH<- ->12/14/2025 3:38:00 PM<- ->YO4AUL<- ->59<- ->029<- ->CT<- ->YO4DW<- ->59<- ->047<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3520 CW 2025-12-14 1540 YO4DW         599 048    YO2CJX        599 014 CS 
+SOAPBOX: Parsed QSO ->3520<- ->CW<- ->12/14/2025 3:40:00 PM<- ->YO4DW<- ->599<- ->048<- -><- ->YO2CJX<- ->599<- ->014<- ->CS<-
+SOAPBOX:   Pair QSO No Log submited<- ->CW<- ->1/1/0001 12:00:00 AM<- ->YO2CJX<- ->599<- -><- ->CS<- ->YO4DW<- ->599<- -><- -><-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3522 CW 2025-12-14 1541 YO4DW         599 049    YO4FPF        599 009 CT 
+SOAPBOX: Parsed QSO ->3522<- ->CW<- ->12/14/2025 3:41:00 PM<- ->YO4DW<- ->599<- ->049<- -><- ->YO4FPF<- ->599<- ->009<- ->CT<-
+SOAPBOX:   Pair QSO 3522<- ->CW<- ->12/14/2025 3:42:00 PM<- ->YO4FPF<- ->599<- ->009<- ->CT<- ->YO4DW<- ->599<- ->049<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3721 PH 2025-12-14 1547 YO4DW         59  050    YO2MOZ        59  018 AR 
+SOAPBOX: Parsed QSO ->3721<- ->PH<- ->12/14/2025 3:47:00 PM<- ->YO4DW<- ->59<- ->050<- -><- ->YO2MOZ<- ->59<- ->018<- ->AR<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO2MOZ<- ->59<- -><- ->AR<- ->YO4DW<- ->59<- -><- -><-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3719 PH 2025-12-14 1554 YO4DW         59  051    YO2BCO        59  045 TM 
+SOAPBOX: Parsed QSO ->3719<- ->PH<- ->12/14/2025 3:54:00 PM<- ->YO4DW<- ->59<- ->051<- -><- ->YO2BCO<- ->59<- ->045<- ->TM<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/14/2025 3:54:00 PM<- ->YO2BCO<- ->59<- ->045<- ->TM<- ->YO4DW<- ->59<- ->051<- ->BU<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX: Score 0
+QSO:    3719 PH 2025-12-14 1555 YO4DW         59  052    YO2MOO        59  036 HD 
+SOAPBOX: Parsed QSO ->3719<- ->PH<- ->12/14/2025 3:55:00 PM<- ->YO4DW<- ->59<- ->052<- -><- ->YO2MOO<- ->59<- ->036<- ->HD<-
+SOAPBOX:Invalid County1: -><-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+SOAPBOX: Multiplicator Etapa1 0
+SOAPBOX: Multiplicator Etapa2 0
+SOAPBOX: Scor Etapa1 0
+SOAPBOX: Scor Etapa2 0
+SOAPBOX: Scor 0

@@ -1,0 +1,3 @@
+[submodule "CoreMailer"]
+	path = CoreMailer
+	url = https://github.com/prosmartxyz/CoreMailer.git

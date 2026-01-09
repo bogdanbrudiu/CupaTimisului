@@ -1,0 +1,33 @@
+START-OF-LOG: 3.0
+LOCATION: DX
+CALLSIGN: YO3GNF
+CLUB: CSU PITESTI
+CONTEST: Cupa Timisulu
+CATEGORY-OPERATOR: A
+OPERATORS: YO3GNF
+NAME: Jack URSULEAN
+ADDRESS: Soseaua Straulesti, Nr. 60A
+ADDRESS: Bloc B2, Apt.21, Sector 1
+ADDRESS-CITY: Bucharest
+ADDRESS-STATE-PROVINCE: 
+ADDRESS-POSTALCODE: 013336
+ADDRESS-COUNTRY: ROMANIA
+EMAIL: yo3gnf@yahoo.com
+CREATED-BY: N1MM Logger+ 1.0.8744.0
+QSO:  3700 PH 2020-12-20 1409 YO3GNF        59  001 BU YO3JW         59  010 BZ                                       
+QSO:  3733 PH 2020-12-20 1412 YO3GNF        59  002 BU YO9FLD        59  016 BU                                       
+QSO:  3528 CW 2020-12-20 1418 YO3GNF        599 003 BU YO7LYM        599 002 DJ                                       
+QSO:  3530 CW 2020-12-20 1426 YO3GNF        599 004 BU YO4TL         599 002 GL                                       
+QSO:  3722 PH 2020-12-20 1436 YO3GNF        59  005 BU YO4AJ         59  016 TL                                       
+QSO:  3526 CW 2020-12-20 1448 YO3GNF        599 006 BU YO3APJ        599 047 PH                                       
+QSO:  3713 PH 2020-12-20 1456 YO3GNF        59  007 BU YO5OHB        59  048 SM                                       
+QSO:  3724 PH 2020-12-20 1501 YO3GNF        59  008 BU YO3JW         59  052 BZ                                       
+QSO:  3713 PH 2020-12-20 1503 YO3GNF        59  009 BU YO5OHB        59  053 SM                                       
+QSO:  3717 PH 2020-12-20 1504 YO3GNF        59  010 BU YO9FLD        59  052 BU                                       
+QSO:  3529 CW 2020-12-20 1513 YO3GNF        599 011 BU YO7LYM        599 017 DJ                                       
+QSO:  3525 CW 2020-12-20 1520 YO3GNF        599 012 BU YO2GL         599 026 TM                                       
+QSO:  3527 CW 2020-12-20 1529 YO3GNF        599 013 BU YO3GCL        599 021 BU                                       
+QSO:  3527 CW 2020-12-20 1532 YO3GNF        599 014 BU YO4TL         599 016 GL                                       
+QSO:  3525 CW 2020-12-20 1543 YO3GNF        599 015 BU YO2AQO        599 050 TM                                       
+QSO:  3525 CW 2020-12-20 1553 YO3GNF        599 016 BU YO3APJ        599 100 PH                                       
+END-OF-LOG:

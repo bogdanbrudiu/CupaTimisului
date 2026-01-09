@@ -1,0 +1,77 @@
+CONTEST: Cupa Timisului
+CALLSIGN:YO4FPF
+CATEGORY-ASSISTED: ASSISTED
+CATEGORY-BAND: 80M
+CATEGORY-MODE: CW
+CATEGORY-OPERATOR: SINGLE-OP
+CATEGORY-POWER: LOW
+CATEGORY-STATION: FIXED
+CATEGORY-TIME:
+CATEGORY-TRANSMITTER: ONE
+CATEGORY-OVERLAY:
+CLAIMED-SCORE: 0
+CLUB: Radioclubul Radu Bratu
+CREATED-BY: N1MM Logger+ 1.0.11037.0
+OPERATORS: YO4FPF
+EMAIL: yo4fpf@yahoo.com
+LOCATION: DX
+NAME: Dan Roca
+ADDRESS: Dragoslavele 26
+ADDRESS: Cupa Timisului
+ADDRESS-CITY: Constanta
+ADDRESS-STATE-PROVINCE: 
+ADDRESS-POSTALCODE: 900539
+ADDRESS-COUNTRY: 
+OFFTIME:
+DEBUG:
+QSO:    3521 CW 2025-12-14 1414 YO4FPF        599 001 CT YO6KNE        599 018 HR 
+SOAPBOX: Parsed QSO ->3521<- ->CW<- ->12/14/2025 2:14:00 PM<- ->YO4FPF<- ->599<- ->001<- ->CT<- ->YO6KNE<- ->599<- ->018<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/14/2025 2:14:00 PM<- ->YO6KNE<- ->599<- ->018<- ->HR<- ->YO4FPF<- ->599<- ->001<- ->CT<-
+SOAPBOX: Score 2
+QSO:    3523 CW 2025-12-14 1420 YO4FPF        599 002 CT YO3GCL        599 017 BU 
+SOAPBOX: Parsed QSO ->3523<- ->CW<- ->12/14/2025 2:20:00 PM<- ->YO4FPF<- ->599<- ->002<- ->CT<- ->YO3GCL<- ->599<- ->017<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/14/2025 2:19:00 PM<- ->YO3GCL<- ->599<- ->017<- ->BU<- ->YO4FPF<- ->599<- ->002<- ->CT<-
+SOAPBOX: Score 2
+QSO:    3518 CW 2025-12-14 1433 YO4FPF        599 003 CT YO4DW         599 015 BU 
+SOAPBOX: Parsed QSO ->3518<- ->CW<- ->12/14/2025 2:33:00 PM<- ->YO4FPF<- ->599<- ->003<- ->CT<- ->YO4DW<- ->599<- ->015<- ->BU<-
+SOAPBOX:   Pair QSO 3518<- ->CW<- ->12/14/2025 2:33:00 PM<- ->YO4DW<- ->599<- ->015<- -><- ->YO4FPF<- ->599<- ->003<- ->CT<-
+SOAPBOX:County is not correct: ->BU - <-
+SOAPBOX: Score 0
+QSO:    3530 CW 2025-12-14 1451 YO4FPF        599 004 CT YQ2A          599 030 HD 
+SOAPBOX: Parsed QSO ->3530<- ->CW<- ->12/14/2025 2:51:00 PM<- ->YO4FPF<- ->599<- ->004<- ->CT<- ->YQ2A<- ->599<- ->030<- ->HD<-
+SOAPBOX:   Pair QSO 3530<- ->CW<- ->12/14/2025 2:51:00 PM<- ->YQ2A<- ->599<- ->030<- ->HD<- ->YO4FPF<- ->599<- ->004<- ->CT<-
+SOAPBOX: Score 2
+QSO:    3528 CW 2025-12-14 1454 YO4FPF        599 005 CT YP2R          599 030 HD 
+SOAPBOX: Parsed QSO ->3528<- ->CW<- ->12/14/2025 2:54:00 PM<- ->YO4FPF<- ->599<- ->005<- ->CT<- ->YP2R<- ->599<- ->030<- ->HD<-
+SOAPBOX:   Pair QSO 3528<- ->CW<- ->12/14/2025 2:52:00 PM<- ->YP2R<- ->599<- ->030<- ->HD<- ->YO4FPF<- ->599<- ->004<- ->CT<-
+SOAPBOX: Score 2
+QSO:    3522 CW 2025-12-14 1456 YO4FPF        599 006 CT YO5ODL        599 014 BH 
+SOAPBOX: Parsed QSO ->3522<- ->CW<- ->12/14/2025 2:56:00 PM<- ->YO4FPF<- ->599<- ->006<- ->CT<- ->YO5ODL<- ->599<- ->014<- ->BH<-
+SOAPBOX:   Pair QSO No Log submited<- ->CW<- ->1/1/0001 12:00:00 AM<- ->YO5ODL<- ->599<- -><- ->BH<- ->YO4FPF<- ->599<- -><- ->CT<-
+SOAPBOX: Score 2
+QSO:    3523 CW 2025-12-14 1515 YO4FPF        599 007 CT YO6KNE        599 055 HR 
+SOAPBOX: Parsed QSO ->3523<- ->CW<- ->12/14/2025 3:15:00 PM<- ->YO4FPF<- ->599<- ->007<- ->CT<- ->YO6KNE<- ->599<- ->055<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/14/2025 3:15:00 PM<- ->YO6KNE<- ->599<- ->055<- ->HR<- ->YO4FPF<- ->599<- ->007<- ->CT<-
+SOAPBOX: Score 2
+QSO:    3518 CW 2025-12-14 1521 YO4FPF        599 008 CT YO3GCL        599 052 BU 
+SOAPBOX: Parsed QSO ->3518<- ->CW<- ->12/14/2025 3:21:00 PM<- ->YO4FPF<- ->599<- ->008<- ->CT<- ->YO3GCL<- ->599<- ->052<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->CW<- ->12/14/2025 3:20:00 PM<- ->YO3GCL<- ->599<- ->052<- ->BU<- ->YO4FPF<- ->599<- ->008<- ->CT<-
+SOAPBOX: Score 2
+QSO:    3522 CW 2025-12-14 1542 YO4FPF        599 009 CT YO4DW         599 049 BU 
+SOAPBOX: Parsed QSO ->3522<- ->CW<- ->12/14/2025 3:42:00 PM<- ->YO4FPF<- ->599<- ->009<- ->CT<- ->YO4DW<- ->599<- ->049<- ->BU<-
+SOAPBOX:   Pair QSO 3522<- ->CW<- ->12/14/2025 3:41:00 PM<- ->YO4DW<- ->599<- ->049<- -><- ->YO4FPF<- ->599<- ->009<- ->CT<-
+SOAPBOX:County is not correct: ->BU - <-
+SOAPBOX: Score 0
+QSO:    3521 CW 2025-12-14 1542 YO4FPF        599 010 CT YP2R          599 060 HD 
+SOAPBOX: Parsed QSO ->3521<- ->CW<- ->12/14/2025 3:42:00 PM<- ->YO4FPF<- ->599<- ->010<- ->CT<- ->YP2R<- ->599<- ->060<- ->HD<-
+SOAPBOX:   Pair QSO 3521<- ->CW<- ->12/14/2025 3:42:00 PM<- ->YP2R<- ->599<- ->060<- ->HD<- ->YO4FPF<- ->599<- ->010<- ->CT<-
+SOAPBOX: Score 2
+QSO:    3525 CW 2025-12-14 1547 YO4FPF        599 011 CT YO5ODL        599 040 BH 
+SOAPBOX: Parsed QSO ->3525<- ->CW<- ->12/14/2025 3:47:00 PM<- ->YO4FPF<- ->599<- ->011<- ->CT<- ->YO5ODL<- ->599<- ->040<- ->BH<-
+SOAPBOX:   Pair QSO No Log submited<- ->CW<- ->1/1/0001 12:00:00 AM<- ->YO5ODL<- ->599<- -><- ->BH<- ->YO4FPF<- ->599<- -><- ->CT<-
+SOAPBOX: Score 2
+SOAPBOX: Multiplicator Etapa1 4
+SOAPBOX: Multiplicator Etapa2 4
+SOAPBOX: Scor Etapa1 40
+SOAPBOX: Scor Etapa2 32
+SOAPBOX: Scor 72

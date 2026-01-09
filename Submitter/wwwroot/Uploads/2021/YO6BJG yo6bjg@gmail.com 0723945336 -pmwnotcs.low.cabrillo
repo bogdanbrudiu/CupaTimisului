@@ -1,0 +1,302 @@
+CONTEST: Cupa Timisului 2021
+CALLSIGN:YO6BJG
+CATEGORY-ASSISTED:
+CATEGORY-BAND:
+CATEGORY-MODE:
+CATEGORY-OPERATOR:
+CATEGORY-POWER:
+CATEGORY-STATION:
+CATEGORY-TIME:
+CATEGORY-TRANSMITTER:
+CATEGORY-OVERLAY:
+CLAIMED-SCORE: 
+CLUB: CS.UNIVERSITATEA BRASOV
+CREATED-BY: Hamware/YO9HSW
+OPERATORS: YO6BJG
+EMAIL:
+LOCATION:
+NAME: LADISLAU WASS
+ADDRESS: PARAULUI 20
+ADDRESS: 500260
+ADDRESS: Cupa Timisului 2021
+ADDRESS-CITY:
+ADDRESS-STATE-PROVINCE:
+ADDRESS-POSTALCODE:
+ADDRESS-COUNTRY:
+OFFTIME:
+DEBUG:
+SOAPBOX: 
+SOAPBOX: 
+QSO:  3500 PH 2021-12-19 1400 YO6BJG        59  001 BV YO5DDD        59  001 AB
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:00:00 PM<- ->YO6BJG<- ->59<- ->001<- ->BV<- ->YO5DDD<- ->59<- ->001<- ->AB<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:01:00 PM<- ->YO5DDD<- ->59<- ->001<- ->AB<- ->YO6BJG<- ->59<- ->001<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1400 YO6BJG        59  002 BV YO6KNE        59  003 HR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:00:00 PM<- ->YO6BJG<- ->59<- ->002<- ->BV<- ->YO6KNE<- ->59<- ->003<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:01:00 PM<- ->YO6KNE<- ->59<- ->003<- ->HR<- ->YO6BJG<- ->59<- ->002<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1401 YO6BJG        59  003 BV YO4BXX        59  003 CT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:01:00 PM<- ->YO6BJG<- ->59<- ->003<- ->BV<- ->YO4BXX<- ->59<- ->003<- ->CT<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:02:00 PM<- ->YO4BXX<- ->59<- ->002<- ->CT<- ->YO6BJG<- ->59<- ->003<- ->BV<-
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 003 - 002<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 1402 YO6BJG        59  004 BV YO9FLD        59  004 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:02:00 PM<- ->YO6BJG<- ->59<- ->004<- ->BV<- ->YO9FLD<- ->59<- ->004<- ->BU<-
+SOAPBOX:   Pair QSO 3715<- ->PH<- ->12/19/2021 2:02:00 PM<- ->YO9FLD<- ->59<- ->004<- ->BU<- ->YO6BJG<- ->59<- ->004<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1402 YO6BJG        59  005 BV YO5QTI        59  001 MM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:02:00 PM<- ->YO6BJG<- ->59<- ->005<- ->BV<- ->YO5QTI<- ->59<- ->001<- ->MM<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 1403 YO6BJG        59  006 BV YO4KAK        59  004 BR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:03:00 PM<- ->YO6BJG<- ->59<- ->006<- ->BV<- ->YO4KAK<- ->59<- ->004<- ->BR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:03:00 PM<- ->YO4KAK<- ->59<- ->004<- ->BR<- ->YO6BJG<- ->59<- ->006<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1404 YO6BJG        59  007 BV YO2CK         59  009 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:04:00 PM<- ->YO6BJG<- ->59<- ->007<- ->BV<- ->YO2CK<- ->59<- ->009<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:04:00 PM<- ->YO2CK<- ->59<- ->009<- ->HD<- ->YO6BJG<- ->59<- ->007<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1405 YO6BJG        59  008 BV YO2DFA        59  008 CS
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:05:00 PM<- ->YO6BJG<- ->59<- ->008<- ->BV<- ->YO2DFA<- ->59<- ->008<- ->CS<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:05:00 PM<- ->YO2DFA<- ->59<- ->008<- ->CS<- ->YO6BJG<- ->59<- ->008<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1406 YO6BJG        59  009 BV YO2LDU        59  006 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:06:00 PM<- ->YO6BJG<- ->59<- ->009<- ->BV<- ->YO2LDU<- ->59<- ->006<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:07:00 PM<- ->YO2LDU<- ->59<- ->006<- ->AR<- ->YO6BJG<- ->59<- ->009<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1407 YO6BJG        59  010 BV YO3GCL        59  012 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:07:00 PM<- ->YO6BJG<- ->59<- ->010<- ->BV<- ->YO3GCL<- ->59<- ->012<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:06:00 PM<- ->YO3GCL<- ->59<- ->012<- ->BU<- ->YO6BJG<- ->59<- ->010<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1407 YO6BJG        59  011 BV YO5DAS        59  007 SM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:07:00 PM<- ->YO6BJG<- ->59<- ->011<- ->BV<- ->YO5DAS<- ->59<- ->007<- ->SM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:08:00 PM<- ->YO5DAS<- ->59<- ->007<- ->SM<- ->YO6BJG<- ->59<- ->011<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1408 YO6BJG        59  012 BV YO8MI         59  006 BC
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:08:00 PM<- ->YO6BJG<- ->59<- ->012<- ->BV<- ->YO8MI<- ->59<- ->006<- ->BC<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:10:00 PM<- ->YO8MI<- ->59<- ->006<- ->BC<- ->YO6BJG<- ->59<- ->012<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1409 YO6BJG        59  013 BV YO7AKY        59  009 AG
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:09:00 PM<- ->YO6BJG<- ->59<- ->013<- ->BV<- ->YO7AKY<- ->59<- ->009<- ->AG<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:09:00 PM<- ->YO7AKY<- ->59<- ->009<- ->AG<- ->YO6BJG<- ->59<- ->013<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1411 YO6BJG        59  014 BV YO3DIU        59  017 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:11:00 PM<- ->YO6BJG<- ->59<- ->014<- ->BV<- ->YO3DIU<- ->59<- ->017<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:12:00 PM<- ->YO3DIU<- ->59<- ->017<- ->BU<- ->YO6BJG<- ->59<- ->014<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1413 YO6BJG        59  015 BV YO7CKQ        59  012 GJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:13:00 PM<- ->YO6BJG<- ->59<- ->015<- ->BV<- ->YO7CKQ<- ->59<- ->012<- ->GJ<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/19/2021 2:14:00 PM<- ->YO7CKQ<- ->59<- ->012<- ->GJ<- ->YO6BJG<- ->59<- ->015<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1415 YO6BJG        59  016 BV YO4RST        59  005 VN
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:15:00 PM<- ->YO6BJG<- ->59<- ->016<- ->BV<- ->YO4RST<- ->59<- ->005<- ->VN<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:16:00 PM<- ->YO4RST<- ->59<- ->005<- ->VN<- ->YO6BJG<- ->59<- ->016<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1416 YO6BJG        59  017 BV YO3CWT        59  013 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:16:00 PM<- ->YO6BJG<- ->59<- ->017<- ->BV<- ->YO3CWT<- ->59<- ->013<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:16:00 PM<- ->YO3CWT<- ->59<- ->013<- ->BU<- ->YO6BJG<- ->59<- ->017<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1417 YO6BJG        59  018 BV YO5PEU        59  014 SM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:17:00 PM<- ->YO6BJG<- ->59<- ->018<- ->BV<- ->YO5PEU<- ->59<- ->014<- ->SM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:18:00 PM<- ->YO5PEU<- ->59<- ->014<- ->SM<- ->YO6BJG<- ->59<- ->018<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1418 YO6BJG        59  019 BV YO5YM         59  021 AB
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:18:00 PM<- ->YO6BJG<- ->59<- ->019<- ->BV<- ->YO5YM<- ->59<- ->021<- ->AB<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:19:00 PM<- ->YO5YM<- ->59<- ->021<- ->AB<- ->YO6BJG<- ->59<- ->019<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1419 YO6BJG        59  020 BV YO9BHI        59  009 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:19:00 PM<- ->YO6BJG<- ->59<- ->020<- ->BV<- ->YO9BHI<- ->59<- ->009<- ->BZ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:20:00 PM<- ->YO9BHI<- ->59<- ->009<- ->BZ<- ->YO6BJG<- ->59<- ->020<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1420 YO6BJG        59  021 BV YO2BLX        59  029 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:20:00 PM<- ->YO6BJG<- ->59<- ->021<- ->BV<- ->YO2BLX<- ->59<- ->029<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:21:00 PM<- ->YO2BLX<- ->59<- ->029<- ->AR<- ->YO6BJG<- ->59<- ->021<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1422 YO6BJG        59  022 BV YO5AVN        59  020 MM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:22:00 PM<- ->YO6BJG<- ->59<- ->022<- ->BV<- ->YO5AVN<- ->59<- ->020<- ->MM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:23:00 PM<- ->YO5AVN<- ->59<- ->020<- ->MM<- ->YO6BJG<- ->59<- ->022<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1426 YO6BJG        59  023 BV YO4SI         59  016 CT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:26:00 PM<- ->YO6BJG<- ->59<- ->023<- ->BV<- ->YO4SI<- ->59<- ->016<- ->CT<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:29:00 PM<- ->YO4SI<- ->59<- ->016<- ->CT<- ->YO6BJG<- ->59<- ->023<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1430 YO6BJG        59  024 BV YO4BYW        59  025 BR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:30:00 PM<- ->YO6BJG<- ->59<- ->024<- ->BV<- ->YO4BYW<- ->59<- ->025<- ->BR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:31:00 PM<- ->YO4BYW<- ->59<- ->025<- ->BR<- ->YO6BJG<- ->59<- ->024<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1431 YO6BJG        59  025 BV YO2MJZ        59  025 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:31:00 PM<- ->YO6BJG<- ->59<- ->025<- ->BV<- ->YO2MJZ<- ->59<- ->025<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:32:00 PM<- ->YO2MJZ<- ->59<- ->021<- ->AR<- ->YO6BJG<- ->59<- ->025<- ->BV<-
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 025 - 021<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 1432 YO6BJG        59  026 BV YO9BI         59  020 PH
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:32:00 PM<- ->YO6BJG<- ->59<- ->026<- ->BV<- ->YO9BI<- ->59<- ->020<- ->PH<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:32:00 PM<- ->YO9BI<- ->59<- ->020<- ->PH<- ->YO6BJG<- ->59<- ->026<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1432 YO6BJG        59  027 BV YO5BQQ        59  024 SM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:32:00 PM<- ->YO6BJG<- ->59<- ->027<- ->BV<- ->YO5BQQ<- ->59<- ->024<- ->SM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:33:00 PM<- ->YO5BQQ<- ->59<- ->024<- ->SM<- ->YO6BJG<- ->59<- ->027<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1433 YO6BJG        59  028 BV YO2AMU        59  021 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:33:00 PM<- ->YO6BJG<- ->59<- ->028<- ->BV<- ->YO2AMU<- ->59<- ->021<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:33:00 PM<- ->YO2AMU<- ->59<- ->021<- ->AR<- ->YO6BJG<- ->59<- ->028<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1433 YO6BJG        59  029 BV YO2LCV        59  018 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:33:00 PM<- ->YO6BJG<- ->59<- ->029<- ->BV<- ->YO2LCV<- ->59<- ->018<- ->HD<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/19/2021 2:33:00 PM<- ->YO2LCV<- ->59<- ->018<- ->HD<- ->YO6BJG<- ->59<- ->029<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1434 YO6BJG        59  030 BV YO2MSP        59  019 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:34:00 PM<- ->YO6BJG<- ->59<- ->030<- ->BV<- ->YO2MSP<- ->59<- ->019<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:34:00 PM<- ->YO2MSP<- ->59<- ->019<- ->TM<- ->YO6BJG<- ->59<- ->030<- ->BV<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 1435 YO6BJG        59  031 BV YO7BEM        59  035 AG
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:35:00 PM<- ->YO6BJG<- ->59<- ->031<- ->BV<- ->YO7BEM<- ->59<- ->035<- ->AG<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:36:00 PM<- ->YO7BEM<- ->59<- ->035<- ->AG<- ->YO6BJG<- ->59<- ->031<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1436 YO6BJG        59  032 BV YO3AF         59  030 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:36:00 PM<- ->YO6BJG<- ->59<- ->032<- ->BV<- ->YO3AF<- ->59<- ->030<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:36:00 PM<- ->YO3AF<- ->59<- ->030<- ->BU<- ->YO6BJG<- ->59<- ->032<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1438 YO6BJG        59  033 BV YO5LD         59  036 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:38:00 PM<- ->YO6BJG<- ->59<- ->033<- ->BV<- ->YO5LD<- ->59<- ->036<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:39:00 PM<- ->YO5LD<- ->59<- ->036<- ->TM<- ->YO6BJG<- ->59<- ->033<- ->BV<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 1441 YO6BJG        59  034 BV YO8WW         59  007 NT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:41:00 PM<- ->YO6BJG<- ->59<- ->034<- ->BV<- ->YO8WW<- ->59<- ->007<- ->NT<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:42:00 PM<- ->YO8WW<- ->59<- ->007<- ->NT<- ->YO6BJG<- ->59<- ->034<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1445 YO6BJG        59  035 BV YO2SH         59  023 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:45:00 PM<- ->YO6BJG<- ->59<- ->035<- ->BV<- ->YO2SH<- ->59<- ->023<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:47:00 PM<- ->YO2SH<- ->59<- ->023<- ->HD<- ->YO6BJG<- ->59<- ->035<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1452 YO6BJG        59  036 BV YO5OJC        59  023 MM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:52:00 PM<- ->YO6BJG<- ->59<- ->036<- ->BV<- ->YO5OJC<- ->59<- ->023<- ->MM<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO5OJC<- ->59<- -><- ->MM<- ->YO6BJG<- ->59<- -><- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1457 YO6BJG        59  037 BV YO2AQO        59  040 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 2:57:00 PM<- ->YO6BJG<- ->59<- ->037<- ->BV<- ->YO2AQO<- ->59<- ->040<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 2:59:00 PM<- ->YO2AQO<- ->59<- ->040<- ->TM<- ->YO6BJG<- ->59<- ->037<- ->BV<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 1500 YO6BJG        59  038 BV YO6KNE        59  050 HR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:00:00 PM<- ->YO6BJG<- ->59<- ->038<- ->BV<- ->YO6KNE<- ->59<- ->050<- ->HR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:00:00 PM<- ->YO6KNE<- ->59<- ->050<- ->HR<- ->YO6BJG<- ->59<- ->038<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1500 YO6BJG        59  039 BV YO5DDD        59  051 AB
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:00:00 PM<- ->YO6BJG<- ->59<- ->039<- ->BV<- ->YO5DDD<- ->59<- ->051<- ->AB<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:01:00 PM<- ->YO5DDD<- ->59<- ->051<- ->AB<- ->YO6BJG<- ->59<- ->039<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1501 YO6BJG        59  040 BV YO5AVN        59  054 MM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:01:00 PM<- ->YO6BJG<- ->59<- ->040<- ->BV<- ->YO5AVN<- ->59<- ->054<- ->MM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:02:00 PM<- ->YO5AVN<- ->59<- ->054<- ->MM<- ->YO6BJG<- ->59<- ->040<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1502 YO6BJG        59  041 BV YO2DAS        59  045 CS
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:02:00 PM<- ->YO6BJG<- ->59<- ->041<- ->BV<- ->YO2DAS<- ->59<- ->045<- ->CS<-
+SOAPBOX:No Pair QSO
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 1503 YO6BJG        59  042 BV YO2BLX        59  053 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:03:00 PM<- ->YO6BJG<- ->59<- ->042<- ->BV<- ->YO2BLX<- ->59<- ->053<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:03:00 PM<- ->YO2BLX<- ->59<- ->053<- ->AR<- ->YO6BJG<- ->59<- ->042<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1504 YO6BJG        59  043 BV YO7BEM        59  049 AG
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:04:00 PM<- ->YO6BJG<- ->59<- ->043<- ->BV<- ->YO7BEM<- ->59<- ->049<- ->AG<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:04:00 PM<- ->YO7BEM<- ->59<- ->049<- ->AG<- ->YO6BJG<- ->59<- ->043<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1504 YO6BJG        59  044 BV YO4RST        59  044 VN
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:04:00 PM<- ->YO6BJG<- ->59<- ->044<- ->BV<- ->YO4RST<- ->59<- ->044<- ->VN<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:05:00 PM<- ->YO4RST<- ->59<- ->044<- ->VN<- ->YO6BJG<- ->59<- ->044<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1505 YO6BJG        59  045 BV YO3DIU        59  057 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:05:00 PM<- ->YO6BJG<- ->59<- ->045<- ->BV<- ->YO3DIU<- ->59<- ->057<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:05:00 PM<- ->YO3DIU<- ->59<- ->056<- ->BU<- ->YO6BJG<- ->59<- ->045<- ->BV<-
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 057 - 056<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 1506 YO6BJG        59  046 BV YO8WW         59  053 NT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:06:00 PM<- ->YO6BJG<- ->59<- ->046<- ->BV<- ->YO8WW<- ->59<- ->053<- ->NT<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:06:00 PM<- ->YO8WW<- ->59<- ->053<- ->NT<- ->YO6BJG<- ->59<- ->046<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1507 YO6BJG        59  047 BV YO7AKY        59  040 AG
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:07:00 PM<- ->YO6BJG<- ->59<- ->047<- ->BV<- ->YO7AKY<- ->59<- ->040<- ->AG<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:08:00 PM<- ->YO7AKY<- ->59<- ->040<- ->AG<- ->YO6BJG<- ->59<- ->047<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1509 YO6BJG        59  048 BV YO9FLD        59  069 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:09:00 PM<- ->YO6BJG<- ->59<- ->048<- ->BV<- ->YO9FLD<- ->59<- ->069<- ->BU<-
+SOAPBOX:   Pair QSO 3724<- ->PH<- ->12/19/2021 3:10:00 PM<- ->YO9FLD<- ->59<- ->069<- ->BU<- ->YO6BJG<- ->59<- ->048<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1511 YO6BJG        59  049 BV YO2LDU        59  064 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:11:00 PM<- ->YO6BJG<- ->59<- ->049<- ->BV<- ->YO2LDU<- ->59<- ->064<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:11:00 PM<- ->YO2LDU<- ->59<- ->064<- ->AR<- ->YO6BJG<- ->59<- ->049<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1513 YO6BJG        59  050 BV YO3CWT        59  057 BU
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:13:00 PM<- ->YO6BJG<- ->59<- ->050<- ->BV<- ->YO3CWT<- ->59<- ->057<- ->BU<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:14:00 PM<- ->YO3CWT<- ->59<- ->057<- ->BU<- ->YO6BJG<- ->59<- ->050<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1514 YO6BJG        59  051 BV YO5OJC        59  034 MM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:14:00 PM<- ->YO6BJG<- ->59<- ->051<- ->BV<- ->YO5OJC<- ->59<- ->034<- ->MM<-
+SOAPBOX:   Pair QSO No Log submited<- ->PH<- ->1/1/0001 12:00:00 AM<- ->YO5OJC<- ->59<- -><- ->MM<- ->YO6BJG<- ->59<- -><- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1516 YO6BJG        59  052 BV YO5LD         59  079 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:16:00 PM<- ->YO6BJG<- ->59<- ->052<- ->BV<- ->YO5LD<- ->59<- ->079<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:17:00 PM<- ->YO5LD<- ->59<- ->079<- ->TM<- ->YO6BJG<- ->59<- ->052<- ->BV<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 1520 YO6BJG        59  053 BV YO7CKQ        59  066 GJ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:20:00 PM<- ->YO6BJG<- ->59<- ->053<- ->BV<- ->YO7CKQ<- ->59<- ->066<- ->GJ<-
+SOAPBOX:   Pair QSO 3700<- ->PH<- ->12/19/2021 3:21:00 PM<- ->YO7CKQ<- ->59<- ->060<- ->GJ<- ->YO6BJG<- ->59<- ->053<- ->BV<-
+SOAPBOX:RST or Exchange are not correct: ->59 - 59 066 - 060<-
+SOAPBOX: Score 0
+QSO:  3500 PH 2021-12-19 1522 YO6BJG        59  054 BV YO2CK         59  085 HD
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:22:00 PM<- ->YO6BJG<- ->59<- ->054<- ->BV<- ->YO2CK<- ->59<- ->085<- ->HD<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:23:00 PM<- ->YO2CK<- ->59<- ->085<- ->HD<- ->YO6BJG<- ->59<- ->054<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1524 YO6BJG        59  055 BV YO2AQO        59  064 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:24:00 PM<- ->YO6BJG<- ->59<- ->055<- ->BV<- ->YO2AQO<- ->59<- ->064<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:24:00 PM<- ->YO2AQO<- ->59<- ->064<- ->TM<- ->YO6BJG<- ->59<- ->055<- ->BV<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 1528 YO6BJG        59  056 BV YO4KAK        59  058 BR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:28:00 PM<- ->YO6BJG<- ->59<- ->056<- ->BV<- ->YO4KAK<- ->59<- ->058<- ->BR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:29:00 PM<- ->YO4KAK<- ->59<- ->058<- ->BR<- ->YO6BJG<- ->59<- ->056<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1530 YO6BJG        59  057 BV YO7PED        59  053 MH
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:30:00 PM<- ->YO6BJG<- ->59<- ->057<- ->BV<- ->YO7PED<- ->59<- ->053<- ->MH<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:31:00 PM<- ->YO7PED<- ->59<- ->053<- ->MH<- ->YO6BJG<- ->59<- ->057<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1535 YO6BJG        59  058 BV YO9BI         59  051 PH
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:35:00 PM<- ->YO6BJG<- ->59<- ->058<- ->BV<- ->YO9BI<- ->59<- ->051<- ->PH<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:37:00 PM<- ->YO9BI<- ->59<- ->051<- ->PH<- ->YO6BJG<- ->59<- ->058<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1537 YO6BJG        59  059 BV YO2AMU        59  059 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:37:00 PM<- ->YO6BJG<- ->59<- ->059<- ->BV<- ->YO2AMU<- ->59<- ->059<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:38:00 PM<- ->YO2AMU<- ->59<- ->059<- ->AR<- ->YO6BJG<- ->59<- ->059<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1538 YO6BJG        59  060 BV YO2LTA        59  040 AR
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:38:00 PM<- ->YO6BJG<- ->59<- ->060<- ->BV<- ->YO2LTA<- ->59<- ->040<- ->AR<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:38:00 PM<- ->YO2LTA<- ->59<- ->040<- ->AR<- ->YO6BJG<- ->59<- ->060<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1538 YO6BJG        59  061 BV YO9BHI        59  063 BZ
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:38:00 PM<- ->YO6BJG<- ->59<- ->061<- ->BV<- ->YO9BHI<- ->59<- ->063<- ->BZ<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:38:00 PM<- ->YO9BHI<- ->59<- ->063<- ->BZ<- ->YO6BJG<- ->59<- ->061<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1539 YO6BJG        59  062 BV YO2MKK        59  017 CS
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:39:00 PM<- ->YO6BJG<- ->59<- ->062<- ->BV<- ->YO2MKK<- ->59<- ->017<- ->CS<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:40:00 PM<- ->YO2MKK<- ->59<- ->017<- ->CS<- ->YO6BJG<- ->59<- ->062<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1542 YO6BJG        59  063 BV YO5PEU        59  075 SM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:42:00 PM<- ->YO6BJG<- ->59<- ->063<- ->BV<- ->YO5PEU<- ->59<- ->075<- ->SM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:43:00 PM<- ->YO5PEU<- ->59<- ->075<- ->SM<- ->YO6BJG<- ->59<- ->063<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1545 YO6BJG        59  064 BV YP1989TM      59  072 TM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:45:00 PM<- ->YO6BJG<- ->59<- ->064<- ->BV<- ->YP1989TM<- ->59<- ->072<- ->TM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:45:00 PM<- ->YP1989TM<- ->59<- ->072<- ->TM<- ->YO6BJG<- ->59<- ->064<- ->BV<-
+SOAPBOX: Score 4
+QSO:  3500 PH 2021-12-19 1548 YO6BJG        59  065 BV YO5PVZ        59  052 MM
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:48:00 PM<- ->YO6BJG<- ->59<- ->065<- ->BV<- ->YO5PVZ<- ->59<- ->052<- ->MM<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:50:00 PM<- ->YO5PVZ<- ->59<- ->052<- ->MM<- ->YO6BJG<- ->59<- ->065<- ->BV<-
+SOAPBOX: Score 2
+QSO:  3500 PH 2021-12-19 1550 YO6BJG        59  066 BV YO4BXX        59  029 CT
+SOAPBOX: Parsed QSO ->3500<- ->PH<- ->12/19/2021 3:50:00 PM<- ->YO6BJG<- ->59<- ->066<- ->BV<- ->YO4BXX<- ->59<- ->029<- ->CT<-
+SOAPBOX:   Pair QSO 3500<- ->PH<- ->12/19/2021 3:52:00 PM<- ->YO4BXX<- ->59<- ->029<- ->CT<- ->YO6BJG<- ->59<- ->046<- ->BV<-
+SOAPBOX: Score 2
+SOAPBOX: Multiplicator Etapa1 20
+SOAPBOX: Multiplicator Etapa2 19
+SOAPBOX: Scor Etapa1 1480
+SOAPBOX: Scor Etapa2 1102
+SOAPBOX: Scor 2582

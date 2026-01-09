@@ -39,16 +39,12 @@
     else
     {
         <div class="form-group">
-            @Html.LabelFor(model => model.Log)
-            <input type="file" class="form-control-file" name="Log">
+            @Html.LabelFor(model => model.Log, htmlAttributes: new { @for = "Log" })
+            <input type="file" class="form-control-file" name="Log" id="Log">
             @Html.ValidationMessageFor(model => model.Log)
         </div>
         <input name="Submit" type="submit" value="Verifica" />
     }
-
-
-
-
 
     if (ViewBag.Errors != null)
     {
@@ -58,7 +54,7 @@
                 @error
                 <br />
             }
-            <table cellspacing="15">
+            <table style="border-spacing:15px;">
                 <tr>
                     <th>Status</th>
                     <th>Frecventa</th>
