@@ -40,6 +40,12 @@ namespace Submitter
             services.AddScoped<ITemplateRenderer, TemplateRenderer>();
             services.AddScoped<ICoreMvcMailer, CoreMvcMailer>();
             services.AddElmah();
+
+            // Prevent the antiforgery system from emitting X-Frame-Options header.
+            // Note: this only affects the antiforgery middleware; if a reverse proxy or server
+            // adds the header you must change it there as well.
+            services.AddAntiforgery(options => options.SuppressXFrameOptionsHeader = true);
+
             services.AddControllersWithViews();
         }
 
